@@ -3,10 +3,10 @@ import { Moves } from "#enums/moves";
 import { Species } from "#enums/species";
 
 interface TmSpecies {
-    [key: number]: Array<Species | Array<Species | string>>
+  [key: number]: Array<Species | Array<Species | string>>;
 }
 
-export const reverseCompatibleTms: Moves[] = [];/*[
+export const reverseCompatibleTms: Moves[] = []; /*[
     Moves.TAKE_DOWN,
     Moves.TOXIC,
     Moves.RAGE,
@@ -238,19 +238,11 @@ export const tmSpecies: TmSpecies = {
     Species.KUBFU,
     Species.URSHIFU,
     Species.ZARUDE,
-    [
-      Species.DEOXYS,
-      "attack",
-      "defense",
-      "speed",
-    ],
+    [Species.DEOXYS, "attack", "defense", "speed"],
     Species.ALOLA_RAICHU,
     Species.ALOLA_GOLEM,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_SLOWBRO,
     Species.GALAR_MR_MIME,
     Species.GALAR_SLOWKING,
@@ -460,10 +452,7 @@ export const tmSpecies: TmSpecies = {
     Species.HOOPA,
     Species.INCINEROAR,
     Species.GUMSHOOS,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.KOMMO_O,
     Species.MARSHADOW,
     Species.BLACEPHALON,
@@ -491,10 +480,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_GRIMER,
     Species.ALOLA_MUK,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_SLOWKING,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
@@ -874,10 +860,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRABOMINABLE,
     Species.STUFFUL,
     Species.BEWEAR,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.KOMMO_O,
     Species.TAPU_KOKO,
     Species.BUZZWOLE,
@@ -913,10 +896,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_GRIMER,
     Species.ALOLA_MUK,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_SLOWKING,
     Species.HISUI_TYPHLOSION,
     Species.HISUI_GOODRA,
@@ -1211,10 +1191,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MEOWTH,
     Species.GALAR_RAPIDASH,
     Species.GALAR_FARFETCHD,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_QWILFISH,
     Species.HISUI_SNEASEL,
     Species.HISUI_SAMUROTT,
@@ -1824,18 +1801,10 @@ export const tmSpecies: TmSpecies = {
     Species.ZARUDE,
     Species.QUAQUAVAL,
     Species.FLAMIGO,
-    [
-      Species.DEOXYS,
-      "attack",
-      "defense",
-      "speed",
-    ],
+    [Species.DEOXYS, "attack", "defense", "speed"],
     Species.ALOLA_RAICHU,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_SLOWBRO,
     Species.GALAR_MR_MIME,
     Species.GALAR_ZAPDOS,
@@ -2443,11 +2412,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_ZIGZAGOON,
     Species.GALAR_LINOONE,
     Species.GALAR_DARMANITAN,
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.CALYREX, "ice", "shadow"],
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
@@ -3666,11 +3631,7 @@ export const tmSpecies: TmSpecies = {
     Species.ZARUDE,
     Species.GLASTRIER,
     Species.SPECTRIER,
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.CALYREX, "ice", "shadow"],
     Species.WYRDEER,
     Species.KLEAVOR,
     Species.URSALUNA,
@@ -4034,10 +3995,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_NINETALES,
     Species.ALOLA_PERSIAN,
     Species.ALOLA_GOLEM,
-    [
-      Species.URSHIFU,
-      "single-strike",
-    ],
+    [Species.URSHIFU, "single-strike"],
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
@@ -4267,10 +4225,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_TYPHLOSION,
     Species.HISUI_ZOROARK,
     Species.HISUI_GOODRA,
-    [
-      Species.PALDEA_TAUROS,
-      "blaze",
-    ],
+    [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.HYDRO_PUMP]: [
     Species.SQUIRTLE,
@@ -4452,10 +4407,7 @@ export const tmSpecies: TmSpecies = {
     Species.ROARING_MOON,
     Species.WALKING_WAKE,
     Species.HYDRAPPLE,
-    [
-      Species.ROTOM,
-      "wash",
-    ],
+    [Species.ROTOM, "wash"],
     Species.GALAR_SLOWPOKE,
     Species.GALAR_SLOWBRO,
     Species.GALAR_SLOWKING,
@@ -4463,10 +4415,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
     Species.HISUI_SAMUROTT,
     Species.HISUI_GOODRA,
-    [
-      Species.PALDEA_TAUROS,
-      "aqua",
-    ],
+    [Species.PALDEA_TAUROS, "aqua"],
     Species.PALDEA_WOOPER,
   ],
   [Moves.SURF]: [
@@ -4711,11 +4660,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
     Species.HISUI_SAMUROTT,
     Species.HISUI_GOODRA,
-    [
-      Species.PALDEA_TAUROS,
-      "combat",
-      "aqua",
-    ],
+    [Species.PALDEA_TAUROS, "combat", "aqua"],
     Species.PALDEA_WOOPER,
   ],
   [Moves.ICE_BEAM]: [
@@ -5010,10 +4955,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_LINOONE,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_QWILFISH,
     Species.HISUI_SAMUROTT,
     Species.HISUI_SLIGGOO,
@@ -5275,10 +5217,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARCTIBAX,
     Species.BAXCALIBUR,
     Species.CHIEN_PAO,
-    [
-      Species.ROTOM,
-      "frost",
-    ],
+    [Species.ROTOM, "frost"],
     Species.ALOLA_RATTATA,
     Species.ALOLA_RATICATE,
     Species.ALOLA_SANDSHREW,
@@ -5295,10 +5234,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_LINOONE,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_QWILFISH,
     Species.HISUI_SAMUROTT,
     Species.HISUI_SLIGGOO,
@@ -6022,11 +5958,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
     Species.PALDEA_TAUROS,
     Species.BLOODMOON_URSALUNA,
-    [
-      Species.BASCULIN,
-      "blue-striped",
-      "red-striped",
-    ]
+    [Species.BASCULIN, "blue-striped", "red-striped"],
   ],
   [Moves.LOW_KICK]: [
     Species.SANDSHREW,
@@ -7287,10 +7219,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
-    [
-      Species.PALDEA_TAUROS,
-      "blaze",
-    ],
+    [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.THUNDERBOLT]: [
     Species.RATTATA,
@@ -8393,10 +8322,7 @@ export const tmSpecies: TmSpecies = {
     Species.RAGING_BOLT,
     Species.IRON_BOULDER,
     Species.TERAPAGOS,
-    [
-      Species.WORMADAM,
-      "sandy",
-    ],
+    [Species.WORMADAM, "sandy"],
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_DIGLETT,
@@ -10205,10 +10131,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_LEAVES,
     Species.FEZANDIPITI,
     Species.IRON_BOULDER,
-    [
-      Species.DEOXYS,
-      "speed",
-    ],
+    [Species.DEOXYS, "speed"],
     Species.ALOLA_RAICHU,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_VULPIX,
@@ -10331,10 +10254,7 @@ export const tmSpecies: TmSpecies = {
     Species.PECHARUNT,
     Species.GALAR_CORSOLA,
     Species.GALAR_YAMASK,
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_TYPHLOSION,
     Species.HISUI_ZORUA,
     Species.HISUI_ZOROARK,
@@ -11803,10 +11723,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_PERSIAN,
     Species.GALAR_MR_MIME,
     Species.GALAR_CORSOLA,
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_TYPHLOSION,
     Species.HISUI_ZORUA,
     Species.HISUI_ZOROARK,
@@ -12136,10 +12053,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_ZAPDOS,
     Species.GALAR_SLOWKING,
     Species.GALAR_CORSOLA,
-    [
-      Species.INDEEDEE,
-      "female",
-    ],
+    [Species.INDEEDEE, "female"],
   ],
   [Moves.HAZE]: [
     Species.SQUIRTLE,
@@ -12264,10 +12178,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_WEEZING,
     Species.GALAR_CORSOLA,
     Species.GALAR_YAMASK,
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_QWILFISH,
     Species.HISUI_DECIDUEYE,
     Species.PALDEA_WOOPER,
@@ -12591,10 +12502,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MR_MIME,
     Species.GALAR_ARTICUNO,
     Species.GALAR_CORSOLA,
-    [
-      Species.INDEEDEE,
-      "female",
-    ],
+    [Species.INDEEDEE, "female"],
     Species.HISUI_VOLTORB,
     Species.HISUI_ELECTRODE,
   ],
@@ -12760,10 +12668,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_RATICATE,
     Species.PIKACHU,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "dusk",
-    ],
+    [Species.LYCANROC, "dusk"],
     Species.GALAR_FARFETCHD,
     Species.GALAR_ZAPDOS,
     Species.GALAR_DARUMAKA,
@@ -13215,10 +13120,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
     Species.HISUI_GOODRA,
-    [
-      Species.PALDEA_TAUROS,
-      "blaze",
-    ],
+    [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.WATERFALL]: [
     Species.SQUIRTLE,
@@ -13370,10 +13272,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWPOKE,
     Species.GALAR_SLOWBRO,
     Species.GALAR_SLOWKING,
-    [
-      Species.URSHIFU,
-      "rapid-strike",
-    ],
+    [Species.URSHIFU, "rapid-strike"],
     Species.HISUI_QWILFISH,
     Species.HISUI_SAMUROTT,
     Species.PALDEA_WOOPER,
@@ -13598,11 +13497,7 @@ export const tmSpecies: TmSpecies = {
     Species.GROUDON,
     Species.RAYQUAZA,
     Species.JIRACHI,
-    [
-      Species.DEOXYS,
-      "",
-      "speed",
-    ],
+    [Species.DEOXYS, "", "speed"],
     Species.CHIMCHAR,
     Species.MONFERNO,
     Species.INFERNAPE,
@@ -14041,10 +13936,7 @@ export const tmSpecies: TmSpecies = {
     Species.FARIGIRAF,
     Species.DUDUNSPARCE,
     Species.SCREAM_TAIL,
-    [
-      Species.DEOXYS,
-      "defense",
-    ],
+    [Species.DEOXYS, "defense"],
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_MEOWTH,
@@ -19220,11 +19112,7 @@ export const tmSpecies: TmSpecies = {
     Species.DRAGAPULT,
     Species.GLASTRIER,
     Species.SPECTRIER,
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.CALYREX, "ice", "shadow"],
     Species.WYRDEER,
     Species.KLEAVOR,
     Species.URSALUNA,
@@ -19414,11 +19302,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRABRAWLER,
     Species.CRABOMINABLE,
     Species.ORICORIO,
-    [
-      Species.LYCANROC,
-      "midnight",
-      "dusk",
-    ],
+    [Species.LYCANROC, "midnight", "dusk"],
     Species.BEWEAR,
     Species.PASSIMIAN,
     Species.SILVALLY,
@@ -19479,11 +19363,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_RAICHU,
     Species.ALOLA_DIGLETT,
     Species.ALOLA_DUGTRIO,
-    [
-      Species.LYCANROC,
-      "midnight",
-      "dusk",
-    ],
+    [Species.LYCANROC, "midnight", "dusk"],
     Species.GALAR_ZAPDOS,
     Species.GALAR_DARMANITAN,
     Species.HISUI_GROWLITHE,
@@ -19494,11 +19374,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
     Species.HISUI_DECIDUEYE,
     Species.PALDEA_TAUROS,
-    [
-      Species.BASCULIN,
-      "blue-striped",
-      "red-striped",
-    ],
+    [Species.BASCULIN, "blue-striped", "red-striped"],
   ],
   [Moves.SPITE]: [
     Species.EKANS,
@@ -21695,11 +21571,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRABRAWLER,
     Species.CRABOMINABLE,
     Species.ROCKRUFF,
-    [
-      Species.LYCANROC,
-      "midday",
-      "midnight",
-    ],
+    [Species.LYCANROC, "midday", "midnight"],
     Species.MUDBRAY,
     Species.MUDSDALE,
     Species.SALANDIT,
@@ -21750,10 +21622,7 @@ export const tmSpecies: TmSpecies = {
     Species.TING_LU,
     Species.KORAIDON,
     Species.MUNKIDORI,
-    [
-      Species.WORMADAM,
-      "sandy",
-    ],
+    [Species.WORMADAM, "sandy"],
     Species.ALOLA_DIGLETT,
     Species.ALOLA_DUGTRIO,
     Species.ALOLA_GEODUDE,
@@ -21845,10 +21714,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_THORNS,
     Species.TING_LU,
     Species.OGERPON,
-    [
-      Species.DEOXYS,
-      "defense",
-    ],
+    [Species.DEOXYS, "defense"],
     Species.ALOLA_SANDSLASH,
     Species.HISUI_QWILFISH,
     Species.PALDEA_WOOPER,
@@ -22018,11 +21884,7 @@ export const tmSpecies: TmSpecies = {
     Species.KYOGRE,
     Species.RAYQUAZA,
     Species.JIRACHI,
-    [
-      Species.DEOXYS,
-      "",
-      "speed",
-    ],
+    [Species.DEOXYS, "", "speed"],
     Species.PIPLUP,
     Species.PRINPLUP,
     Species.EMPOLEON,
@@ -22169,10 +22031,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_CORSOLA,
     Species.GALAR_ZIGZAGOON,
     Species.GALAR_LINOONE,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_QWILFISH,
     Species.HISUI_SAMUROTT,
     Species.HISUI_ZORUA,
@@ -22340,15 +22199,8 @@ export const tmSpecies: TmSpecies = {
     Species.RAGING_BOLT,
     Species.ALOLA_EXEGGUTOR,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-      "dusk",
-    ],
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.LYCANROC, "midnight", "dusk"],
+    [Species.CALYREX, "ice"],
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_SLIGGOO,
@@ -22597,10 +22449,7 @@ export const tmSpecies: TmSpecies = {
     Species.TING_LU,
     Species.OGERPON,
     Species.IRON_BOULDER,
-    [
-      Species.WORMADAM,
-      "sandy",
-    ],
+    [Species.WORMADAM, "sandy"],
     Species.ALOLA_DIGLETT,
     Species.ALOLA_DUGTRIO,
     Species.ALOLA_GEODUDE,
@@ -24116,10 +23965,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_PONYTA,
     Species.GALAR_RAPIDASH,
     Species.GALAR_MR_MIME,
-    [
-      Species.INDEEDEE,
-      "female",
-    ],
+    [Species.INDEEDEE, "female"],
     Species.HISUI_LILLIGANT,
     Species.HISUI_SLIGGOO,
     Species.HISUI_GOODRA,
@@ -29633,10 +29479,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWKING,
     Species.GALAR_CORSOLA,
     Species.GALAR_YAMASK,
-    [
-      Species.INDEEDEE,
-      "female",
-    ],
+    [Species.INDEEDEE, "female"],
   ],
   [Moves.PAIN_SPLIT]: [
     Species.ARBOK,
@@ -29831,10 +29674,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_LEAVES,
     Species.IRON_BOULDER,
     Species.GALAR_RAPIDASH,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_SAMUROTT,
   ],
   [Moves.BATON_PASS]: [
@@ -30015,10 +29855,7 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
     Species.GALAR_RAPIDASH,
     Species.GALAR_MR_MIME,
-    [
-      Species.INDEEDEE,
-      "female",
-    ],
+    [Species.INDEEDEE, "female"],
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.ENCORE]: [
@@ -30181,10 +30018,7 @@ export const tmSpecies: TmSpecies = {
     Species.TOXTRICITY,
     Species.MR_RIME,
     Species.ALCREMIE,
-    [
-      Species.INDEEDEE,
-      "male",
-    ],
+    [Species.INDEEDEE, "male"],
     Species.ZARUDE,
     Species.CALYREX,
     Species.FUECOCO,
@@ -30717,10 +30551,7 @@ export const tmSpecies: TmSpecies = {
     Species.TORTERRA,
     Species.BUDEW,
     Species.ROSERADE,
-    [
-      Species.WORMADAM,
-      "plant",
-    ],
+    [Species.WORMADAM, "plant"],
     Species.CHERUBI,
     Species.CHERRIM,
     Species.CARNIVINE,
@@ -32554,10 +32385,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_LINOONE,
     Species.GALAR_YAMASK,
     Species.GALAR_STUNFISK,
-    [
-      Species.URSHIFU,
-      "rapid-strike",
-    ],
+    [Species.URSHIFU, "rapid-strike"],
     Species.HISUI_VOLTORB,
     Species.HISUI_ELECTRODE,
     Species.HISUI_QWILFISH,
@@ -33103,11 +32931,7 @@ export const tmSpecies: TmSpecies = {
     Species.ORICORIO,
     Species.CUTIEFLY,
     Species.RIBOMBEE,
-    [
-      Species.LYCANROC,
-      "midday",
-      "midnight",
-    ],
+    [Species.LYCANROC, "midday", "midnight"],
     Species.MUDBRAY,
     Species.MUDSDALE,
     Species.FOMANTIS,
@@ -33285,11 +33109,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SLIGGOO,
     Species.HISUI_GOODRA,
     Species.HISUI_DECIDUEYE,
-    [
-      Species.PALDEA_TAUROS,
-      "combat",
-      "blaze",
-    ],
+    [Species.PALDEA_TAUROS, "combat", "blaze"],
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.CRUNCH]: [
@@ -33525,15 +33345,8 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MUK,
     Species.GALAR_MEOWTH,
     Species.GALAR_STUNFISK,
-    [
-      Species.URSHIFU,
-      "single-strike",
-    ],
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.URSHIFU, "single-strike"],
+    [Species.CALYREX, "ice", "shadow"],
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_QWILFISH,
@@ -34135,10 +33948,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_ZIGZAGOON,
     Species.GALAR_LINOONE,
     Species.GALAR_YAMASK,
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_TYPHLOSION,
     Species.HISUI_QWILFISH,
     Species.HISUI_SNEASEL,
@@ -34236,10 +34046,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_VALIANT,
     Species.MUNKIDORI,
     Species.IRON_CROWN,
-    [
-      Species.MEOWSTIC,
-      "female",
-    ],
+    [Species.MEOWSTIC, "female"],
     Species.ALOLA_RAICHU,
     Species.GALAR_PONYTA,
     Species.GALAR_RAPIDASH,
@@ -34895,15 +34702,9 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_CORSOLA,
     Species.GALAR_ZIGZAGOON,
     Species.GALAR_LINOONE,
-    [
-      Species.URSHIFU,
-      "rapid-strike",
-    ],
+    [Species.URSHIFU, "rapid-strike"],
     Species.HISUI_SAMUROTT,
-    [
-      Species.PALDEA_TAUROS,
-      "aqua",
-    ],
+    [Species.PALDEA_TAUROS, "aqua"],
   ],
   [Moves.BEAT_UP]: [
     Species.CHARMANDER,
@@ -35287,21 +35088,14 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_PERSIAN,
     Species.ALOLA_EXEGGUTOR,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_MEOWTH,
     Species.GALAR_WEEZING,
     Species.GALAR_MR_MIME,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
     Species.GALAR_STUNFISK,
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.CALYREX, "ice", "shadow"],
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.HEAT_WAVE]: [
@@ -35645,10 +35439,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MR_MIME,
     Species.GALAR_SLOWKING,
     Species.GALAR_CORSOLA,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
   ],
   [Moves.TORMENT]: [
     Species.EKANS,
@@ -35842,10 +35633,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_PERSIAN,
     Species.ALOLA_GRIMER,
     Species.ALOLA_MUK,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_ZORUA,
     Species.HISUI_ZOROARK,
   ],
@@ -35987,19 +35775,13 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
     Species.GALAR_YAMASK,
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
     Species.HISUI_ZORUA,
     Species.HISUI_ZOROARK,
-    [
-      Species.PALDEA_TAUROS,
-      "blaze",
-    ],
+    [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
     Species.BULBASAUR,
@@ -37276,10 +37058,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_GOLEM,
     Species.ALOLA_MUK,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_MR_MIME,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
@@ -37881,11 +37660,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_LINOONE,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.CALYREX, "ice", "shadow"],
     Species.HISUI_VOLTORB,
     Species.HISUI_ELECTRODE,
     Species.HISUI_QWILFISH,
@@ -38806,10 +38581,7 @@ export const tmSpecies: TmSpecies = {
     Species.SLITHER_WING,
     Species.OKIDOGI,
     Species.OGERPON,
-    [
-      Species.DEOXYS,
-      "attack",
-    ],
+    [Species.DEOXYS, "attack"],
     Species.ALOLA_GEODUDE,
     Species.ALOLA_GRAVELER,
     Species.ALOLA_GOLEM,
@@ -38818,10 +38590,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_ZAPDOS,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_BRAVIARY,
   ],
   [Moves.RECYCLE]: [
@@ -39065,10 +38834,7 @@ export const tmSpecies: TmSpecies = {
     Species.KINGAMBIT,
     Species.ALOLA_RATTATA,
     Species.ALOLA_RATICATE,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_FARFETCHD,
     Species.GALAR_ZAPDOS,
     Species.HISUI_SAMUROTT,
@@ -39742,10 +39508,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MUK,
     Species.ALOLA_EXEGGUTOR,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_MEOWTH,
     Species.GALAR_FARFETCHD,
     Species.GALAR_ZAPDOS,
@@ -40334,10 +40097,7 @@ export const tmSpecies: TmSpecies = {
     Species.FENNEKIN,
     Species.BRAIXEN,
     Species.DELPHOX,
-    [
-      Species.MEOWSTIC,
-      "male",
-    ],
+    [Species.MEOWSTIC, "male"],
     Species.KLEFKI,
     Species.PHANTUMP,
     Species.TREVENANT,
@@ -41602,10 +41362,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWPOKE,
     Species.GALAR_SLOWBRO,
     Species.GALAR_SLOWKING,
-    [
-      Species.URSHIFU,
-      "rapid-strike",
-    ],
+    [Species.URSHIFU, "rapid-strike"],
   ],
   [Moves.FEATHER_DANCE]: [
     Species.PIDGEY,
@@ -42450,20 +42207,14 @@ export const tmSpecies: TmSpecies = {
     Species.KORAIDON,
     Species.MIRAIDON,
     Species.GOUGING_FIRE,
-    [
-      Species.ROTOM,
-      "heat",
-    ],
+    [Species.ROTOM, "heat"],
     Species.GALAR_WEEZING,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
-    [
-      Species.PALDEA_TAUROS,
-      "blaze",
-    ],
+    [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.ROCK_TOMB]: [
     Species.CHARMANDER,
@@ -42842,10 +42593,7 @@ export const tmSpecies: TmSpecies = {
     Species.OGERPON,
     Species.ARCHALUDON,
     Species.IRON_BOULDER,
-    [
-      Species.WORMADAM,
-      "sandy",
-    ],
+    [Species.WORMADAM, "sandy"],
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_DIGLETT,
@@ -42894,10 +42642,7 @@ export const tmSpecies: TmSpecies = {
     Species.EMPOLEON,
     Species.SHIELDON,
     Species.BASTIODON,
-    [
-      Species.WORMADAM,
-      "trash",
-    ],
+    [Species.WORMADAM, "trash"],
     Species.BRONZOR,
     Species.BRONZONG,
     Species.LUCARIO,
@@ -42973,11 +42718,7 @@ export const tmSpecies: TmSpecies = {
     Species.METAGROSS,
     Species.RAYQUAZA,
     Species.JIRACHI,
-    [
-      Species.DEOXYS,
-      "",
-      "attack",
-    ],
+    [Species.DEOXYS, "", "attack"],
     Species.BUNEARY,
     Species.LOPUNNY,
     Species.CHINGLING,
@@ -43550,10 +43291,7 @@ export const tmSpecies: TmSpecies = {
     Species.DIPPLIN,
     Species.OGERPON,
     Species.HYDRAPPLE,
-    [
-      Species.WORMADAM,
-      "plant",
-    ],
+    [Species.WORMADAM, "plant"],
     Species.ALOLA_EXEGGUTOR,
     Species.HISUI_VOLTORB,
     Species.HISUI_ELECTRODE,
@@ -43970,10 +43708,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_NINETALES,
     Species.GALAR_MR_MIME,
     Species.GALAR_CORSOLA,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_AVALUGG,
   ],
   [Moves.IRON_DEFENSE]: [
@@ -44211,14 +43946,8 @@ export const tmSpecies: TmSpecies = {
     Species.SINISTCHA,
     Species.ARCHALUDON,
     Species.IRON_CROWN,
-    [
-      Species.DEOXYS,
-      "defense",
-    ],
-    [
-      Species.WORMADAM,
-      "trash",
-    ],
+    [Species.DEOXYS, "defense"],
+    [Species.WORMADAM, "trash"],
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_DIGLETT,
@@ -44235,10 +43964,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_DARMANITAN,
     Species.GALAR_YAMASK,
     Species.GALAR_STUNFISK,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_AVALUGG,
   ],
   [Moves.DRAGON_CLAW]: [
@@ -45247,10 +44973,7 @@ export const tmSpecies: TmSpecies = {
     Species.SINISTCHA,
     Species.OGERPON,
     Species.HYDRAPPLE,
-    [
-      Species.MEOWSTIC,
-      "female",
-    ],
+    [Species.MEOWSTIC, "female"],
     Species.ALOLA_EXEGGUTOR,
     Species.ETERNAL_FLOETTE,
     Species.HISUI_LILLIGANT,
@@ -45716,10 +45439,7 @@ export const tmSpecies: TmSpecies = {
     Species.GLIMMORA,
     Species.IRON_THORNS,
     Species.IRON_BOULDER,
-    [
-      Species.WORMADAM,
-      "sandy",
-    ],
+    [Species.WORMADAM, "sandy"],
     Species.ALOLA_DIGLETT,
     Species.ALOLA_DUGTRIO,
     Species.ALOLA_GEODUDE,
@@ -46018,10 +45738,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SAMUROTT,
     Species.HISUI_SLIGGOO,
     Species.HISUI_GOODRA,
-    [
-      Species.PALDEA_TAUROS,
-      "aqua",
-    ],
+    [Species.PALDEA_TAUROS, "aqua"],
     Species.PALDEA_WOOPER,
   ],
   [Moves.ROOST]: [
@@ -46276,10 +45993,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_CROWN,
     Species.TERAPAGOS,
     Species.ALOLA_EXEGGUTOR,
-    [
-      Species.INDEEDEE,
-      "male",
-    ],
+    [Species.INDEEDEE, "male"],
   ],
   [Moves.GYRO_BALL]: [
     Species.SQUIRTLE,
@@ -46396,10 +46110,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARCHALUDON,
     Species.HYDRAPPLE,
     Species.TERAPAGOS,
-    [
-      Species.WORMADAM,
-      "trash",
-    ],
+    [Species.WORMADAM, "trash"],
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_GEODUDE,
@@ -46527,10 +46238,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWBRO,
     Species.GALAR_SLOWKING,
     Species.GALAR_CORSOLA,
-    [
-      Species.URSHIFU,
-      "rapid-strike",
-    ],
+    [Species.URSHIFU, "rapid-strike"],
     Species.HISUI_QWILFISH,
   ],
   [Moves.PLUCK]: [
@@ -47115,10 +46823,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_BOULDER,
     Species.GALAR_FARFETCHD,
     Species.GALAR_ZAPDOS,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_SNEASEL,
@@ -47422,10 +47127,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_PERSIAN,
     Species.ALOLA_GRIMER,
     Species.ALOLA_MUK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_MEOWTH,
     Species.GALAR_WEEZING,
     Species.GALAR_MR_MIME,
@@ -47436,11 +47138,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_DARMANITAN,
     Species.GALAR_YAMASK,
     Species.GALAR_STUNFISK,
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.CALYREX, "ice", "shadow"],
   ],
   [Moves.ASSURANCE]: [
     Species.BEEDRILL,
@@ -47637,15 +47335,8 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MOLTRES,
     Species.GALAR_ZIGZAGOON,
     Species.GALAR_LINOONE,
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
-    [
-      Species.PALDEA_TAUROS,
-      "combat",
-    ],
+    [Species.CALYREX, "ice", "shadow"],
+    [Species.PALDEA_TAUROS, "combat"],
   ],
   [Moves.EMBARGO]: [
     Species.PERSIAN,
@@ -48136,10 +47827,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_GRIMER,
     Species.ALOLA_MUK,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_MEOWTH,
     Species.GALAR_SLOWBRO,
     Species.GALAR_MR_MIME,
@@ -48347,10 +48035,7 @@ export const tmSpecies: TmSpecies = {
     Species.FARIGIRAF,
     Species.GALAR_MR_MIME,
     Species.GALAR_ARTICUNO,
-    [
-      Species.INDEEDEE,
-      "female",
-    ],
+    [Species.INDEEDEE, "female"],
   ],
   [Moves.WORRY_SEED]: [
     Species.BULBASAUR,
@@ -48649,10 +48334,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
-    [
-      Species.PALDEA_TAUROS,
-      "blaze",
-    ],
+    [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.AURA_SPHERE]: [
     Species.SQUIRTLE,
@@ -49197,14 +48879,8 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_WEEZING,
     Species.GALAR_MOLTRES,
     Species.GALAR_YAMASK,
-    [
-      Species.URSHIFU,
-      "single-strike",
-    ],
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.URSHIFU, "single-strike"],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_QWILFISH,
     Species.HISUI_SAMUROTT,
     Species.HISUI_ZORUA,
@@ -49701,10 +49377,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_BOULDER,
     Species.IRON_CROWN,
     Species.SHAYMIN,
-    [
-      Species.ROTOM,
-      "fan",
-    ],
+    [Species.ROTOM, "fan"],
     Species.GALAR_ARTICUNO,
     Species.GALAR_MOLTRES,
     Species.HISUI_SAMUROTT,
@@ -50638,10 +50311,7 @@ export const tmSpecies: TmSpecies = {
     Species.TORTERRA,
     Species.BUDEW,
     Species.ROSERADE,
-    [
-      Species.WORMADAM,
-      "plant",
-    ],
+    [Species.WORMADAM, "plant"],
     Species.MOTHIM,
     Species.CHERUBI,
     Species.CHERRIM,
@@ -51082,10 +50752,7 @@ export const tmSpecies: TmSpecies = {
     Species.TING_LU,
     Species.HYDRAPPLE,
     Species.TERAPAGOS,
-    [
-      Species.WORMADAM,
-      "sandy",
-    ],
+    [Species.WORMADAM, "sandy"],
     Species.ALOLA_DIGLETT,
     Species.ALOLA_DUGTRIO,
     Species.ALOLA_GEODUDE,
@@ -51704,11 +51371,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
     Species.PALDEA_TAUROS,
     Species.BLOODMOON_URSALUNA,
-    [
-      Species.BASCULIN,
-      "blue-striped",
-      "red-striped",
-    ],
+    [Species.BASCULIN, "blue-striped", "red-striped"],
   ],
   [Moves.NASTY_PLOT]: [
     Species.PIKACHU,
@@ -51887,10 +51550,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MOLTRES,
     Species.GALAR_SLOWKING,
     Species.GALAR_YAMASK,
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_SNEASEL,
     Species.HISUI_ZORUA,
     Species.HISUI_ZOROARK,
@@ -51999,10 +51659,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWKING,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_SAMUROTT,
     Species.HISUI_AVALUGG,
     Species.BLOODMOON_URSALUNA,
@@ -52210,10 +51867,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_DUGTRIO,
     Species.ALOLA_MEOWTH,
     Species.ALOLA_PERSIAN,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_MEOWTH,
     Species.GALAR_LINOONE,
     Species.HISUI_TYPHLOSION,
@@ -52604,10 +52258,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_CROWN,
     Species.GALAR_RAPIDASH,
     Species.GALAR_ARTICUNO,
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_SAMUROTT,
     Species.HISUI_DECIDUEYE,
   ],
@@ -53077,10 +52728,7 @@ export const tmSpecies: TmSpecies = {
     Species.MIRAIDON,
     Species.ARCHALUDON,
     Species.IRON_CROWN,
-    [
-      Species.WORMADAM,
-      "trash",
-    ],
+    [Species.WORMADAM, "trash"],
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_DIGLETT,
@@ -53652,10 +53300,7 @@ export const tmSpecies: TmSpecies = {
     Species.TORTERRA,
     Species.BUDEW,
     Species.ROSERADE,
-    [
-      Species.WORMADAM,
-      "plant",
-    ],
+    [Species.WORMADAM, "plant"],
     Species.SNOVER,
     Species.ABOMASNOW,
     Species.TANGROWTH,
@@ -53718,10 +53363,7 @@ export const tmSpecies: TmSpecies = {
     Species.OGERPON,
     Species.HYDRAPPLE,
     Species.SHAYMIN,
-    [
-      Species.ROTOM,
-      "mow",
-    ],
+    [Species.ROTOM, "mow"],
     Species.ALOLA_EXEGGUTOR,
     Species.HISUI_VOLTORB,
     Species.HISUI_ELECTRODE,
@@ -53925,10 +53567,7 @@ export const tmSpecies: TmSpecies = {
     Species.MUNKIDORI,
     Species.FEZANDIPITI,
     Species.PECHARUNT,
-    [
-      Species.WORMADAM,
-      "trash",
-    ],
+    [Species.WORMADAM, "trash"],
     Species.ALOLA_MEOWTH,
     Species.ALOLA_PERSIAN,
     Species.ALOLA_GRIMER,
@@ -54155,10 +53794,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_BOULDER,
     Species.IRON_CROWN,
     Species.TERAPAGOS,
-    [
-      Species.WORMADAM,
-      "trash",
-    ],
+    [Species.WORMADAM, "trash"],
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_DIGLETT,
@@ -54627,11 +54263,7 @@ export const tmSpecies: TmSpecies = {
     Species.TING_LU,
     Species.ARCHALUDON,
     Species.TERAPAGOS,
-    [
-      Species.WORMADAM,
-      "sandy",
-      "trash",
-    ],
+    [Species.WORMADAM, "sandy", "trash"],
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_DIGLETT,
@@ -54771,10 +54403,7 @@ export const tmSpecies: TmSpecies = {
     Species.BIBAREL,
     Species.BUDEW,
     Species.ROSERADE,
-    [
-      Species.WORMADAM,
-      "plant",
-    ],
+    [Species.WORMADAM, "plant"],
     Species.PACHIRISU,
     Species.CHERUBI,
     Species.CHERRIM,
@@ -56326,10 +55955,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_CROWN,
     Species.TERAPAGOS,
     Species.ALOLA_GOLEM,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_SLIGGOO,
     Species.HISUI_GOODRA,
     Species.HISUI_AVALUGG,
@@ -56514,10 +56140,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
-    [
-      Species.PALDEA_TAUROS,
-      "blaze",
-    ],
+    [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.LOW_SWEEP]: [
     Species.PSYDUCK,
@@ -56657,10 +56280,7 @@ export const tmSpecies: TmSpecies = {
     Species.KORAIDON,
     Species.OKIDOGI,
     Species.OGERPON,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_ZAPDOS,
     Species.GALAR_SLOWKING,
     Species.HISUI_SNEASEL,
@@ -56917,10 +56537,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MEOWTH,
     Species.ALOLA_PERSIAN,
     Species.ALOLA_MUK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_MEOWTH,
     Species.GALAR_SLOWPOKE,
     Species.GALAR_SLOWBRO,
@@ -56928,14 +56545,8 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MOLTRES,
     Species.GALAR_SLOWKING,
     Species.GALAR_STUNFISK,
-    [
-      Species.URSHIFU,
-      "single-strike",
-    ],
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.URSHIFU, "single-strike"],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_VOLTORB,
     Species.HISUI_ELECTRODE,
     Species.HISUI_ZORUA,
@@ -58570,10 +58181,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWKING,
     Species.GALAR_CORSOLA,
     Species.GALAR_STUNFISK,
-    [
-      Species.URSHIFU,
-      "rapid-strike",
-    ],
+    [Species.URSHIFU, "rapid-strike"],
   ],
   [Moves.HEX]: [
     Species.NIDOQUEEN,
@@ -58699,10 +58307,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWKING,
     Species.GALAR_CORSOLA,
     Species.GALAR_YAMASK,
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_TYPHLOSION,
     Species.HISUI_QWILFISH,
     Species.HISUI_ZORUA,
@@ -59987,10 +59592,7 @@ export const tmSpecies: TmSpecies = {
     Species.GOUGING_FIRE,
     Species.IRON_BOULDER,
     Species.IRON_CROWN,
-    [
-      Species.WORMADAM,
-      "sandy",
-    ],
+    [Species.WORMADAM, "sandy"],
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
     Species.ALOLA_DIGLETT,
@@ -60006,11 +59608,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_CORSOLA,
     Species.GALAR_DARMANITAN,
     Species.GALAR_STUNFISK,
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.CALYREX, "ice", "shadow"],
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
     Species.HISUI_SAMUROTT,
@@ -60464,10 +60062,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_DUGTRIO,
     Species.ALOLA_MEOWTH,
     Species.ALOLA_PERSIAN,
-    [
-      Species.LYCANROC,
-      "dusk",
-    ],
+    [Species.LYCANROC, "dusk"],
     Species.GALAR_MEOWTH,
     Species.GALAR_FARFETCHD,
     Species.GALAR_ZIGZAGOON,
@@ -60741,11 +60336,7 @@ export const tmSpecies: TmSpecies = {
     Species.EXCADRILL,
     Species.KARRABLAST,
     Species.ESCAVALIER,
-    [
-      Species.LYCANROC,
-      "midday",
-      "dusk",
-    ],
+    [Species.LYCANROC, "midday", "dusk"],
     Species.GOLISOPOD,
     Species.PHEROMOSA,
     Species.SILICOBRA,
@@ -60841,11 +60432,7 @@ export const tmSpecies: TmSpecies = {
     Species.MINCCINO,
     Species.CINCCINO,
     Species.MEOWSTIC,
-    [
-      Species.LYCANROC,
-      "midday",
-      "dusk",
-    ],
+    [Species.LYCANROC, "midday", "dusk"],
     Species.SKWOVET,
     Species.GREEDENT,
     Species.NICKIT,
@@ -61087,10 +60674,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
     Species.HISUI_BRAVIARY,
     Species.BLOODMOON_URSALUNA,
-    [
-      Species.URSHIFU,
-      "single-strike",
-    ],
+    [Species.URSHIFU, "single-strike"],
   ],
   [Moves.PHANTOM_FORCE]: [
     Species.HAUNTER,
@@ -61140,10 +60724,7 @@ export const tmSpecies: TmSpecies = {
     Species.POLTCHAGEIST,
     Species.SINISTCHA,
     Species.PECHARUNT,
-    [
-      Species.CALYREX,
-      "shadow",
-    ],
+    [Species.CALYREX, "shadow"],
     Species.HISUI_ZORUA,
     Species.HISUI_ZOROARK,
   ],
@@ -61499,10 +61080,7 @@ export const tmSpecies: TmSpecies = {
     Species.FLABEBE,
     Species.FLOETTE,
     Species.FLORGES,
-    [
-      Species.MEOWSTIC,
-      "male",
-    ],
+    [Species.MEOWSTIC, "male"],
     Species.SPRITZEE,
     Species.AROMATISSE,
     Species.SYLVEON,
@@ -62680,10 +62258,7 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNATUS,
     Species.GALAR_WEEZING,
     Species.GALAR_SLOWKING,
-    [
-      Species.TOXTRICITY,
-      "low-key",
-    ],
+    [Species.TOXTRICITY, "low-key"],
   ],
   [Moves.ELECTRIC_TERRAIN]: [
     Species.PIKACHU,
@@ -63405,10 +62980,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_GRAVELER,
     Species.GALAR_PONYTA,
     Species.GALAR_RAPIDASH,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_AVALUGG,
     Species.PALDEA_TAUROS,
     Species.BLOODMOON_URSALUNA,
@@ -63586,24 +63158,15 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MEOWTH,
     Species.ALOLA_PERSIAN,
     Species.ALOLA_MAROWAK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_MEOWTH,
     Species.GALAR_RAPIDASH,
     Species.GALAR_FARFETCHD,
     Species.GALAR_ZAPDOS,
     Species.GALAR_CORSOLA,
     Species.GALAR_LINOONE,
-    [
-      Species.URSHIFU,
-      "single-strike",
-    ],
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.URSHIFU, "single-strike"],
+    [Species.CALYREX, "ice"],
   ],
   [Moves.POLLEN_PUFF]: [
     Species.BUTTERFREE,
@@ -63879,10 +63442,7 @@ export const tmSpecies: TmSpecies = {
     Species.GOUGING_FIRE,
     Species.IRON_CROWN,
     Species.GALAR_RAPIDASH,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_SAMUROTT,
@@ -64401,11 +63961,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_CORSOLA,
     Species.GALAR_LINOONE,
     Species.GALAR_STUNFISK,
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.CALYREX, "ice", "shadow"],
     Species.HISUI_TYPHLOSION,
     Species.HISUI_GOODRA,
     Species.HISUI_AVALUGG,
@@ -64564,16 +64120,10 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWBRO,
     Species.GALAR_SLOWKING,
     Species.GALAR_CORSOLA,
-    [
-      Species.URSHIFU,
-      "rapid-strike",
-    ],
+    [Species.URSHIFU, "rapid-strike"],
     Species.HISUI_QWILFISH,
     Species.HISUI_SAMUROTT,
-    [
-      Species.PALDEA_TAUROS,
-      "aqua",
-    ],
+    [Species.PALDEA_TAUROS, "aqua"],
     Species.PALDEA_WOOPER,
   ],
   [Moves.BODY_PRESS]: [
@@ -64699,11 +64249,7 @@ export const tmSpecies: TmSpecies = {
     Species.ZAMAZENTA,
     Species.URSHIFU,
     Species.GLASTRIER,
-    [
-      Species.CALYREX,
-      "",
-      "ice",
-    ],
+    [Species.CALYREX, "", "ice"],
     Species.URSALUNA,
     Species.OINKOLOGNE,
     Species.PAWMOT,
@@ -65759,25 +65305,15 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MEOWTH,
     Species.ALOLA_PERSIAN,
     Species.ALOLA_MUK,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.GALAR_MEOWTH,
     Species.GALAR_MOLTRES,
     Species.GALAR_ZIGZAGOON,
     Species.GALAR_LINOONE,
     Species.GALAR_DARMANITAN,
     Species.GALAR_STUNFISK,
-    [
-      Species.URSHIFU,
-      "single-strike",
-    ],
-    [
-      Species.CALYREX,
-      "ice",
-      "shadow",
-    ],
+    [Species.URSHIFU, "single-strike"],
+    [Species.CALYREX, "ice", "shadow"],
     Species.HISUI_QWILFISH,
     Species.HISUI_SNEASEL,
     Species.HISUI_SAMUROTT,
@@ -67397,10 +66933,7 @@ export const tmSpecies: TmSpecies = {
     Species.TERAPAGOS,
     Species.ALOLA_SANDSHREW,
     Species.ALOLA_SANDSLASH,
-    [
-      Species.URSHIFU,
-      "rapid-strike",
-    ],
+    [Species.URSHIFU, "rapid-strike"],
     Species.HISUI_LILLIGANT,
     Species.HISUI_SLIGGOO,
     Species.HISUI_GOODRA,
@@ -67495,10 +67028,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWPOKE,
     Species.GALAR_SLOWBRO,
     Species.GALAR_ARTICUNO,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_SAMUROTT,
     Species.HISUI_ZORUA,
     Species.HISUI_ZOROARK,
@@ -67871,10 +67401,7 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
     Species.GALAR_MEOWTH,
     Species.GALAR_ZAPDOS,
-    [
-      Species.CALYREX,
-      "ice",
-    ],
+    [Species.CALYREX, "ice"],
     Species.HISUI_SNEASEL,
     Species.HISUI_LILLIGANT,
     Species.HISUI_DECIDUEYE,
@@ -68085,19 +67612,13 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWPOKE,
     Species.GALAR_SLOWBRO,
     Species.GALAR_SLOWKING,
-    [
-      Species.URSHIFU,
-      "rapid-strike",
-    ],
+    [Species.URSHIFU, "rapid-strike"],
     Species.HISUI_QWILFISH,
     Species.HISUI_SAMUROTT,
     Species.HISUI_SLIGGOO,
     Species.HISUI_GOODRA,
     Species.HISUI_AVALUGG,
-    [
-      Species.PALDEA_TAUROS,
-      "aqua",
-    ],
+    [Species.PALDEA_TAUROS, "aqua"],
     Species.PALDEA_WOOPER,
   ],
   [Moves.HARD_PRESS]: [
@@ -68272,10 +67793,7 @@ export const tmSpecies: TmSpecies = {
     Species.FEZANDIPITI,
     Species.ALOLA_RAICHU,
     Species.ETERNAL_FLOETTE,
-    [
-      Species.INDEEDEE,
-      "female",
-    ],
+    [Species.INDEEDEE, "female"],
   ],
   [Moves.TEMPER_FLARE]: [
     Species.CHARMANDER,
@@ -68351,12 +67869,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_GROWLITHE,
     Species.HISUI_ARCANINE,
     Species.HISUI_TYPHLOSION,
-    [
-      Species.PALDEA_TAUROS,
-      "blaze",
-    ],
+    [Species.PALDEA_TAUROS, "blaze"],
   ],
-  [Moves.SUPERCELL_SLAM]:[
+  [Moves.SUPERCELL_SLAM]: [
     Species.ELECTRODE,
     Species.RHYHORN,
     Species.RHYDON,
@@ -68521,10 +68036,7 @@ export const tmSpecies: TmSpecies = {
     Species.HAWLUCHA,
     Species.CRABRAWLER,
     Species.CRABOMINABLE,
-    [
-      Species.LYCANROC,
-      "midnight",
-    ],
+    [Species.LYCANROC, "midnight"],
     Species.PASSIMIAN,
     Species.HAKAMO_O,
     Species.KOMMO_O,
@@ -68541,6 +68053,10 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_LILLIGANT,
     Species.HISUI_DECIDUEYE,
   ],
+  //[Moves.WATERFOWL_DANCE]: [
+  //  Species.SKARMORY,
+  // ],
+  //
 };
 
 interface SpeciesTmMoves {
@@ -68555,10 +68071,9 @@ function transposeTmSpecies(): SpeciesTmMoves {
     const speciesList = tmSpecies[move];
 
     for (const species of speciesList) {
-
       if (Array.isArray(species)) {
         // Extract base species and all associated forms
-        const [ baseSpecies, ...forms ] = species;
+        const [baseSpecies, ...forms] = species;
         const speciesKey = Number(baseSpecies);
 
         if (!flipped[speciesKey]) {
@@ -68566,9 +68081,8 @@ function transposeTmSpecies(): SpeciesTmMoves {
         }
 
         for (const form of forms) {
-          flipped[speciesKey].push([ form, moveKey ]);
+          flipped[speciesKey].push([form, moveKey]);
         }
-
       } else {
         const speciesKey = Number(species);
         if (!flipped[speciesKey]) {
@@ -68584,11 +68098,12 @@ function transposeTmSpecies(): SpeciesTmMoves {
 export const speciesTmMoves: SpeciesTmMoves = transposeTmSpecies();
 
 interface TmPoolTiers {
-    [key: number]: ModifierTier
+  [key: number]: ModifierTier;
 }
 
 export const tmPoolTiers: TmPoolTiers = {
   [Moves.MEGA_PUNCH]: ModifierTier.GREAT,
+  //[Moves.WATERFOWL_DANCE]: ModifierTier.ULTRA,
   [Moves.PAY_DAY]: ModifierTier.ULTRA,
   [Moves.FIRE_PUNCH]: ModifierTier.GREAT,
   [Moves.ICE_PUNCH]: ModifierTier.GREAT,
