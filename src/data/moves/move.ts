@@ -6516,17 +6516,13 @@ export class FrenzyAttr extends MoveEffectAttr {
 
     if (!user.getTag(BattlerTagType.FRENZY) && !user.getMoveQueue().length) {
       const turnCount = user.randBattleSeedIntRange(1, 2);
-      new Array(turnCount)
-        .fill(null)
-        .map(() =>
-          user
-            .getMoveQueue()
-            .push({
-              move: move.id,
-              targets: [target.getBattlerIndex()],
-              ignorePP: true,
-            }),
-        );
+      new Array(turnCount).fill(null).map(() =>
+        user.getMoveQueue().push({
+          move: move.id,
+          targets: [target.getBattlerIndex()],
+          ignorePP: true,
+        }),
+      );
       user.addTag(BattlerTagType.FRENZY, turnCount, move.id, user.id);
     } else {
       applyMoveAttrs(AddBattlerTagAttr, user, target, move, args);
@@ -8520,13 +8516,11 @@ export class NaturePowerAttr extends OverrideMoveEffectAttr {
         break;
     }
 
-    user
-      .getMoveQueue()
-      .push({
-        move: moveId,
-        targets: [target.getBattlerIndex()],
-        ignorePP: true,
-      });
+    user.getMoveQueue().push({
+      move: moveId,
+      targets: [target.getBattlerIndex()],
+      ignorePP: true,
+    });
     globalScene.unshiftPhase(new LoadMoveAnimPhase(moveId));
     globalScene.unshiftPhase(
       new MovePhase(
@@ -12267,11 +12261,6 @@ export function initMoves() {
     )
       .attr(ConsecutiveUseDoublePowerAttr, 3, true)
       .slicingMove(),
-    //new AttackMove(Moves.WATERFOWL_DANCE, PokemonType.STEEL, MoveCategory.PHYSICAL, 25, 100, 5, 0, 0, 9)
-    //  .attr(MultiHitAttr)
-    //  .target(MoveTarget.ALL_NEAR_ENEMIES)
-    //  .attr(HighCritAttr)
-    //  .recklessMove(),
     new AttackMove(
       Moves.STEEL_WING,
       PokemonType.STEEL,
@@ -20439,6 +20428,21 @@ export function initMoves() {
       0,
       9,
     ).attr(StatusEffectAttr, StatusEffect.TOXIC),
+    new AttackMove(
+      Moves.WATERFOWL_DANCE,
+      PokemonType.STEEL,
+      MoveCategory.PHYSICAL,
+      25,
+      100,
+      5,
+      0,
+      0,
+      9,
+    )
+      .attr(MultiHitAttr)
+      .target(MoveTarget.ALL_NEAR_ENEMIES)
+      .attr(HighCritAttr)
+      .recklessMove(),
   );
   allMoves.map((m) => {
     if (

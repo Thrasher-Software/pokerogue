@@ -98,3 +98,52 @@ src/enums/moves.ts:  //WATERFOWL_DANCE,
 
 I will still need to set up animations and indicate which pokemon can learn the move.
 Then, I will need to set up the event in which you learn the move.
+
+
+6/4/2025
+Status: ✅ Move implemented, learned in-game, and functional in battle.
+✅ What’s done:
+
+    WATERFOWL_DANCE enum added and confirmed indexed correctly.
+
+    Move behavior defined in move.ts under initMoves() using AttackMove.
+
+    Assigned move to Bulbasaur (and later Charmander) for quick testing via level 1 in pokemon-level-moves.ts.
+
+    Animation JSON (waterfowl-dance.json) added — copied from fury-attack.json.
+
+    Animation file is named correctly and picked up automatically.
+
+    Verified in battle: move appears, animates, and damages correctly.
+
+⚠️ Known Issues / TODOs:
+
+    Recoil not currently applying. recklessMove() is called, but result not observed.
+
+        Check whether RecoilAttr is also needed.
+
+        Investigate how recoil is processed — possibly add logging or check how Double-Edge or Wild Charge are implemented.
+
+    Move name string not localized.
+
+        Displays as waterfowlDance.name.
+
+        Requires adding display name + description to moves.ts or i18n strings depending on how localization is handled.
+
+🧠 Dev Notes:
+
+    Enum placement matters. Had collision with MALIGNANT_CHAIN until enum order and move init order were corrected.
+
+    Autoincrementing IDs from enum ordering — keep this in mind when moving things around.
+
+    Tested against wild Pokémon: animation runs, hits land, power/accuracy confirmed working.
+
+✨ Next Steps:
+
+    ✅ Fix recoil behavior (start with checking how RecoilAttr is used).
+
+    ✅ Fix move name display.
+
+    🧪 Add learnable logic via Malenia encounter (WIP, event scaffolding started).
+
+    🎨 Consider a custom animation using PRAS-Slash frames (styling flourish).

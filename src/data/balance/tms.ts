@@ -68053,10 +68053,15 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_LILLIGANT,
     Species.HISUI_DECIDUEYE,
   ],
-  //[Moves.WATERFOWL_DANCE]: [
-  //  Species.SKARMORY,
-  // ],
-  //
+  [Moves.WATERFOWL_DANCE]: [
+    Species.SKARMORY,
+    Species.SCYTHER,
+    Species.BEEDRILL,
+    Species.BISHARP,
+    Species.AEGISLASH,
+    Species.HONEDGE,
+    Species.DOUBLADE,
+  ],
 };
 
 interface SpeciesTmMoves {
@@ -68103,7 +68108,7 @@ interface TmPoolTiers {
 
 export const tmPoolTiers: TmPoolTiers = {
   [Moves.MEGA_PUNCH]: ModifierTier.GREAT,
-  //[Moves.WATERFOWL_DANCE]: ModifierTier.ULTRA,
+  [Moves.WATERFOWL_DANCE]: ModifierTier.ULTRA,
   [Moves.PAY_DAY]: ModifierTier.ULTRA,
   [Moves.FIRE_PUNCH]: ModifierTier.GREAT,
   [Moves.ICE_PUNCH]: ModifierTier.GREAT,
