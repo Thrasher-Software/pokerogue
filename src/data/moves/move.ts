@@ -20442,6 +20442,7 @@ export function initMoves() {
       .attr(MultiHitAttr)
       .target(MoveTarget.ALL_NEAR_ENEMIES)
       .attr(HighCritAttr)
+      .attr(RecoilAttr, false, 0.33)
       .recklessMove(),
   );
   allMoves.map((m) => {
