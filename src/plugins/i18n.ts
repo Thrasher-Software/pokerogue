@@ -272,6 +272,7 @@ export async function initI18n(): Promise<void> {
       "mysteryEncounters/clowningAround",
       "mysteryEncounters/partTimer",
       "mysteryEncounters/dancingLessons",
+      "mysteryEncounters/malenia",
       "mysteryEncounters/weirdDream",
       "mysteryEncounters/theWinstrateChallenge",
       "mysteryEncounters/teleportingHijinks",
