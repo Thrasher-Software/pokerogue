@@ -24,6 +24,7 @@ import { BerriesAboundEncounter } from "#app/data/mystery-encounters/encounters/
 import { ClowningAroundEncounter } from "#app/data/mystery-encounters/encounters/clowning-around-encounter";
 import { PartTimerEncounter } from "#app/data/mystery-encounters/encounters/part-timer-encounter";
 import { DancingLessonsEncounter } from "#app/data/mystery-encounters/encounters/dancing-lessons-encounter";
+import { MaleniaEncounter } from "#app/data/mystery-encounters/encounters/malenia-encounter";
 import { WeirdDreamEncounter } from "#app/data/mystery-encounters/encounters/weird-dream-encounter";
 import { TheWinstrateChallengeEncounter } from "#app/data/mystery-encounters/encounters/the-winstrate-challenge-encounter";
 import { TeleportingHijinksEncounter } from "#app/data/mystery-encounters/encounters/teleporting-hijinks-encounter";
@@ -180,6 +181,7 @@ const extremeBiomeEncounters: MysteryEncounterType[] = [];
 const nonExtremeBiomeEncounters: MysteryEncounterType[] = [
   // MysteryEncounterType.FIELD_TRIP, Disabled
   MysteryEncounterType.DANCING_LESSONS, // Is also in BADLANDS, DESERT, VOLCANO, WASTELAND, ABYSS
+  MysteryEncounterType.MALENIA,
 ];
 
 const humanTransitableBiomeEncounters: MysteryEncounterType[] = [
@@ -215,6 +217,7 @@ const anyBiomeEncounters: MysteryEncounterType[] = [
   MysteryEncounterType.TELEPORTING_HIJINKS,
   MysteryEncounterType.BUG_TYPE_SUPERFAN,
   MysteryEncounterType.UNCOMMON_BREED,
+  MysteryEncounterType.MALENIA,
 ];
 
 /**
@@ -285,6 +288,7 @@ export function initMysteryEncounters() {
   allMysteryEncounters[MysteryEncounterType.CLOWNING_AROUND] = ClowningAroundEncounter;
   allMysteryEncounters[MysteryEncounterType.PART_TIMER] = PartTimerEncounter;
   allMysteryEncounters[MysteryEncounterType.DANCING_LESSONS] = DancingLessonsEncounter;
+  allMysteryEncounters[MysteryEncounterType.MALENIA] = MaleniaEncounter;
   allMysteryEncounters[MysteryEncounterType.WEIRD_DREAM] = WeirdDreamEncounter;
   allMysteryEncounters[MysteryEncounterType.THE_WINSTRATE_CHALLENGE] = TheWinstrateChallengeEncounter;
   allMysteryEncounters[MysteryEncounterType.TELEPORTING_HIJINKS] = TeleportingHijinksEncounter;

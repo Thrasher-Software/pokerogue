@@ -32,6 +32,7 @@ export const DANCING_MOVES = [
   Moves.LUNAR_DANCE,
   Moves.PETAL_DANCE,
   Moves.REVELATION_DANCE,
+  Moves.WATERFOWL_DANCE,
   Moves.QUIVER_DANCE,
   Moves.SWORDS_DANCE,
   Moves.TEETER_DANCE,
