@@ -68079,6 +68079,7 @@ export const tmSpecies: TmSpecies = {
     Species.DEOXYS,
     Species.SIGILYPH,
   ],
+  [Moves.WOLF_KNIGHT_SLAM]: [Species.MACHOP],
 };
 
 interface SpeciesTmMoves {

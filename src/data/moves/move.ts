@@ -20446,8 +20446,6 @@ export function initMoves() {
       .attr(HighCritAttr)
       .attr(RecoilAttr, false, 0.33)
       .recklessMove(),
-    // Priority on Comet Azur needs to be -1 right now. I think the move has to go first not just in the game but mechanically
-    // it has to have first priority. Maybe I can change that later but it is what it is for now.
     new AttackMove(
       Moves.COMET_AZUR,
       PokemonType.PSYCHIC,
@@ -20459,6 +20457,19 @@ export function initMoves() {
       0,
       1,
     ).attr(RechargeAttr),
+    new AttackMove(
+      Moves.WOLF_KNIGHT_SLAM,
+      PokemonType.STEEL,
+      MoveCategory.PHYSICAL,
+      50,
+      85,
+      5,
+      30,
+      0,
+      3,
+    )
+      .attr(MultiHitAttr, MultiHitType._3)
+      .attr(StatusEffectAttr, StatusEffect.PARALYSIS),
   );
   allMoves.map((m) => {
     if (
