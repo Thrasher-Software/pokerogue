@@ -8680,6 +8680,7 @@ export class RepeatMoveAttr extends MoveEffectAttr {
         Moves.ROAR_OF_TIME,
         Moves.ROCK_WRECKER,
         Moves.METEOR_ASSAULT,
+        Moves.COMET_AZUR,
         // Charging & 2-turn moves
         Moves.DIG,
         Moves.FLY,
@@ -20428,6 +20429,7 @@ export function initMoves() {
       0,
       9,
     ).attr(StatusEffectAttr, StatusEffect.TOXIC),
+    // This starts our custom moves.
     new AttackMove(
       Moves.WATERFOWL_DANCE,
       PokemonType.STEEL,
@@ -20444,6 +20446,19 @@ export function initMoves() {
       .attr(HighCritAttr)
       .attr(RecoilAttr, false, 0.33)
       .recklessMove(),
+    // Priority on Comet Azur needs to be -1 right now. I think the move has to go first not just in the game but mechanically
+    // it has to have first priority. Maybe I can change that later but it is what it is for now.
+    new AttackMove(
+      Moves.COMET_AZUR,
+      PokemonType.PSYCHIC,
+      MoveCategory.SPECIAL,
+      150,
+      90,
+      5,
+      -1,
+      0,
+      1,
+    ).attr(RechargeAttr),
   );
   allMoves.map((m) => {
     if (

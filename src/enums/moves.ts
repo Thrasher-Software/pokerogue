@@ -1873,4 +1873,5 @@ export enum Moves {
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Malignant_Chain_(move) | Source} */
   MALIGNANT_CHAIN,
   WATERFOWL_DANCE,
+  COMET_AZUR,
 }

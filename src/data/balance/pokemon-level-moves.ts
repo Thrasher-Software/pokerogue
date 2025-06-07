@@ -2245,6 +2245,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   ],
   [Species.MAGIKARP]: [
     [1, Moves.SPLASH],
+    [1, Moves.COMET_AZUR],
     [15, Moves.TACKLE],
     [25, Moves.FLAIL],
   ],

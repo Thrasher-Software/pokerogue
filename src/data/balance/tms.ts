@@ -68062,6 +68062,23 @@ export const tmSpecies: TmSpecies = {
     Species.HONEDGE,
     Species.DOUBLADE,
   ],
+  [Moves.COMET_AZUR]: [
+    Species.ALAKAZAM,
+    Species.MEW,
+    Species.MEWTWO,
+    Species.ESPEON,
+    Species.GARDEVOIR,
+    Species.STARMIE,
+    Species.METAGROSS,
+    Species.PORYGON_Z,
+    Species.HATTERENE,
+    Species.MISMAGIUS,
+    Species.GOTHITELLE,
+    Species.BEHEEYEM,
+    Species.CLEFABLE,
+    Species.DEOXYS,
+    Species.SIGILYPH,
+  ],
 };
 
 interface SpeciesTmMoves {
