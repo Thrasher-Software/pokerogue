@@ -49,3 +49,6 @@ coverage
 
 # Jakes Notes
 BONFIRE.md
+
+# Python virtual environments
+movemaker/venv/

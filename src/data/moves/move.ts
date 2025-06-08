@@ -20446,6 +20446,7 @@ export function initMoves() {
       .attr(HighCritAttr)
       .attr(RecoilAttr, false, 0.33)
       .recklessMove(),
+    // On this one, can we make it so that you don't always have the cooldown?
     new AttackMove(
       Moves.COMET_AZUR,
       PokemonType.PSYCHIC,
@@ -20470,6 +20471,21 @@ export function initMoves() {
     )
       .attr(MultiHitAttr, MultiHitType._3)
       .attr(StatusEffectAttr, StatusEffect.PARALYSIS),
+    new SelfStatusMove(Moves.CHUG_SPLASH, PokemonType.WATER, -1, 5, -1, 0, 9)
+      .attr(HealAttr, 0.5, false, false)
+      .target(MoveTarget.USER_AND_ALLIES)
+      .triageMove(),
+    new AttackMove(
+      Moves.LIGHTNING_SPEAR,
+      PokemonType.ELECTRIC,
+      MoveCategory.SPECIAL,
+      70,
+      100,
+      15,
+      25,
+      0,
+      9,
+    ).attr(StatusEffectAttr, StatusEffect.PARALYSIS),
   );
   allMoves.map((m) => {
     if (

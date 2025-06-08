@@ -37,6 +37,14 @@ For detailed guidelines on documenting your code, refer to the [comments.md](./d
 
 - In the `src/overrides.ts` file there are overrides for most values you'll need to change for testing
 
+**How do I create new moves?**
+
+- A Python script has been created to help generate move code. You can find it in the `movemaker` directory.
+- Set up a virtual environment: `cd movemaker && python3 -m venv venv && source venv/bin/activate`
+- Run the script: `python movemaker.py`
+- Follow the prompts to create a move, and paste the generated code into `src/data/moves/move.ts`
+- See the [movemaker README](./movemaker/README.md) for more details
+
 **How do I retrieve the translations?**
 
 - The translations were moved to the [dedicated translation repository](https://github.com/pagefaultgames/pokerogue-locales) and are now applied as a submodule in this project.
