@@ -20486,6 +20486,19 @@ export function initMoves() {
       0,
       9,
     ).attr(StatusEffectAttr, StatusEffect.PARALYSIS),
+    new AttackMove(
+      Moves.POWER_WORD_KILL,
+      PokemonType.DARK,
+      MoveCategory.SPECIAL,
+      200,
+      30,
+      5,
+      -1,
+      0,
+      1,
+    )
+      .attr(OneHitKOAttr)
+      .attr(OneHitKOAccuracyAttr),
   );
   allMoves.map((m) => {
     if (
