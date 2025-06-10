@@ -4243,6 +4243,145 @@ export class AcupressureStatStageChangeAttr extends MoveEffectAttr {
   }
 }
 
+/**
+ * Attribute that boosts the user's or target's highest effective stat.
+ * This attribute automatically determines which of the five main battle stats
+ * (ATK, DEF, SPATK, SPDEF, SPD) has the highest current effective value and
+ * applies the stat stage change to that stat only.
+ *
+ * @example
+ * // Boost user's highest stat by 1 stage
+ * .attr(HighestStatStageChangeAttr, 1, true)
+ *
+ * // Boost target's highest stat by 2 stages
+ * .attr(HighestStatStageChangeAttr, 2, false)
+ *
+ * // Reduce target's highest stat by 1 stage
+ * .attr(HighestStatStageChangeAttr, -1, false)
+ */
+export class HighestStatStageChangeAttr extends StatStageChangeAttr {
+  constructor(
+    stages: number = 1,
+    selfTarget: boolean = false,
+    options?: StatStageChangeAttrOptions,
+  ) {
+    super([], stages, selfTarget, options);
+  }
+
+  override apply(
+    user: Pokemon,
+    target: Pokemon,
+    move: Move,
+    args: any[],
+  ): boolean {
+    if (!super.canApply(user, target, move, args)) {
+      return false;
+    }
+
+    const targetPokemon = this.selfTarget ? user : target;
+    const validBattleStats: EffectiveStat[] = [
+      Stat.ATK,
+      Stat.DEF,
+      Stat.SPATK,
+      Stat.SPDEF,
+      Stat.SPD,
+    ];
+
+    // Filter stats that can still be boosted (not at max +6 stage)
+    const boostableStats = validBattleStats.filter(
+      (s) => targetPokemon.getStatStage(s) < 6,
+    );
+
+    if (boostableStats.length === 0) {
+      return false;
+    }
+
+    // Find the stat with the highest effective value
+    let highestStat = boostableStats[0];
+    for (const stat of boostableStats) {
+      if (
+        targetPokemon.getEffectiveStat(stat) >
+        targetPokemon.getEffectiveStat(highestStat)
+      ) {
+        highestStat = stat;
+      }
+    }
+
+    // Set the stats array to only include the highest stat
+    this.stats = [highestStat];
+
+    // Apply the stat change using the parent class logic
+    const moveChance = this.getMoveChance(
+      user,
+      target,
+      move,
+      this.selfTarget,
+      true,
+    );
+    if (
+      moveChance < 0 ||
+      moveChance === 100 ||
+      user.randBattleSeedInt(100) < moveChance
+    ) {
+      const stages = this.getLevels(user);
+      globalScene.unshiftPhase(
+        new StatStageChangePhase(
+          targetPokemon.getBattlerIndex(),
+          this.selfTarget,
+          this.stats,
+          stages,
+          this.options?.showMessage ?? true,
+        ),
+      );
+      return true;
+    }
+
+    return false;
+  }
+
+  override getTargetBenefitScore(
+    user: Pokemon,
+    target: Pokemon,
+    move: Move,
+  ): number {
+    // Temporarily set stats to calculate benefit score
+    const targetPokemon = this.selfTarget ? user : target;
+    const validBattleStats: EffectiveStat[] = [
+      Stat.ATK,
+      Stat.DEF,
+      Stat.SPATK,
+      Stat.SPDEF,
+      Stat.SPD,
+    ];
+
+    const boostableStats = validBattleStats.filter(
+      (s) => targetPokemon.getStatStage(s) < 6,
+    );
+
+    if (boostableStats.length === 0) {
+      return 0;
+    }
+
+    let highestStat = boostableStats[0];
+    for (const stat of boostableStats) {
+      if (
+        targetPokemon.getEffectiveStat(stat) >
+        targetPokemon.getEffectiveStat(highestStat)
+      ) {
+        highestStat = stat;
+      }
+    }
+
+    // Temporarily set stats for benefit calculation
+    const originalStats = this.stats;
+    this.stats = [highestStat];
+    const score = super.getTargetBenefitScore(user, target, move);
+    this.stats = originalStats;
+
+    return score;
+  }
+}
+
 export class GrowthStatStageChangeAttr extends StatStageChangeAttr {
   constructor() {
     super([Stat.ATK, Stat.SPATK], 1, true);
@@ -20508,8 +20647,8 @@ export function initMoves() {
       0,
       8,
     )
-      .attr(StatStageChangeAttr, [Stat.ATK, Stat.DEF], 1)
-      .target(MoveTarget.NEAR_ALLY)
+      .attr(HighestStatStageChangeAttr, 1, false)
+      .target(MoveTarget.ALLY)
       .condition(failIfSingleBattle),
   );
   allMoves.map((m) => {
