@@ -20499,6 +20499,18 @@ export function initMoves() {
     )
       .attr(OneHitKOAttr)
       .attr(OneHitKOAccuracyAttr),
+    new StatusMove(
+      Moves.BARDIC_INSPIRATION,
+      PokemonType.NORMAL,
+      -1,
+      10,
+      -1,
+      0,
+      8,
+    )
+      .attr(StatStageChangeAttr, [Stat.ATK, Stat.DEF], 1)
+      .target(MoveTarget.NEAR_ALLY)
+      .condition(failIfSingleBattle),
   );
   allMoves.map((m) => {
     if (
