@@ -410,7 +410,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [28, Moves.IRON_TAIL],
     [32, Moves.DISCHARGE],
     [36, Moves.THUNDERBOLT],
-    [40, Moves.LIGHT_SCREEN],
+    [40, Moves.LIGHTNING_SPEAR],
     [44, Moves.THUNDER],
     [48, Moves.PIKA_PAPOW],
   ],
@@ -668,6 +668,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [1, Moves.DISARMING_VOICE],
     [4, Moves.ECHOED_VOICE],
     [8, Moves.COVET],
+    [10, Moves.BARDIC_INSPIRATION],
     [12, Moves.STOCKPILE],
     [12, Moves.SPIT_UP],
     [12, Moves.SWALLOW],
@@ -2251,9 +2252,6 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   ],
   [Species.MAGIKARP]: [
     [1, Moves.SPLASH],
-    [1, Moves.BARDIC_INSPIRATION],
-    [1, Moves.HYDRO_PUMP],
-    [1, Moves.JUDGMENT],
     [15, Moves.TACKLE],
     [25, Moves.FLAIL],
   ],
@@ -7130,6 +7128,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [1, Moves.STRUGGLE_BUG], // Previous Stage Move
     [1, Moves.BUG_BITE], // Previous Stage Move
     [14, Moves.ABSORB],
+    [16, Moves.BARDIC_INSPIRATION],
     [18, Moves.SING],
     [22, Moves.FOCUS_ENERGY],
     [26, Moves.SLASH],
@@ -7777,6 +7776,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [5, Moves.GROWL],
     [9, Moves.MIRROR_MOVE],
     [13, Moves.SING],
+    [16, Moves.BARDIC_INSPIRATION],
     [17, Moves.FURY_ATTACK],
     [29, Moves.ROUND],
     [33, Moves.MIMIC],
