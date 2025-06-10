@@ -5688,6 +5688,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [24, Moves.SCREECH],
     [28, Moves.SWAGGER],
     [34, Moves.CRUNCH],
+    [38, Moves.FRICKIN_LASER],
     [40, Moves.AGILITY],
     [46, Moves.LIQUIDATION],
     [52, Moves.TAKE_DOWN],

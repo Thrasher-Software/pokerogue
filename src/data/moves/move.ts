@@ -20650,6 +20650,17 @@ export function initMoves() {
       .attr(HighestStatStageChangeAttr, 1, false)
       .target(MoveTarget.ALLY)
       .condition(failIfSingleBattle),
+    new AttackMove(
+      Moves.FRICKIN_LASER,
+      PokemonType.ELECTRIC,
+      MoveCategory.SPECIAL,
+      90,
+      100,
+      10,
+      15,
+      0,
+      9,
+    ).attr(StatusEffectAttr, StatusEffect.BURN),
   );
   allMoves.map((m) => {
     if (
