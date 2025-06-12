@@ -42,7 +42,6 @@
     "eslint-plugin-import-x": "^4.9.4",
     "inquirer": "^12.4.2",
     "jsdom": "^26.0.0",
-    "lefthook": "^1.11.5",
     "msw": "^2.7.3",
     "phaser3spectorjs": "^0.0.8",
     "typedoc": "^0.28.1",
