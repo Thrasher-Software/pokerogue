@@ -20661,6 +20661,17 @@ export function initMoves() {
       0,
       9,
     ).attr(StatusEffectAttr, StatusEffect.BURN),
+    new AttackMove(
+      Moves.GIT_INIT,
+      PokemonType.NORMAL,
+      MoveCategory.SPECIAL,
+      40,
+      100,
+      30,
+      -1,
+      0,
+      9,
+    ),
   );
   allMoves.map((m) => {
     if (

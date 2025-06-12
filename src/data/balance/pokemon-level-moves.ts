@@ -2252,6 +2252,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   ],
   [Species.MAGIKARP]: [
     [1, Moves.SPLASH],
+    [1, Moves.GIT_INIT],
     [15, Moves.TACKLE],
     [25, Moves.FLAIL],
   ],
@@ -2399,6 +2400,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   ],
   [Species.PORYGON]: [
     [1, Moves.TACKLE],
+    [1, Moves.GIT_INIT],
     [1, Moves.CONVERSION],
     [5, Moves.RECYCLE],
     [10, Moves.MAGNET_RISE],
