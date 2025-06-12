@@ -5485,6 +5485,69 @@ export class LastMoveDoublePowerAttr extends VariablePowerAttr {
   }
 }
 
+// I'm only doing it this way for a minute, ideally I just want to make the class flexible but I just wanna work today.
+export class LastMoveOneFivePowerAttr extends VariablePowerAttr {
+  /** The move that must precede the current move */
+  private move: Moves;
+
+  constructor(move: Moves) {
+    super();
+
+    this.move = move;
+  }
+
+  /**
+   * Doubles power of move if the given move is found to precede the current
+   * move with no other moves being executed in between, only ignoring failed
+   * moves if any.
+   * @param user {@linkcode Pokemon} that used the move
+   * @param target N/A
+   * @param move N/A
+   * @param args [0] {@linkcode NumberHolder} that holds the resulting power of the move
+   * @returns true if attribute application succeeds, false otherwise
+   */
+  apply(user: Pokemon, _target: Pokemon, _move: Move, args: any[]): boolean {
+    const power = args[0] as NumberHolder;
+    const enemy = user.getOpponent(0);
+    const pokemonActed: Pokemon[] = [];
+
+    if (enemy?.turnData.acted) {
+      pokemonActed.push(enemy);
+    }
+
+    if (globalScene.currentBattle.double) {
+      const userAlly = user.getAlly();
+      const enemyAlly = enemy?.getAlly();
+
+      if (userAlly?.turnData.acted) {
+        pokemonActed.push(userAlly);
+      }
+      if (enemyAlly?.turnData.acted) {
+        pokemonActed.push(enemyAlly);
+      }
+    }
+
+    pokemonActed.sort((a, b) => b.turnData.order - a.turnData.order);
+
+    for (const p of pokemonActed) {
+      const [lastMove] = p.getLastXMoves(1);
+      if (lastMove.result !== MoveResult.FAIL) {
+        if (
+          lastMove.result === MoveResult.SUCCESS &&
+          lastMove.move === this.move
+        ) {
+          power.value *= 1.5;
+          return true;
+        } else {
+          break;
+        }
+      }
+    }
+
+    return false;
+  }
+}
+
 /**
  * Changes a Pledge move's power to 150 when combined with another unique Pledge
  * move from an ally.
@@ -20669,9 +20732,59 @@ export function initMoves() {
       100,
       30,
       -1,
+      1,
+      1,
+    ),
+    new AttackMove(
+      Moves.GIT_COMMIT,
+      PokemonType.ELECTRIC,
+      MoveCategory.SPECIAL,
+      65,
+      100,
+      20,
+      0,
       0,
       9,
-    ),
+    ).attr(LastMoveOneFivePowerAttr, Moves.GIT_INIT),
+    new AttackMove(
+      Moves.GIT_PUSH,
+      PokemonType.ICE,
+      MoveCategory.SPECIAL,
+      100,
+      100,
+      10,
+      30,
+      0,
+      9,
+    )
+      .attr(LastMoveOneFivePowerAttr, Moves.GIT_COMMIT)
+      .attr(StatusEffectAttr, StatusEffect.FREEZE),
+    new AttackMove(
+      Moves.GIT_PUSH_FORCE,
+      PokemonType.DRAGON,
+      MoveCategory.SPECIAL,
+      120,
+      85,
+      5,
+      30,
+      0,
+      9,
+    )
+      .attr(LastMoveDoublePowerAttr, Moves.GIT_PUSH)
+      .attr(StatusEffectAttr, StatusEffect.TOXIC)
+      .attr(RecoilAttr)
+      .recklessMove(),
+    new AttackMove(
+      Moves.GIT_REBASE,
+      PokemonType.STEEL,
+      MoveCategory.SPECIAL,
+      40,
+      100,
+      5,
+      30,
+      0,
+      9,
+    ).attr(ForceSwitchOutAttr, true),
   );
   allMoves.map((m) => {
     if (
