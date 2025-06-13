@@ -99,8 +99,6 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
 };
 ```
 
-**Important**: Ensure moves match your Pokémon's typing and theme.
-
 ## Step 6: Configure Egg Moves (Optional)
 
 Edit `src/data/balance/egg-moves.ts`:

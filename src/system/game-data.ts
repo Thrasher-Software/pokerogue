@@ -112,6 +112,7 @@ export const defaultStarterSpecies: Species[] = [
   Species.FUECOCO,
   Species.QUAXLY,
   Species.ARTORIAS,
+  Species.VAN,
 ];
 
 const saveKey = "x0i2O7WRiANTqPmZ"; // Temporary; secure encryption is not yet necessary
@@ -634,7 +635,8 @@ export class GameData {
           );
           for (const speciesId of starterSpeciesIds) {
             if (!this.starterData[speciesId]) {
-              this.starterData[speciesId] = this.buildStarterDataEntry(speciesId);
+              this.starterData[speciesId] =
+                this.buildStarterDataEntry(speciesId);
               if (!this.dexData[speciesId]) {
                 this.dexData[speciesId] =
                   this.defaultDexData?.[speciesId] || this.buildDexEntry();
@@ -1957,7 +1959,7 @@ export class GameData {
         : 0,
       passiveAttr: 0,
       valueReduction: 0,
-    classicWinCount: 0,
+      classicWinCount: 0,
     };
   }
 

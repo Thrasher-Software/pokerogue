@@ -2164,4 +2164,5 @@ export enum Species {
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pokémon) | Source} */
   BLOODMOON_URSALUNA = 8901,
   ARTORIAS = 8902,
+  VAN = 8903,
 }

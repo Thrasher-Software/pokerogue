@@ -617,6 +617,7 @@ export const speciesStarterCosts = {
   [Species.PALDEA_WOOPER]: 3,
   [Species.BLOODMOON_URSALUNA]: 5,
   [Species.ARTORIAS]: 4,
+  [Species.VAN]: 3,
 };
 
 const starterCandyCosts: {

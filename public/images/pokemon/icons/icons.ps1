@@ -1401,6 +1401,7 @@ $pkmnTable = @{
 	"wooper-paldea" = "8194"
 	"bloodmoon-ursaluna" = "8901"
 	"artorias" = "8902"
+	"van" = "8903"
 }
 
 $dir = "."

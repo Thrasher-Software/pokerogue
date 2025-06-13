@@ -3427,6 +3427,12 @@ export const speciesEggMoves = {
     Moves.SANDSEAR_STORM,
     Moves.BOOMBURST,
   ],
+  [Species.VAN]: [
+    Moves.COMET_AZUR,
+    Moves.CHUG_SPLASH,
+    Moves.MACH_PUNCH,
+    Moves.DISARMING_VOICE,
+  ],
 };
 
 function parseEggMoves(content: string): void {
