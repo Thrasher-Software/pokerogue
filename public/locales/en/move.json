@@ -3870,5 +3870,9 @@
   "butter": {
     "name": "Butter",
     "effect": "Ooh, when I look in the mirror, I'll melt your heart into two"
+  },
+  "cypher": {
+    "name": "Cypher",
+    "effect": "Then imma murder you haters."
   }
 }

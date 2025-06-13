@@ -76,9 +76,10 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [58, Moves.SOLAR_BEAM],
   ],
   [Species.CHARMANDER]: [
-    [1, Moves.SCRATCH],
-    [1, Moves.GROWL],
-    [4, Moves.EMBER],
+    [1, Moves.JUDGMENT],
+    [1, Moves.FIRE_BLAST],
+    [1, Moves.BLUE_FLARE],
+    [1, Moves.CYPHER],
     [8, Moves.SMOKESCREEN],
     [12, Moves.DRAGON_BREATH],
     [17, Moves.FIRE_FANG],

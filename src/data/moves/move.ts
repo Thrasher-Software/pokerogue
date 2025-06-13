@@ -20821,6 +20821,21 @@ export function initMoves() {
       0,
       9,
     ).attr(StatStageChangeAttr, [Stat.EVA, Stat.SPD], 2, true),
+    new AttackMove(
+      Moves.CYPHER,
+      PokemonType.DARK,
+      MoveCategory.PHYSICAL,
+      150,
+      -1,
+      5,
+      -1,
+      0,
+      1,
+    )
+      .attr(MultiHitAttr)
+      .attr(StatusEffectAttr, StatusEffect.TOXIC)
+      .attr(ToxicAccuracyAttr)
+      .attr(StatStageChangeAttr, [Stat.EVA, Stat.SPD], 2, true),
   );
   allMoves.map((m) => {
     if (

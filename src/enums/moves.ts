@@ -1888,4 +1888,5 @@ export enum Moves {
   MIC_DROP,
   DYNAMITE,
   BUTTER,
+  CYPHER,
 }
