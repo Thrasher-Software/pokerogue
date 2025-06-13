@@ -23,6 +23,8 @@ export const EVOLVE_MOVE = 0;
 export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   [Species.BULBASAUR]: [
     [1, Moves.TACKLE],
+    [1, Moves.WATERFOWL_DANCE],
+    [1, Moves.BUTTER],
     [3, Moves.VINE_WHIP],
     [6, Moves.GROWTH],
     [9, Moves.LEECH_SEED],
@@ -2251,10 +2253,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [60, Moves.GIGA_IMPACT],
   ],
   [Species.MAGIKARP]: [
-    [1, Moves.GIT_PUSH_FORCE],
-    [1, Moves.GIT_INIT],
-    [1, Moves.GIT_COMMIT],
-    [1, Moves.GIT_PUSH],
+    [1, Moves.SPLASH],
     [15, Moves.TACKLE],
     [25, Moves.FLAIL],
   ],

@@ -20784,7 +20784,43 @@ export function initMoves() {
       30,
       0,
       9,
-    ).attr(ForceSwitchOutAttr, true),
+    )
+      .attr(ForceSwitchOutAttr, true)
+      .attr(StealHeldItemChanceAttr, 0.5),
+    new AttackMove(
+      Moves.MIC_DROP,
+      PokemonType.DARK,
+      MoveCategory.SPECIAL,
+      40,
+      100,
+      10,
+      -1,
+      0,
+      9,
+    )
+      .target(MoveTarget.ALL_NEAR_ENEMIES)
+      .soundBased()
+      .attr(ResetStatsAttr, false),
+    new AttackMove(
+      Moves.DYNAMITE,
+      PokemonType.FAIRY,
+      MoveCategory.SPECIAL,
+      40,
+      100,
+      30,
+      -1,
+      1,
+      1,
+    ).attr(StatStageChangeAttr, [Stat.SPD], 1, true),
+    new SelfStatusMove(
+      Moves.BUTTER,
+      PokemonType.PSYCHIC,
+      100,
+      20,
+      -1,
+      0,
+      9,
+    ).attr(StatStageChangeAttr, [Stat.EVA, Stat.SPD], 2, true),
   );
   allMoves.map((m) => {
     if (

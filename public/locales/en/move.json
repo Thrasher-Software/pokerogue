@@ -3858,5 +3858,17 @@
   "gitRebase": {
     "name": "git rebase",
     "effect": "Cherry-picked your stuff, dropped my branch, see ya!"
+  },
+  "micDrop": {
+    "name": "Mic Drop",
+    "effect": "Yeah, I'm on the mountain, yeah, I'm on the bay (pop) Everyday we vibin', mic drop, bam"
+  },
+  "dynamite": {
+    "name": "Dynamite",
+    "effect": "This is gettin' heavy, can you hear the bass boom? I'm ready (Woo-hoo) Life is sweet as honey, yeah, this beat cha-ching like money"
+  },
+  "butter": {
+    "name": "Butter",
+    "effect": "Ooh, when I look in the mirror, I'll melt your heart into two"
   }
 }

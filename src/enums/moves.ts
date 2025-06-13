@@ -1885,4 +1885,7 @@ export enum Moves {
   GIT_PUSH,
   GIT_PUSH_FORCE,
   GIT_REBASE,
+  MIC_DROP,
+  DYNAMITE,
+  BUTTER,
 }
