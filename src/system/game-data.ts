@@ -629,6 +629,18 @@ export class GameData {
           }
         } else {
           this.starterData = systemData.starterData;
+          const starterSpeciesIds = Object.keys(speciesStarterCosts).map(
+            (k) => Number.parseInt(k) as Species,
+          );
+          for (const speciesId of starterSpeciesIds) {
+            if (!this.starterData[speciesId]) {
+              this.starterData[speciesId] = this.buildStarterDataEntry(speciesId);
+              if (!this.dexData[speciesId]) {
+                this.dexData[speciesId] =
+                  this.defaultDexData?.[speciesId] || this.buildDexEntry();
+              }
+            }
+          }
         }
 
         if (systemData.gameStats) {
@@ -1928,21 +1940,37 @@ export class GameData {
     );
 
     for (const speciesId of starterSpeciesIds) {
-      starterData[speciesId] = {
-        moveset: null,
-        eggMoves: 0,
-        candyCount: 0,
-        friendship: 0,
-        abilityAttr: defaultStarterSpecies.includes(speciesId)
-          ? AbilityAttr.ABILITY_1
-          : 0,
-        passiveAttr: 0,
-        valueReduction: 0,
-        classicWinCount: 0,
-      };
+      starterData[speciesId] = this.buildStarterDataEntry(speciesId);
     }
 
     this.starterData = starterData;
+  }
+
+  private buildStarterDataEntry(speciesId: Species): StarterDataEntry {
+    return {
+      moveset: null,
+      eggMoves: 0,
+      candyCount: 0,
+      friendship: 0,
+      abilityAttr: defaultStarterSpecies.includes(speciesId)
+        ? AbilityAttr.ABILITY_1
+        : 0,
+      passiveAttr: 0,
+      valueReduction: 0,
+    classicWinCount: 0,
+    };
+  }
+
+  private buildDexEntry(): DexEntry {
+    return {
+      seenAttr: 0n,
+      caughtAttr: 0n,
+      natureAttr: 0,
+      seenCount: 0,
+      caughtCount: 0,
+      hatchedCount: 0,
+      ivs: [0, 0, 0, 0, 0, 0],
+    };
   }
 
   setPokemonSeen(
