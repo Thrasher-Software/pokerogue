@@ -616,19 +616,24 @@ export const speciesStarterCosts = {
   [Species.PALDEA_TAUROS]: 5,
   [Species.PALDEA_WOOPER]: 3,
   [Species.BLOODMOON_URSALUNA]: 5,
+  [Species.ARTORIAS]: 4,
 };
 
-const starterCandyCosts: { passive: number; costReduction: [number, number]; egg: number; }[] = [
-  { passive: 40, costReduction: [ 25, 60 ], egg: 30 }, // 1 Cost
-  { passive: 40, costReduction: [ 25, 60 ], egg: 30 }, // 2 Cost
-  { passive: 35, costReduction: [ 20, 50 ], egg: 25 }, // 3 Cost
-  { passive: 30, costReduction: [ 15, 40 ], egg: 20 }, // 4 Cost
-  { passive: 25, costReduction: [ 12, 35 ], egg: 18 }, // 5 Cost
-  { passive: 20, costReduction: [ 10, 30 ], egg: 15 }, // 6 Cost
-  { passive: 15, costReduction: [ 8, 20 ], egg: 12 }, // 7 Cost
-  { passive: 10, costReduction: [ 5, 15 ], egg: 10 }, // 8 Cost
-  { passive: 10, costReduction: [ 5, 15 ], egg: 10 }, // 9 Cost
-  { passive: 10, costReduction: [ 5, 15 ], egg: 10 }, // 10 Cost
+const starterCandyCosts: {
+  passive: number;
+  costReduction: [number, number];
+  egg: number;
+}[] = [
+  { passive: 40, costReduction: [25, 60], egg: 30 }, // 1 Cost
+  { passive: 40, costReduction: [25, 60], egg: 30 }, // 2 Cost
+  { passive: 35, costReduction: [20, 50], egg: 25 }, // 3 Cost
+  { passive: 30, costReduction: [15, 40], egg: 20 }, // 4 Cost
+  { passive: 25, costReduction: [12, 35], egg: 18 }, // 5 Cost
+  { passive: 20, costReduction: [10, 30], egg: 15 }, // 6 Cost
+  { passive: 15, costReduction: [8, 20], egg: 12 }, // 7 Cost
+  { passive: 10, costReduction: [5, 15], egg: 10 }, // 8 Cost
+  { passive: 10, costReduction: [5, 15], egg: 10 }, // 9 Cost
+  { passive: 10, costReduction: [5, 15], egg: 10 }, // 10 Cost
 ];
 
 /**
@@ -645,7 +650,9 @@ export function getPassiveCandyCount(starterCost: number): number {
  * @param starterCost the default point cost of the starter found in {@linkcode speciesStarterCosts}
  * @returns respective candy cost for the two cost reductions as an array 2 numbers
  */
-export function getValueReductionCandyCounts(starterCost: number): [number, number] {
+export function getValueReductionCandyCounts(
+  starterCost: number,
+): [number, number] {
   return starterCandyCosts[starterCost - 1].costReduction;
 }
 
@@ -657,4 +664,3 @@ export function getValueReductionCandyCounts(starterCost: number): [number, numb
 export function getSameSpeciesEggCandyCounts(starterCost: number): number {
   return starterCandyCosts[starterCost - 1].egg;
 }
-
