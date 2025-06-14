@@ -248,6 +248,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWKING,
     Species.GALAR_DARUMAKA,
     Species.GALAR_DARMANITAN,
+    Species.ARTORIAS,
   ],
   [Moves.PAY_DAY]: [
     Species.PIKACHU,
@@ -1199,6 +1200,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
     Species.HISUI_DECIDUEYE,
     Species.BLOODMOON_URSALUNA,
+    Species.ARTORIAS,
   ],
   [Moves.CUT]: [
     Species.BULBASAUR,
@@ -1477,6 +1479,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_LILLIGANT,
     Species.HISUI_BRAVIARY,
     Species.BLOODMOON_URSALUNA,
+    Species.ARTORIAS,
   ],
   [Moves.FLY]: [
     Species.CHARIZARD,
@@ -2425,6 +2428,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_TAUROS,
     Species.PALDEA_WOOPER,
     Species.BLOODMOON_URSALUNA,
+    Species.ARTORIAS,
   ],
   [Moves.TAKE_DOWN]: [
     Species.BULBASAUR,
@@ -3117,6 +3121,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
     Species.PALDEA_TAUROS,
     Species.PALDEA_WOOPER,
+    Species.ARTORIAS,
   ],
   [Moves.DOUBLE_EDGE]: [
     Species.BULBASAUR,
@@ -3716,6 +3721,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_TAUROS,
     Species.PALDEA_WOOPER,
     Species.BLOODMOON_URSALUNA,
+    Species.ARTORIAS,
   ],
   [Moves.PIN_MISSILE]: [
     Species.BEEDRILL,

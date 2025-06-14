@@ -3423,9 +3423,9 @@ export const speciesEggMoves = {
   ],
   [Species.ARTORIAS]: [
     Moves.NASTY_PLOT,
-    Moves.ROCK_POLISH,
-    Moves.SANDSEAR_STORM,
-    Moves.BOOMBURST,
+    Moves.GEAR_GRIND,
+    Moves.CRUNCH,
+    Moves.GIGA_IMPACT,
   ],
   [Species.VAN]: [
     Moves.COMET_AZUR,
