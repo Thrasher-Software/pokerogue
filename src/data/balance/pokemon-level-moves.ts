@@ -19053,6 +19053,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [32, Moves.METEOR_MASH],
     [36, Moves.FUTURE_SIGHT],
     [40, Moves.PSYSTRIKE],
+    [45, Moves.PSYCHIC],
     [60, Moves.MAKE_IT_RAIN],
     [80, Moves.HYPERSPACE_FURY],
   ],
