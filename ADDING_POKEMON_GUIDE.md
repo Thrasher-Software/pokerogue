@@ -178,7 +178,9 @@ public/images/pokemon/back/shiny/8902.png
 cd public/images/pokemon/icons/[generation]/
 
 # Run TexturePacker (Linux/Mac)
-TexturePacker ./  ../configuration.tps --sheet ../../../pokemon_icons_[generation].png --data ../../../pokemon_icons_[generation].json --replace .png=
+cd pokerogue/public/images/pokemon/icons/9/
+TexturePacker ./ ../configuration.tps --sheet ../../../pokemon_icons_9.png --data ../../../pokemon_icons_9.json --replace .png=
+
 
 # Windows
 icons.bat
