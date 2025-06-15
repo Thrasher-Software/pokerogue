@@ -1,12 +1,12 @@
 # Adding a New Pokémon to PokeRogue
 
-This guide covers the complete process of adding a new Pokémon to PokeRogue, based on the experience of adding Artorias (ID: 8902).
+This guide covers the complete process of adding a new Pokémon to PokeRogue.
 
 ## Overview
 
 Adding a Pokémon involves several components:
 - Species definition (stats, types, abilities)
-- Sprite assets (icons, battle sprites, back sprites)
+- Sprite assets (icons, battle sprites, back sprites, shiny versions for each)
 - Move sets and battle data
 - Starter integration
 - UI atlas regeneration
@@ -16,14 +16,14 @@ Adding a Pokémon involves several components:
 - Node.js and npm installed
 - TexturePacker installed (for regenerating sprite atlases)
 - Basic understanding of TypeScript
-- Sprite assets prepared (40x30 icons, battle sprites, back sprites)
+- Sprite assets prepared (40x30 icons, battle sprites, back sprites, shiny versions for each)
 
 ## Step 1: Choose Species ID
 
 Choose an ID that doesn't conflict with existing Pokémon:
 - Regular Pokémon: 1-1025
-- Custom/Fan Pokémon: 8000+ range recommended
-- Check existing IDs in `src/enums/species.ts`
+- IDs above 2000 are separated into blocks for regional forms.
+- To add a new Pokemon, you can place it directly after the Pecharunt in the enum and when you define the species data. This will place your pokemon at number 1026.
 
 ## Step 2: Add Species Enum Entry
 
@@ -32,7 +32,8 @@ Edit `src/enums/species.ts`:
 ```typescript
 export enum Species {
   // ... existing entries
-  YOUR_POKEMON = 8902, // Replace with your chosen ID
+  PECHARUNT,
+  YOUR_POKEMON, // Replace with your chosen ID
 }
 ```
 
@@ -160,13 +161,13 @@ Create the following sprite files:
 - `public/images/pokemon/back/[ID].png` - Back battle sprite
 - `public/images/pokemon/back/shiny/[ID].png` - Shiny back sprite
 
-Example for ID 8902 in Generation 9:
+Example for ID 1026 in Generation 9:
 ```
-public/images/pokemon/icons/9/8902.png
-public/images/pokemon/icons/9/8902s.png
-public/images/pokemon/8902.png
-public/images/pokemon/back/8902.png
-public/images/pokemon/back/shiny/8902.png
+public/images/pokemon/icons/9/1026.png
+public/images/pokemon/icons/9/1026s.png
+public/images/pokemon/1026.png
+public/images/pokemon/back/1026.png
+public/images/pokemon/back/shiny/1026.png
 ```
 
 ## Step 11: Regenerate Icon Atlas
@@ -193,12 +194,8 @@ This updates:
 ## Step 12: Build and Test
 
 ```bash
-# Clean build
-rm -rf dist/
-npm run build
-
 # Start development server
-npm run start
+npm run start:dev
 ```
 
 ## Step 13: Test Integration
@@ -208,28 +205,6 @@ npm run start
 3. **Verify typing display** - Should show correct types
 4. **Test in battle** - Sprites and moves should work
 5. **Check moveset** - Ensure moves are appropriate for the typing
-
-## Common Issues and Solutions
-
-### Issue: Wrong typing displayed in starter selection
-**Cause**: Moveset doesn't match Pokémon typing
-**Solution**: Ensure level moves match your Pokémon's types in `pokemon-level-moves.ts`
-
-### Issue: Sprite not showing/wrong sprite
-**Cause**: Atlas not regenerated or wrong coordinates
-**Solution**: Re-run TexturePacker to regenerate atlas files
-
-### Issue: Game crashes on starter selection
-**Cause**: Missing sprite assets or starter data
-**Solution**: Verify all required files exist and clear browser localStorage
-
-### Issue: "starterData undefined" error
-**Cause**: Browser cache with old data
-**Solution**: Clear all browser data and restart game
-
-### Issue: No moves in battle
-**Cause**: Empty or incorrectly formatted moveset
-**Solution**: Check `pokemon-level-moves.ts` for proper move array format
 
 ## File Checklist
 
@@ -246,20 +221,6 @@ Before submitting, verify these files are modified:
 - [ ] All sprite assets created
 - [ ] Atlas files regenerated
 
-## Advanced Configuration
-
-### Custom Forms
-For Pokémon with multiple forms, add form definitions in the species constructor.
-
-### Evolution Chains
-Add evolution data in `src/data/balance/pokemon-evolutions.ts`.
-
-### Type Effectiveness
-Custom type interactions can be added in the type effectiveness system.
-
-### Custom Abilities
-New abilities can be defined in the abilities system.
-
 ## Testing Checklist
 
 - [ ] Pokémon appears in starter selection
@@ -271,14 +232,6 @@ New abilities can be defined in the abilities system.
 - [ ] No console errors
 - [ ] Game doesn't crash
 
-## Notes
-
-- Always regenerate atlases after adding/changing icon sprites
-- Clear browser cache when testing changes
-- Keep species IDs consistent across all files
-- Ensure moveset matches Pokémon typing for proper UI display
-- Test thoroughly before considering complete
-
 ## Support
 
 If you encounter issues:
@@ -286,3 +239,5 @@ If you encounter issues:
 2. Verify all files are properly formatted
 3. Ensure TexturePacker regenerated atlases correctly
 4. Clear all browser data and test again
+
+If you have any issues feel free to ping me. I'd like to thank the kind folks in the PokeRgoue Discord server for helping me with this.

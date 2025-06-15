@@ -3874,5 +3874,9 @@
   "cypher": {
     "name": "Cypher",
     "effect": "Yeah im the top of the top of the top, Poppin'em, rockin'em, stoppin'em."
+  },
+  "daggerFlurry": {
+    "name": "Dagger Flurry",
+    "effect": "The user unleashes a torrent of daggers, soaked in poison."
   }
 }

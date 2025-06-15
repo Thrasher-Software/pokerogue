@@ -77,7 +77,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   ],
   [Species.CHARMANDER]: [
     [1, Moves.JUDGMENT],
-    [1, Moves.FIRE_BLAST],
+    [1, Moves.DAGGER_FLURRY],
     [1, Moves.BLUE_FLARE],
     [1, Moves.CYPHER],
     [8, Moves.SMOKESCREEN],

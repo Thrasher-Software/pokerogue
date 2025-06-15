@@ -1889,4 +1889,5 @@ export enum Moves {
   DYNAMITE,
   BUTTER,
   CYPHER,
+  DAGGER_FLURRY,
 }

@@ -20836,6 +20836,19 @@ export function initMoves() {
       .attr(StatusEffectAttr, StatusEffect.TOXIC)
       .attr(ToxicAccuracyAttr)
       .attr(StatStageChangeAttr, [Stat.EVA, Stat.SPD], 2, true),
+    new AttackMove(
+      Moves.DAGGER_FLURRY,
+      PokemonType.STEEL,
+      MoveCategory.SPECIAL,
+      10,
+      100,
+      15,
+      -1,
+      0,
+      9,
+    )
+      .attr(MultiHitAttr)
+      .attr(StatusEffectAttr, StatusEffect.POISON),
   );
   allMoves.map((m) => {
     if (
