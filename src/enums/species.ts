@@ -2049,6 +2049,9 @@ export enum Species {
   TERAPAGOS,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Pecharunt_(Pokémon) | Source} */
   PECHARUNT,
+  KOYA,
+  ARTORIAS,
+  VAN,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pokémon) | Source} */
   ALOLA_RATTATA = 2019,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pokémon) | Source} */
@@ -2163,6 +2166,4 @@ export enum Species {
   PALDEA_WOOPER = 8194,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pokémon) | Source} */
   BLOODMOON_URSALUNA = 8901,
-  ARTORIAS = 8902,
-  VAN = 8903,
 }

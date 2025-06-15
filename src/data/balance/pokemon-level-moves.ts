@@ -19057,6 +19057,21 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [60, Moves.MAKE_IT_RAIN],
     [80, Moves.HYPERSPACE_FURY],
   ],
+  [Species.KOYA]: [
+    [1, Moves.POUND],
+    [1, Moves.SAND_ATTACK],
+    [10, Moves.AMNESIA],
+    [20, Moves.BATON_PASS],
+    [25, Moves.BUTTER],
+    [30, Moves.ANCIENT_POWER],
+    [40, Moves.LIFE_DEW],
+    [50, Moves.NASTY_PLOT],
+    [60, Moves.METRONOME],
+    [70, Moves.IMPRISON],
+    [80, Moves.TRANSFORM],
+    [90, Moves.AURA_SPHERE],
+    [100, Moves.PSYCHIC],
+  ],
 };
 
 export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {

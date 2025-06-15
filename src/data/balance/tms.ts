@@ -9880,6 +9880,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
     Species.HISUI_BRAVIARY,
     Species.VAN,
+    Species.KOYA,
   ],
   [Moves.AGILITY]: [
     Species.BEEDRILL,
@@ -13972,6 +13973,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWKING,
     Species.GALAR_CORSOLA,
     Species.PALDEA_WOOPER,
+    Species.KOYA,
   ],
   [Moves.DREAM_EATER]: [
     Species.BUTTERFREE,
@@ -14161,6 +14163,7 @@ export const tmSpecies: TmSpecies = {
     Species.MAROWAK,
     Species.GALAR_ARTICUNO,
     Species.VAN,
+    Species.KOYA,
   ],
   [Moves.LEECH_LIFE]: [
     Species.EKANS,
