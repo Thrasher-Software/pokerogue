@@ -1890,4 +1890,5 @@ export enum Moves {
   BUTTER,
   CYPHER,
   DAGGER_FLURRY,
+  EGG_LASH,
 }

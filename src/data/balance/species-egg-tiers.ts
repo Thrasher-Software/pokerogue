@@ -585,4 +585,5 @@ export const speciesEggTiers = {
   [Species.ARTORIAS]: EggTier.EPIC,
   [Species.VAN]: EggTier.EPIC,
   [Species.KOYA]: EggTier.EPIC,
+  [Species.HARDEVIL]: EggTier.EPIC,
 };

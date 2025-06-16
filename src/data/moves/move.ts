@@ -20624,12 +20624,12 @@ export function initMoves() {
       Moves.MALIGNANT_CHAIN,
       PokemonType.POISON,
       MoveCategory.SPECIAL,
-      100,
-      100,
-      5,
-      50,
-      0,
-      9,
+      100, // Base Power
+      100, // Accuracy
+      5, // PP
+      50, // Chance of inflicting status.
+      0, // Priority, 0 is normal
+      9, // Generation
     ).attr(StatusEffectAttr, StatusEffect.TOXIC),
     // This starts our custom moves.
     new AttackMove(
@@ -20849,6 +20849,19 @@ export function initMoves() {
     )
       .attr(MultiHitAttr)
       .attr(StatusEffectAttr, StatusEffect.POISON),
+    // Signature move of Hardevil.
+    // If you give this to other Pokemon, please also update the locale to not ref Hardevil.
+    new AttackMove(
+      Moves.EGG_LASH,
+      PokemonType.POISON,
+      MoveCategory.PHYSICAL,
+      80, // Base Power
+      100, // Accuracy
+      10, // PP
+      50, // Chance of inflicting status.
+      0, // Priority, 0 is normal
+      9, // Generation
+    ).attr(StatusEffectAttr, StatusEffect.POISON),
   );
   allMoves.map((m) => {
     if (

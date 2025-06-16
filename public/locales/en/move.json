@@ -3878,5 +3878,9 @@
   "daggerFlurry": {
     "name": "Dagger Flurry",
     "effect": "The user unleashes a torrent of daggers, soaked in poison."
+  },
+  "eggLash": {
+    "name": "Egg Lash",
+    "effect": "Hardevil brandishes a nasty lash egg, inflicting damage and causing the target to be poisoned."
   }
 }

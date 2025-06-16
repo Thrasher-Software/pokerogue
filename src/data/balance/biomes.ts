@@ -702,6 +702,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.FURFROU,
         { 1: [Species.FIDOUGH], 26: [Species.DACHSBUN] },
         Species.SQUAWKABILLY,
+        Species.HARDEVIL,
       ],
     },
     [BiomePoolTier.RARE]: {
@@ -1231,6 +1232,7 @@ export const biomePokemonPools: BiomePokemonPools = {
           36: [Species.QUAQUAVAL],
         },
         Species.TATSUGIRI,
+        Species.HARDEVIL,
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -1637,7 +1639,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.NIGHT]: [Species.ARTORIAS],
       [TimeOfDay.ALL]: [
         { 1: [Species.LARVITAR], 30: [Species.PUPITAR] },
         { 1: [Species.CRANIDOS], 30: [Species.RAMPARDOS] },
@@ -1760,6 +1762,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.ONIX,
         Species.GLIGAR,
         { 1: [Species.POLTCHAGEIST], 30: [Species.SINISTCHA] },
+        Species.ARTORIAS,
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -1872,7 +1875,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [Species.SHUCKLE],
+      [TimeOfDay.ALL]: [Species.SHUCKLE, Species.ARTORIAS],
     },
     [BiomePoolTier.ULTRA_RARE]: {
       [TimeOfDay.DAWN]: [],
@@ -1975,7 +1978,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.HELIOPTILE,
       ],
       [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.NIGHT]: [Species.ARTORIAS],
       [TimeOfDay.ALL]: [
         Species.MARACTUS,
         { 1: [Species.BRAMBLIN], 30: [Species.BRAMBLEGHAST] },
@@ -2788,6 +2791,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.ALL]: [
         { 1: [Species.BRONZOR], 33: [Species.BRONZONG] },
         Species.KLEFKI,
+        Species.HARDEVIL,
       ],
     },
     [BiomePoolTier.RARE]: {

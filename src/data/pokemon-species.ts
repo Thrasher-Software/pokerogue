@@ -42765,6 +42765,62 @@ export function initSpecies() {
       false,
     ),
     new PokemonSpecies(
+      Species.HARDEVIL,
+      9,
+      false,
+      false,
+      false,
+      "Rotten Egg Pokémon",
+      PokemonType.POISON,
+      PokemonType.DARK,
+      0.5,
+      5,
+      Abilities.STENCH,
+      Abilities.STICKY_HOLD,
+      Abilities.POISON_TOUCH,
+      500,
+      105,
+      105,
+      75,
+      65,
+      100,
+      50,
+      75,
+      70,
+      175,
+      GrowthRate.MEDIUM_FAST,
+      50,
+      false,
+    ),
+    new PokemonSpecies(
+      Species.STEVE,
+      9, //generation
+      false, // Not sublegendary
+      false, // Not legendary
+      false, // Not mythical
+      "Brown Thraser Pokémon",
+      PokemonType.FLYING,
+      PokemonType.FIGHTING,
+      0.3, // Height
+      1.8, //Weight
+      Abilities.KEEN_EYE, // Primary Ability
+      Abilities.TANGLED_FEET, // Secondary Ability
+      Abilities.BIG_PECKS, // Hidden Ability
+      500, // Stat Total
+      78, //  HP
+      92, // ATK
+      75, //DEF
+      74, //SpATK
+      63, //SpDEF
+      118, //SPD
+      100, // Catch Rate
+      50, // Base Friendship
+      175, // Base EXP
+      GrowthRate.MEDIUM_FAST, // Growth Rate
+      50, // Gender Ratio
+      false, // Can't change forms
+    ),
+    new PokemonSpecies(
       Species.ALOLA_RATTATA,
       7,
       false,
