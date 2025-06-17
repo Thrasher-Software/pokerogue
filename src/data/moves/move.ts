@@ -20820,7 +20820,7 @@ export function initMoves() {
       -1,
       0,
       9,
-    ).attr(StatStageChangeAttr, [Stat.EVA, Stat.SPD], 2, true),
+    ).attr(StatStageChangeAttr, [Stat.EVA, Stat.SPD], 1, true),
     new AttackMove(
       Moves.CYPHER,
       PokemonType.DARK,
