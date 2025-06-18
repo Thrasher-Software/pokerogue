@@ -1,6 +1,6 @@
 {
   "id": 678,
-  "graphic": "PRAS- Mirror Coat",
+  "graphic": "pour-sumi",
   "frames": [
     [
       {
@@ -3618,7 +3618,7 @@
     "0": [
       {
         "frameIndex": 0,
-        "resourceName": "PRAS- Psychic Terrain BG",
+        "resourceName": "PRAS- judgment BG",
         "bgX": 0,
         "bgY": 0,
         "opacity": 0,
@@ -3627,15 +3627,6 @@
       },
       {
         "frameIndex": 0,
-        "resourceName": "PRSFX- Psychic Terrain1.wav",
-        "volume": 100,
-        "pitch": 100,
-        "eventType": "AnimTimedSoundEvent"
-      }
-    ],
-    "20": [
-      {
-        "frameIndex": 20,
         "resourceName": "",
         "bgX": 0,
         "bgY": 0,
@@ -3644,18 +3635,22 @@
         "eventType": "AnimTimedUpdateBgEvent"
       },
       {
-        "frameIndex": 20,
-        "resourceName": "PRSFX- Psychic Terrain2.wav",
+        "frameIndex": 0,
+        "resourceName": "PRSFX- Judgment.wav",
         "volume": 100,
-        "pitch": 125,
+        "pitch": 110,
         "eventType": "AnimTimedSoundEvent"
-      },
+      }
+    ],
+    "37": [
       {
-        "frameIndex": 20,
-        "resourceName": "PRSFX- Psychic Terrain3.wav",
-        "volume": 100,
-        "pitch": 130,
-        "eventType": "AnimTimedSoundEvent"
+        "frameIndex": 37,
+        "resourceName": "",
+        "bgX": 0,
+        "bgY": 0,
+        "opacity": 0,
+        "duration": 7,
+        "eventType": "AnimTimedUpdateBgEvent"
       }
     ]
   },
