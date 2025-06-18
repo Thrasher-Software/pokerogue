@@ -9,7 +9,15 @@ import { Species } from "#app/enums/species";
 import * as Utils from "#app/utils/common";
 import GameManager from "#test/testUtils/gameManager";
 import Phaser from "phaser";
-import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from "vitest";
+import {
+  afterEach,
+  beforeAll,
+  beforeEach,
+  describe,
+  expect,
+  it,
+  vi,
+} from "vitest";
 
 describe("Evolution", () => {
   let phaserGame: Phaser.Game;
@@ -44,10 +52,16 @@ describe("Evolution", () => {
     eevee.abilityIndex = 2;
     trapinch.abilityIndex = 2;
 
-    await eevee.evolve(pokemonEvolutions[Species.EEVEE][6], eevee.getSpeciesForm());
+    await eevee.evolve(
+      pokemonEvolutions[Species.EEVEE][6],
+      eevee.getSpeciesForm(),
+    );
     expect(eevee.abilityIndex).toBe(2);
 
-    await trapinch.evolve(pokemonEvolutions[Species.TRAPINCH][0], trapinch.getSpeciesForm());
+    await trapinch.evolve(
+      pokemonEvolutions[Species.TRAPINCH][0],
+      trapinch.getSpeciesForm(),
+    );
     expect(trapinch.abilityIndex).toBe(1);
   });
 
@@ -59,10 +73,16 @@ describe("Evolution", () => {
     bulbasaur.abilityIndex = 0;
     charmander.abilityIndex = 1;
 
-    await bulbasaur.evolve(pokemonEvolutions[Species.BULBASAUR][0], bulbasaur.getSpeciesForm());
+    await bulbasaur.evolve(
+      pokemonEvolutions[Species.BULBASAUR][0],
+      bulbasaur.getSpeciesForm(),
+    );
     expect(bulbasaur.abilityIndex).toBe(0);
 
-    await charmander.evolve(pokemonEvolutions[Species.CHARMANDER][0], charmander.getSpeciesForm());
+    await charmander.evolve(
+      pokemonEvolutions[Species.CHARMANDER][0],
+      charmander.getSpeciesForm(),
+    );
     expect(charmander.abilityIndex).toBe(1);
   });
 
@@ -72,7 +92,10 @@ describe("Evolution", () => {
     const squirtle = game.scene.getPlayerPokemon()!;
     squirtle.abilityIndex = 5;
 
-    await squirtle.evolve(pokemonEvolutions[Species.SQUIRTLE][0], squirtle.getSpeciesForm());
+    await squirtle.evolve(
+      pokemonEvolutions[Species.SQUIRTLE][0],
+      squirtle.getSpeciesForm(),
+    );
     expect(squirtle.abilityIndex).toBe(0);
   });
 
@@ -84,7 +107,10 @@ describe("Evolution", () => {
     nincada.metBiome = -1;
     nincada.gender = 1;
 
-    await nincada.evolve(pokemonEvolutions[Species.NINCADA][0], nincada.getSpeciesForm());
+    await nincada.evolve(
+      pokemonEvolutions[Species.NINCADA][0],
+      nincada.getSpeciesForm(),
+    );
     const ninjask = game.scene.getPlayerParty()[0];
     const shedinja = game.scene.getPlayerParty()[1];
     expect(ninjask.abilityIndex).toBe(2);
@@ -96,7 +122,14 @@ describe("Evolution", () => {
   });
 
   it("should set wild delay to NONE by default", () => {
-    const speciesFormEvo = new SpeciesFormEvolution(Species.ABRA, null, null, 1000, null, null);
+    const speciesFormEvo = new SpeciesFormEvolution(
+      Species.ABRA,
+      null,
+      null,
+      1000,
+      null,
+      null,
+    );
 
     expect(speciesFormEvo.wildDelay).toBe(SpeciesWildEvolutionDelay.NONE);
   });

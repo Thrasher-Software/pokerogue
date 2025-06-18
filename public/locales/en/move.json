@@ -3882,5 +3882,9 @@
   "eggLash": {
     "name": "Egg Lash",
     "effect": "Hardevil brandishes a nasty lash egg, inflicting damage and causing the target to be poisoned."
+  },
+  "pourSumi": {
+    "name": "Pour Sumi",
+    "effect": "The user pours out a cup of sumi ink, reminding them of their own tattoos and increasing the power of their dragon type moves."
   }
 }

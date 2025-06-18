@@ -23,8 +23,7 @@ export const EVOLVE_MOVE = 0;
 export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   [Species.BULBASAUR]: [
     [1, Moves.TACKLE],
-    [1, Moves.EGG_LASH],
-    [1, Moves.BUTTER],
+    [1, Moves.PSYCHIC_TERRAIN],
     [3, Moves.VINE_WHIP],
     [6, Moves.GROWTH],
     [9, Moves.LEECH_SEED],
@@ -19025,6 +19024,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [1, Moves.LEER],
     [1, Moves.FURY_CUTTER],
     [1, Moves.METAL_CLAW],
+    [6, Moves.HYPER_BEAM],
     [15, Moves.TORMENT],
     [20, Moves.SCARY_FACE],
     [25, Moves.ASSURANCE],
@@ -19112,6 +19112,21 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [48, Moves.HIGH_JUMP_KICK],
     [52, Moves.ENDEAVOR],
     [56, Moves.SKY_ATTACK],
+  ],
+  [Species.TEBORINK]: [
+    [EVOLVE_MOVE, Moves.POUR_SUMI],
+    [1, Moves.DRAGON_TAIL],
+    [1, Moves.PROTECT],
+    [1, Moves.BULK_UP],
+    [1, Moves.SLAM],
+    [25, Moves.COUNTER],
+    [33, Moves.DRAGON_CLAW],
+    [41, Moves.DRAIN_PUNCH],
+    [50, Moves.DRAGON_DANCE],
+    [60, Moves.OUTRAGE],
+    [70, Moves.GIGA_IMPACT],
+    [80, Moves.SCALE_SHOT],
+    [100, Moves.SKETCH],
   ],
 };
 

@@ -20862,6 +20862,9 @@ export function initMoves() {
       0, // Priority, 0 is normal
       9, // Generation
     ).attr(StatusEffectAttr, StatusEffect.POISON),
+    new StatusMove(Moves.POUR_SUMI, PokemonType.DRAGON, -1, 10, -1, 0, 7)
+      .attr(TerrainChangeAttr, TerrainType.DRAGON)
+      .target(MoveTarget.BOTH_SIDES),
   );
   allMoves.map((m) => {
     if (

@@ -12,5 +12,9 @@
   "psychic": "Psychic",
   "psychicStartMessage": "The battlefield got weird!",
   "psychicClearMessage": "The weirdness disappeared from the battlefield!",
+  "defaultBlockMessage": "{{pokemonNameWithAffix}} is protected by the {{terrainName}} Terrain!",
+  "dragon": "Dragon",
+  "dragonStartMessage": "Teborink poured out some ink!",
+  "dragonClearMessage": "The ink dried from the battlefield.",
   "defaultBlockMessage": "{{pokemonNameWithAffix}} is protected by the {{terrainName}} Terrain!"
 }

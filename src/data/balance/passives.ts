@@ -1504,4 +1504,5 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.KOYA]: { 0: Abilities.LEVITATE },
   [Species.HARDEVIL]: { 0: Abilities.RIPEN },
   [Species.STEVE]: { 0: Abilities.MOXIE },
+  [Species.TEBORINK]: { 0: Abilities.PRANKSTER },
 };

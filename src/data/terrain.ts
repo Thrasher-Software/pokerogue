@@ -11,6 +11,7 @@ export enum TerrainType {
   ELECTRIC,
   GRASSY,
   PSYCHIC,
+  DRAGON,
 }
 
 export class Terrain {
@@ -47,19 +48,32 @@ export class Terrain {
           return 1.3;
         }
         break;
+      case TerrainType.DRAGON:
+        if (attackType === PokemonType.DRAGON) {
+          return 1.3;
+        }
+        break;
     }
 
     return 1;
   }
 
-  isMoveTerrainCancelled(user: Pokemon, targets: BattlerIndex[], move: Move): boolean {
+  isMoveTerrainCancelled(
+    user: Pokemon,
+    targets: BattlerIndex[],
+    move: Move,
+  ): boolean {
     switch (this.terrainType) {
       case TerrainType.PSYCHIC:
         if (!move.hasAttr(ProtectAttr)) {
           // Cancels move if the move has positive priority and targets a Pokemon grounded on the Psychic Terrain
           return (
             move.getPriority(user) > 0 &&
-            user.getOpponents(true).some(o => targets.includes(o.getBattlerIndex()) && o.isGrounded())
+            user
+              .getOpponents(true)
+              .some(
+                (o) => targets.includes(o.getBattlerIndex()) && o.isGrounded(),
+              )
           );
         }
     }
@@ -78,12 +92,16 @@ export function getTerrainName(terrainType: TerrainType): string {
       return i18next.t("terrain:grassy");
     case TerrainType.PSYCHIC:
       return i18next.t("terrain:psychic");
+    case TerrainType.DRAGON:
+      return i18next.t("terrain:dragon");
   }
 
   return "";
 }
 
-export function getTerrainColor(terrainType: TerrainType): [number, number, number] {
+export function getTerrainColor(
+  terrainType: TerrainType,
+): [number, number, number] {
   switch (terrainType) {
     case TerrainType.MISTY:
       return [232, 136, 200];
@@ -93,6 +111,8 @@ export function getTerrainColor(terrainType: TerrainType): [number, number, numb
       return [120, 200, 80];
     case TerrainType.PSYCHIC:
       return [160, 64, 160];
+    case TerrainType.DRAGON:
+      return [80, 80, 80];
   }
 
   return [0, 0, 0];
