@@ -74,10 +74,9 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [58, Moves.SOLAR_BEAM],
   ],
   [Species.CHARMANDER]: [
-    [1, Moves.JUDGMENT],
-    [1, Moves.DAGGER_FLURRY],
-    [1, Moves.BLUE_FLARE],
-    [1, Moves.CYPHER],
+    [1, Moves.SCRATCH],
+    [1, Moves.GROWL],
+    [1, Moves.EMBER],
     [8, Moves.SMOKESCREEN],
     [12, Moves.DRAGON_BREATH],
     [17, Moves.FIRE_FANG],
@@ -19114,6 +19113,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   ],
   [Species.TEBORINK]: [
     [EVOLVE_MOVE, Moves.POUR_SUMI],
+    [EVOLVE_MOVE, Moves.RYUBORI],
     [1, Moves.DRAGON_TAIL],
     [1, Moves.PROTECT],
     [1, Moves.BULK_UP],

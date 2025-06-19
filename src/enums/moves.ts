@@ -1892,4 +1892,5 @@ export enum Moves {
   DAGGER_FLURRY,
   EGG_LASH,
   POUR_SUMI,
+  RYUBORI,
 }

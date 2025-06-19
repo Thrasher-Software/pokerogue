@@ -3886,5 +3886,9 @@
   "pourSumi": {
     "name": "Pour Sumi",
     "effect": "The user pours out a cup of sumi ink, reminding them of their own tattoos and increasing the power of their dragon type moves."
+  },
+  "ryubori": {
+    "name": "Ryūbori",
+    "effect": "The user carves draconic wards into the air, stripping away the foe’s enhancements."
   }
 }

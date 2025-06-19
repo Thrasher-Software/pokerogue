@@ -20865,6 +20865,17 @@ export function initMoves() {
     new StatusMove(Moves.POUR_SUMI, PokemonType.DRAGON, -1, 10, -1, 0, 7)
       .attr(TerrainChangeAttr, TerrainType.DRAGON)
       .target(MoveTarget.BOTH_SIDES),
+    new AttackMove(
+      Moves.RYUBORI,
+      PokemonType.DRAGON,
+      MoveCategory.PHYSICAL,
+      60,
+      100,
+      10,
+      0,
+      0,
+      9,
+    ).attr(ResetStatsAttr, false),
   );
   allMoves.map((m) => {
     if (
