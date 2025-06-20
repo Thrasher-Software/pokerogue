@@ -19125,6 +19125,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [60, Moves.OUTRAGE],
     [70, Moves.GIGA_IMPACT],
     [80, Moves.SCALE_SHOT],
+    [90, Moves.DRAGON_RUSH],
     [100, Moves.SKETCH],
   ],
 };
