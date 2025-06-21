@@ -42798,7 +42798,7 @@ export function initSpecies() {
       false, // Not sublegendary
       false, // Not legendary
       false, // Not mythical
-      "Brown Thraser Pokémon",
+      "Brown Thrasher Pokémon",
       PokemonType.FLYING,
       PokemonType.FIGHTING,
       0.3, // Height
