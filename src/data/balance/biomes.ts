@@ -709,7 +709,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAWN]: [{ 1: [Species.TANDEMAUS], 25: [Species.MAUSHOLD] }],
       [TimeOfDay.DAY]: [{ 1: [Species.TANDEMAUS], 25: [Species.MAUSHOLD] }],
       [TimeOfDay.DUSK]: [Species.MORPEKO],
-      [TimeOfDay.NIGHT]: [Species.MORPEKO, Species.VAN],
+      [TimeOfDay.NIGHT]: [{ 1: [Species.MORPEKO], 50: [Species.VAN] }],
       [TimeOfDay.ALL]: [{ 1: [Species.VAROOM], 40: [Species.REVAVROOM] }],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -13144,6 +13144,43 @@ export function initBiomes() {
       [[Biome.CAVE, BiomePoolTier.BOSS_ULTRA_RARE]],
     ],
     [Species.PECHARUNT, PokemonType.POISON, PokemonType.GHOST, []],
+    [Species.KOYA, PokemonType.PSYCHIC, PokemonType.NORMAL, []],
+    [
+      Species.ARTORIAS,
+      PokemonType.STEEL,
+      PokemonType.DARK,
+      [
+        [Biome.BADLANDS, BiomePoolTier.SUPER_RARE, [TimeOfDay.NIGHT]],
+        [Biome.CAVE, BiomePoolTier.RARE],
+        [Biome.DESERT, BiomePoolTier.SUPER_RARE],
+        [Biome.GRAVEYARD, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+        [Biome.RUINS, BiomePoolTier.RARE],
+        [Biome.WASTELAND, BiomePoolTier.RARE],
+      ],
+    ],
+    [
+      Species.VAN,
+      PokemonType.STEEL,
+      PokemonType.PSYCHIC,
+      [
+        [Biome.METROPOLIS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+        [Biome.FACTORY, BiomePoolTier.RARE],
+        [Biome.FACTORY, BiomePoolTier.BOSS_RARE],
+        [Biome.LABORATORY, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.HARDEVIL,
+      PokemonType.POISON,
+      PokemonType.DARK,
+      [
+        [Biome.METROPOLIS, BiomePoolTier.COMMON],
+        [Biome.SEA, BiomePoolTier.RARE],
+        [Biome.DOJO, BiomePoolTier.RARE],
+      ],
+    ],
+    [Species.STEVE, PokemonType.FLYING, PokemonType.FIGHTING, []],
+    [Species.TEBORINK, PokemonType.DRAGON, PokemonType.NORMAL, []],
     [
       Species.ALOLA_RATTATA,
       PokemonType.DARK,
