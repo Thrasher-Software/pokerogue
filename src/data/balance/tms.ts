@@ -68167,6 +68167,9 @@ export const tmSpecies: TmSpecies = {
     Species.HONEDGE,
     Species.DOUBLADE,
     Species.ARTORIAS,
+    Species.PAWNIARD,
+    Species.KINGAMBIT,
+    Species.SIRFETCHD,
   ],
   [Moves.COMET_AZUR]: [
     Species.ALAKAZAM,
@@ -68549,5 +68552,6 @@ export const tmPoolTiers: TmPoolTiers = {
   [Moves.SUPERCELL_SLAM]: ModifierTier.GREAT,
   [Moves.PSYCHIC_NOISE]: ModifierTier.GREAT,
   [Moves.UPPER_HAND]: ModifierTier.COMMON,
+  [Moves.COMET_AZUR]: ModifierTier.ULTRA,
   [Moves.WOLF_KNIGHT_SLAM]: ModifierTier.ULTRA,
 };

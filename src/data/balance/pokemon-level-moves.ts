@@ -19042,7 +19042,6 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   [Species.VAN]: [
     [1, Moves.BUTTER],
     [1, Moves.DYNAMITE],
-    [1, Moves.CYPHER],
     [1, Moves.MIC_DROP],
     [8, Moves.MIRROR_SHOT],
     [12, Moves.MAGNET_RISE],
