@@ -199,14 +199,14 @@ If you don't add the cry, you will be able to play with the pokemon but the game
 ## Step 13: Add Pokemon to Biomes
 Even if you don't want the pokemon to be found in any biomes, you must still add it to the catchable pokemon array in 'src/data/balance/biomes.ts' Ctrl+F for:
 
-'''
+```typescript
 export function initBiomes() {
   const pokemonBiomes = [
-'''
+```
 
 And add your pokemon accordingly. Here is an example of Pecharunt as an example of a pokemon that does not appear in any biomes as well as an example of a custom pokemon below that appears in a few biomes:
 
-'''
+```typescript
     [Species.PECHARUNT, PokemonType.POISON, PokemonType.GHOST, []],
     [Species.KOYA, PokemonType.PSYCHIC, PokemonType.NORMAL, []],
     [
@@ -222,7 +222,7 @@ And add your pokemon accordingly. Here is an example of Pecharunt as an example 
         [Biome.WASTELAND, BiomePoolTier.RARE],
       ],
     ],
-'''
+```
 
 ## Step 1x: Build and Test
 
