@@ -191,14 +191,47 @@ This updates:
 - `pokemon_icons_[generation].png` - The sprite sheet
 - `pokemon_icons_[generation].json` - The coordinate data
 
-## Step 12: Build and Test
+## Step 12: Add Cry
+You must add the cry audio file for the Pokemon. You don't have to make a new cry, you can can copy an existing one in public/audio/cry and rename it to match the new pokemons number. For example, if your new Pokemon is #1500 per its enum, you would name this file 1500.m4a.
+
+If you don't add the cry, you will be able to play with the pokemon but the game will stall if the pokemon faints because the cry is required for the pokemon to faint.
+
+## Step 13: Add Pokemon to Biomes
+Even if you don't want the pokemon to be found in any biomes, you must still add it to the catchable pokemon array in 'src/data/balance/biomes.ts' Ctrl+F for:
+
+'''
+export function initBiomes() {
+  const pokemonBiomes = [
+'''
+
+And add your pokemon accordingly. Here is an example of Pecharunt as an example of a pokemon that does not appear in any biomes as well as an example of a custom pokemon below that appears in a few biomes:
+
+'''
+    [Species.PECHARUNT, PokemonType.POISON, PokemonType.GHOST, []],
+    [Species.KOYA, PokemonType.PSYCHIC, PokemonType.NORMAL, []],
+    [
+      Species.ARTORIAS,
+      PokemonType.STEEL,
+      PokemonType.DARK,
+      [
+        [Biome.BADLANDS, BiomePoolTier.SUPER_RARE, [TimeOfDay.NIGHT]],
+        [Biome.CAVE, BiomePoolTier.RARE],
+        [Biome.DESERT, BiomePoolTier.SUPER_RARE],
+        [Biome.GRAVEYARD, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+        [Biome.RUINS, BiomePoolTier.RARE],
+        [Biome.WASTELAND, BiomePoolTier.RARE],
+      ],
+    ],
+'''
+
+## Step 1x: Build and Test
 
 ```bash
 # Start development server
 npm run start:dev
 ```
 
-## Step 13: Test Integration
+## Step 1x: Test Integration
 
 1. **Clear browser cache** (Ctrl+F5)
 2. **Check starter selection** - Pokémon should appear with correct icon
