@@ -19128,6 +19128,25 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [90, Moves.DRAGON_RUSH],
     [100, Moves.SKETCH],
   ],
+  [Species.RJ]: [
+    [1, Moves.TACKLE],
+    [1, Moves.DEFENSE_CURL],
+    [1, Moves.LICK],
+    [5, Moves.YAWN],
+    [10, Moves.REST],
+    [10, Moves.SNORE],
+    [14, Moves.STOCKPILE],
+    [14, Moves.SWALLOW],
+    [18, Moves.BITE],
+    [22, Moves.BODY_SLAM],
+    [26, Moves.RECYCLE],
+    [30, Moves.CRUNCH],
+    [34, Moves.HEAVY_SLAM],
+    [38, Moves.AMNESIA],
+    [42, Moves.HIGH_HORSEPOWER],
+    [46, Moves.FLING],
+    [50, Moves.LAST_RESORT],
+  ],
 };
 
 export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {

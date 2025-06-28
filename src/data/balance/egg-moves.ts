@@ -3439,6 +3439,12 @@ export const speciesEggMoves = {
     Moves.MACH_PUNCH,
     Moves.DISARMING_VOICE,
   ],
+  [Species.RJ]: [
+    Moves.STUFF_CHEEKS,
+    Moves.GRAV_APPLE,
+    Moves.SLACK_OFF,
+    Moves.EXTREME_SPEED,
+  ],
 };
 
 function parseEggMoves(content: string): void {
