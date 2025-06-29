@@ -24177,7 +24177,7 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.SWAGGER]: [
-    //Species.SHOOKY,
+    Species.SHOOKY,
     //Species.CRUNCHY_SQUAD,
     Species.RJ,
     Species.BULBASAUR,
@@ -67915,7 +67915,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
     Species.VAN,
     Species.KOYA,
-    //Species.SHOOKY,
+    Species.SHOOKY,
     Species.PIKACHU,
     Species.RAICHU,
     Species.CLEFAIRY,

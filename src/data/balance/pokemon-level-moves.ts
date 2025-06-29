@@ -19147,6 +19147,19 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [46, Moves.FLING],
     [50, Moves.LAST_RESORT],
   ],
+  [Species.SHOOKY]: [
+    [1, Moves.TAUNT],
+    [1, Moves.DISARMING_VOICE],
+    [4, Moves.BITE],
+    [8, Moves.FAKE_TEARS],
+    [12, Moves.CHARM],
+    [16, Moves.FEINT_ATTACK],
+    [20, Moves.DRAINING_KISS],
+    [24, Moves.NASTY_PLOT],
+    [28, Moves.SNARL],
+    [32, Moves.FLATTER],
+    [36, Moves.DARK_PULSE],
+  ],
 };
 
 export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {

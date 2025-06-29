@@ -3445,6 +3445,12 @@ export const speciesEggMoves = {
     Moves.SLACK_OFF,
     Moves.EXTREME_SPEED,
   ],
+  [Species.SHOOKY]: [
+    Moves.CALM_MIND,
+    Moves.EARTH_POWER,
+    Moves.WISH,
+    Moves.LIGHT_OF_RUIN,
+  ],
 };
 
 function parseEggMoves(content: string): void {
