@@ -44171,6 +44171,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARCHALUDON,
     Species.GOUGING_FIRE,
     Species.HISUI_GOODRA,
+    Species.TEBORINK,
   ],
   [Moves.FRENZY_PLANT]: [
     Species.VENUSAUR,
@@ -44319,6 +44320,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
     Species.HISUI_DECIDUEYE,
     Species.PALDEA_TAUROS,
+    Species.RJ,
   ],
   [Moves.BOUNCE]: [
     Species.CLEFAIRY,
@@ -45103,6 +45105,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.CALM_MIND]: [
+    Species.RJ,
     Species.PIKACHU,
     Species.RAICHU,
     Species.CLEFAIRY,
@@ -51505,6 +51508,7 @@ export const tmSpecies: TmSpecies = {
     [Species.BASCULIN, "blue-striped", "red-striped"],
   ],
   [Moves.NASTY_PLOT]: [
+    // Species.SHOOKY,
     Species.PIKACHU,
     Species.RAICHU,
     Species.VULPIX,
@@ -52724,6 +52728,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
     Species.PALDEA_TAUROS,
     Species.VAN,
+    Species.RJ,
   ],
   [Moves.FLASH_CANNON]: [
     Species.BLASTOISE,
@@ -55975,6 +55980,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.HEAVY_SLAM]: [
+    Species.RJ,
     Species.MACHOP,
     Species.MACHOKE,
     Species.MACHAMP,
@@ -56529,6 +56535,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.FOUL_PLAY]: [
+    // Species.SHOOKY,
     Species.VULPIX,
     Species.NINETALES,
     Species.DIGLETT,
@@ -57842,6 +57849,10 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_GOLEM,
     Species.ALOLA_MAROWAK,
     Species.ETERNAL_FLOETTE,
+    Species.RJ,
+    Species.VAN,
+    Species.KOYA,
+    //Species.SHOOKY,
   ],
   [Moves.STORED_POWER]: [
     Species.CLEFAIRY,
@@ -58172,6 +58183,10 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MR_MIME,
     Species.GALAR_ARTICUNO,
     Species.GALAR_YAMASK,
+    Species.RJ,
+    Species.VAN,
+    Species.KOYA,
+    //Species.SHOOKY,
   ],
   [Moves.SCALD]: [
     Species.SQUIRTLE,
@@ -58727,6 +58742,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MUK,
   ],
   [Moves.ACROBATICS]: [
+    Species.RJ,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -60916,6 +60932,10 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_LILLIGANT,
   ],
   [Moves.DISARMING_VOICE]: [
+    Species.RJ,
+    Species.VAN,
+    Species.KOYA,
+    //Species.SHOOKY,
     Species.PIKACHU,
     Species.RAICHU,
     Species.CLEFAIRY,
@@ -64282,6 +64302,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.BODY_PRESS]: [
+    Species.RJ,
     Species.BLASTOISE,
     Species.NIDOQUEEN,
     Species.NIDOKING,
@@ -67780,6 +67801,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.HARD_PRESS]: [
+    Species.RJ,
     Species.GRAVELER,
     Species.GOLEM,
     Species.SNORLAX,
@@ -67890,6 +67912,10 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_GOODRA,
   ],
   [Moves.ALLURING_VOICE]: [
+    Species.RJ,
+    Species.VAN,
+    Species.KOYA,
+    //Species.SHOOKY,
     Species.PIKACHU,
     Species.RAICHU,
     Species.CLEFAIRY,
