@@ -23,7 +23,7 @@ export const EVOLVE_MOVE = 0;
 export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   [Species.BULBASAUR]: [
     [1, Moves.TACKLE],
-    [1, Moves.COMET_AZUR],
+    [1, Moves.GLITTER_PUNCH],
     [3, Moves.VINE_WHIP],
     [6, Moves.GROWTH],
     [9, Moves.LEECH_SEED],

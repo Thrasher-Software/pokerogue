@@ -3890,5 +3890,9 @@
   "ryubori": {
     "name": "Ryūbori",
     "effect": "The user carves draconic wards into the air, stripping away the foe’s enhancements."
+  },
+  "glitterPunch": {
+    "name": "Glitter Punch",
+    "effect": "A dazzling punch that sparkles with spirit. May confuse the target with its radiant impact."
   }
 }

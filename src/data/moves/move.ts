@@ -20876,6 +20876,19 @@ export function initMoves() {
       0,
       9,
     ).attr(ResetStatsAttr, false),
+    new AttackMove(
+      Moves.GLITTER_PUNCH,
+      PokemonType.FAIRY,
+      MoveCategory.PHYSICAL,
+      75,
+      100,
+      15,
+      20,
+      0,
+      1,
+    )
+      .attr(ConfuseAttr)
+      .punchingMove(),
   );
   allMoves.map((m) => {
     if (

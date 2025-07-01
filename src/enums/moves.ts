@@ -1893,4 +1893,5 @@ export enum Moves {
   EGG_LASH,
   POUR_SUMI,
   RYUBORI,
+  GLITTER_PUNCH,
 }
