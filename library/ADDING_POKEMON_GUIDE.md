@@ -224,14 +224,20 @@ And add your pokemon accordingly. Here is an example of Pecharunt as an example 
     ],
 ```
 
-## Step 1x: Build and Test
+## Step 14: Add Starter Colors
+
+Ok, so I'll keep it a buck. I don't know that you always have to do this or if it's only if they're a starter but I can tell you that if you can't view the pokedex entry and you inspect the element and it says it's missing a color scheme, you probably didn't add it to public/starter-colors.json
+
+Do that, hmu if you still have trouble.
+
+## Step 15: Build and Test
 
 ```bash
 # Start development server
 npm run start:dev
 ```
 
-## Step 1x: Test Integration
+## Step 16: Test Integration
 
 1. **Clear browser cache** (Ctrl+F5)
 2. **Check starter selection** - Pokémon should appear with correct icon
