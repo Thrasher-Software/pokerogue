@@ -19173,6 +19173,24 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [64, Moves.HYPER_VOICE],
     [70, Moves.PLAY_ROUGH],
   ],
+  [Species.MANG]: [
+    [1, Moves.SCRATCH],
+    [1, Moves.SPLASH],
+    [1, Moves.ASTONISH],
+    [1, Moves.COPYCAT],
+    [1, Moves.WOOD_HAMMER],
+    [6, Moves.SHADOW_SNEAK],
+    [12, Moves.DOUBLE_TEAM],
+    [18, Moves.BABY_DOLL_EYES],
+    [24, Moves.MIMIC],
+    [30, Moves.HONE_CLAWS],
+    [36, Moves.SLASH],
+    [42, Moves.SHADOW_CLAW],
+    [48, Moves.CHARM],
+    [54, Moves.PLAY_ROUGH],
+    [60, Moves.PAIN_SPLIT],
+    [65, Moves.COMET_AZUR],
+  ],
 };
 
 export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {

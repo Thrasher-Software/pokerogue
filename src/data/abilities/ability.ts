@@ -11939,5 +11939,36 @@ export function initAbilities() {
         StatusEffect.POISON,
         StatusEffect.TOXIC,
       ),
+    new Ability(Abilities.MASK_OFF, 9)
+      .attr(NoTransformAbilityAbAttr)
+      .attr(NoFusionAbilityAbAttr)
+      // Add BattlerTagType.MASK_OFF if the pokemon is in its disguised form
+      .conditionalAttr(
+        (pokemon) => pokemon.formIndex === 0,
+        PostSummonAddBattlerTagAbAttr,
+        BattlerTagType.MASK_OFF,
+        0,
+        false,
+      )
+      .attr(
+        FormBlockDamageAbAttr,
+        (target, user, move) =>
+          !!target.getTag(BattlerTagType.MASK_OFF) &&
+          target.getMoveEffectiveness(user, move) > 0,
+        0,
+        BattlerTagType.MASK_OFF,
+        (pokemon, abilityName) =>
+          i18next.t("abilityTriggers:mangRemovedItsMask", {
+            pokemonNameWithAffix: getPokemonNameWithAffix(pokemon),
+            abilityName: abilityName,
+          }),
+        (pokemon) => toDmgValue(pokemon.getMaxHp() / 8),
+      )
+      .attr(PostBattleInitFormChangeAbAttr, () => 0)
+      .uncopiable()
+      .unreplaceable()
+      .unsuppressable()
+      .bypassFaint()
+      .ignorable(),
   );
 }

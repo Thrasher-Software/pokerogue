@@ -1238,5 +1238,9 @@
   "poisonPuppeteer": {
     "name": "Poison Puppeteer",
     "description": "Pokémon poisoned by this Pokémon’s moves will also become confused."
+  },
+  "maskOff": {
+    "name": "Mask Off",
+    "description": "Mang absorbs damage with its mask."
   }
 }

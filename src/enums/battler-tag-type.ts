@@ -99,4 +99,5 @@ export enum BattlerTagType {
   GIT_COMMIT = "GIT_COMMIT",
   GIT_PUSH = "GIT_PUSH",
   GIT_FORCE_PUSH = "GIT_FORCE_PUSH",
+  MASK_OFF = "MASK OFF",
 }

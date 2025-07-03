@@ -3451,6 +3451,12 @@ export const speciesEggMoves = {
     Moves.WISH,
     Moves.LIGHT_OF_RUIN,
   ],
+  [Species.MANG]: [
+    Moves.CALM_MIND,
+    Moves.EARTH_POWER,
+    Moves.WISH,
+    Moves.LIGHT_OF_RUIN,
+  ],
 };
 
 function parseEggMoves(content: string): void {

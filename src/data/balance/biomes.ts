@@ -182,6 +182,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.LECHONK,
         Species.RJ,
         Species.SHOOKY,
+        Species.MANG,
       ],
     },
     [BiomePoolTier.UNCOMMON]: {
@@ -13191,6 +13192,12 @@ export function initBiomes() {
       [[Biome.TOWN, BiomePoolTier.COMMON]],
     ],
     [Species.CRUNCHY_SQUAD, PokemonType.DARK, PokemonType.FAIRY, []],
+    [
+      Species.MANG,
+      PokemonType.FAIRY,
+      PokemonType.FIGHTING,
+      [[Biome.TOWN, BiomePoolTier.COMMON]],
+    ],
     [
       Species.ALOLA_RATTATA,
       PokemonType.DARK,

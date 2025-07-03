@@ -621,4 +621,5 @@ export enum Abilities {
   TERAFORM_ZERO,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Poison_Puppeteer_(ability) | Source} */
   POISON_PUPPETEER,
+  MASK_OFF,
 }
