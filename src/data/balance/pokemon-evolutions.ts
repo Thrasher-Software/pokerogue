@@ -2937,6 +2937,9 @@ export const pokemonEvolutions: PokemonEvolutions = {
       SpeciesWildEvolutionDelay.SHORT,
     ),
   ],
+  [Species.SHOOKY]: [
+    new SpeciesEvolution(Species.CRUNCHY_SQUAD, 6, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

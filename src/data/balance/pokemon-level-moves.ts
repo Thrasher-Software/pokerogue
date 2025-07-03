@@ -19160,6 +19160,19 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [32, Moves.FLATTER],
     [36, Moves.DARK_PULSE],
   ],
+  [Species.CRUNCHY_SQUAD]: [
+    [1, Moves.TAUNT],
+    [1, Moves.DRAINING_KISS],
+    [1, Moves.DARK_PULSE],
+    [1, Moves.MOONBLAST],
+    [44, Moves.MEMENTO],
+    [48, Moves.TORMENT],
+    [52, Moves.MAGIC_ROOM],
+    [56, Moves.FOUL_PLAY],
+    [60, Moves.WISH],
+    [64, Moves.HYPER_VOICE],
+    [70, Moves.PLAY_ROUGH],
+  ],
 };
 
 export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {

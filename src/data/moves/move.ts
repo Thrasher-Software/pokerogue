@@ -20673,6 +20673,7 @@ export function initMoves() {
     )
       .attr(MultiHitAttr, MultiHitType._3)
       .attr(StatusEffectAttr, StatusEffect.PARALYSIS),
+    // I wanna keep this move but I gotta reign it in
     new SelfStatusMove(Moves.CHUG_SPLASH, PokemonType.WATER, -1, 5, -1, 0, 9)
       .attr(HealAttr, 0.5, false, false)
       .target(MoveTarget.USER_AND_ALLIES)
@@ -20816,7 +20817,7 @@ export function initMoves() {
       Moves.BUTTER,
       PokemonType.PSYCHIC,
       100,
-      20,
+      10,
       -1,
       0,
       9,

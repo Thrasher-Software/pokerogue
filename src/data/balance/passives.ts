@@ -1507,4 +1507,5 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.TEBORINK]: { 0: Abilities.PRANKSTER },
   [Species.RJ]: { 0: Abilities.CHEEK_POUCH },
   [Species.SHOOKY]: { 0: Abilities.PRANKSTER },
+  [Species.CRUNCHY_SQUAD]: { 0: Abilities.PRANKSTER },
 };

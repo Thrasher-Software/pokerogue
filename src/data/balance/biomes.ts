@@ -13190,6 +13190,7 @@ export function initBiomes() {
       PokemonType.FAIRY,
       [[Biome.TOWN, BiomePoolTier.COMMON]],
     ],
+    [Species.CRUNCHY_SQUAD, PokemonType.DARK, PokemonType.FAIRY, []],
     [
       Species.ALOLA_RATTATA,
       PokemonType.DARK,
