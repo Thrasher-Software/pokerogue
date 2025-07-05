@@ -19159,6 +19159,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [28, Moves.SNARL],
     [32, Moves.FLATTER],
     [36, Moves.DARK_PULSE],
+    [39, Moves.BEAT_UP],
   ],
   [Species.CRUNCHY_SQUAD]: [
     [1, Moves.TAUNT],
