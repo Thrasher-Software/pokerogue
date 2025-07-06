@@ -112,7 +112,6 @@ export const defaultStarterSpecies: Species[] = [
   Species.FUECOCO,
   Species.QUAXLY,
   Species.ARTORIAS,
-  Species.VAN,
   Species.KOYA,
   Species.HARDEVIL,
   Species.STEVE,

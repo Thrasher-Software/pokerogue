@@ -617,7 +617,7 @@ export const speciesStarterCosts = {
   [Species.PALDEA_WOOPER]: 3,
   [Species.BLOODMOON_URSALUNA]: 5,
   [Species.ARTORIAS]: 4,
-  [Species.VAN]: 3,
+  [Species.VAN]: 6,
   [Species.KOYA]: 3,
   [Species.HARDEVIL]: 3,
   [Species.STEVE]: 3,
