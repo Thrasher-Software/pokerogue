@@ -43007,6 +43007,34 @@ export function initSpecies() {
       ),
     ),
     new PokemonSpecies(
+      Species.COOKY,
+      9,
+      false,
+      false,
+      false,
+      "BT21 Fighter",
+      PokemonType.FAIRY,
+      PokemonType.FIGHTING,
+      0.7,
+      10.5,
+      Abilities.SCRAPPY,
+      Abilities.IRON_FIST,
+      Abilities.GUTS,
+      455, // BST
+      60, // HP
+      105, // Attack
+      70, // Defense
+      35, // Sp. Atk
+      80, // Sp. Def
+      105, // Speed
+      100, // Catch Rate
+      50, // Base Friendship
+      100, // Base Exp Yield
+      GrowthRate.MEDIUM_FAST,
+      50,
+      false,
+    ),
+    new PokemonSpecies(
       Species.ALOLA_RATTATA,
       7,
       false,

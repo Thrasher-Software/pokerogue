@@ -19193,6 +19193,26 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [60, Moves.PAIN_SPLIT],
     [65, Moves.HYPER_BEAM],
   ],
+  [Species.COOKY]: [
+    [1, Moves.FAKE_OUT],
+    [1, Moves.BABY_DOLL_EYES],
+    [3, Moves.MACH_PUNCH],
+    [5, Moves.DYNAMITE],
+    [8, Moves.DETECT],
+    [12, Moves.KARATE_CHOP],
+    [16, Moves.BULLET_PUNCH],
+    [20, Moves.THUNDER_PUNCH],
+    [20, Moves.ICE_PUNCH],
+    [20, Moves.FIRE_PUNCH],
+    [24, Moves.AGILITY],
+    [28, Moves.PLAY_ROUGH],
+    [30, Moves.GLITTER_PUNCH],
+    [32, Moves.CLOSE_COMBAT],
+    [36, Moves.SKY_UPPERCUT],
+    [40, Moves.BOUNCE],
+    [44, Moves.FOCUS_PUNCH],
+    [50, Moves.MOONBLAST],
+  ],
 };
 
 export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {
