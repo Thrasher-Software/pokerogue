@@ -713,7 +713,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAWN]: [{ 1: [Species.TANDEMAUS], 25: [Species.MAUSHOLD] }],
       [TimeOfDay.DAY]: [{ 1: [Species.TANDEMAUS], 25: [Species.MAUSHOLD] }],
       [TimeOfDay.DUSK]: [Species.MORPEKO],
-      [TimeOfDay.NIGHT]: [{ 1: [Species.MORPEKO], 50: [Species.VAN] }],
+      [TimeOfDay.NIGHT]: [{ 1: [Species.MORPEKO] }],
       [TimeOfDay.ALL]: [{ 1: [Species.VAROOM], 40: [Species.REVAVROOM] }],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -3239,7 +3239,6 @@ export const biomePokemonPools: BiomePokemonPools = {
           32: [Species.DUOSION],
           41: [Species.REUNICLUS],
         },
-        Species.VAN,
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -3277,7 +3276,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [Species.METAGROSS, Species.PORYGON_Z, Species.VAN],
+      [TimeOfDay.ALL]: [Species.METAGROSS, Species.PORYGON_Z],
     },
     [BiomePoolTier.BOSS_SUPER_RARE]: {
       [TimeOfDay.DAWN]: [],
@@ -3289,7 +3288,7 @@ export const biomePokemonPools: BiomePokemonPools = {
     [BiomePoolTier.BOSS_ULTRA_RARE]: {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [Species.SOLGALEO],
-      [TimeOfDay.DUSK]: [],
+      [TimeOfDay.DUSK]: [Species.VAN],
       [TimeOfDay.NIGHT]: [Species.LUNALA],
       [TimeOfDay.ALL]: [Species.RAYQUAZA, Species.NECROZMA],
     },
@@ -4070,7 +4069,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [Species.VAN],
+      [TimeOfDay.NIGHT]: [],
       [TimeOfDay.ALL]: [
         Species.DITTO,
         { 1: [Species.PORYGON], 30: [Species.PORYGON2] },
@@ -13166,12 +13165,7 @@ export function initBiomes() {
       Species.VAN,
       PokemonType.STEEL,
       PokemonType.PSYCHIC,
-      [
-        [Biome.METROPOLIS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
-        [Biome.FACTORY, BiomePoolTier.RARE],
-        [Biome.FACTORY, BiomePoolTier.BOSS_RARE],
-        [Biome.LABORATORY, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
-      ],
+      [[Biome.SPACE, BiomePoolTier.BOSS_ULTRA_RARE, [TimeOfDay.DUSK]]],
     ],
     [
       Species.HARDEVIL,

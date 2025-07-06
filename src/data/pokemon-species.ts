@@ -42740,7 +42740,7 @@ export function initSpecies() {
       Species.VAN,
       9,
       false,
-      false,
+      true,
       false,
       "BT21 Guardian",
       PokemonType.STEEL,
@@ -42750,16 +42750,16 @@ export function initSpecies() {
       Abilities.SIMPLE,
       Abilities.CONTRARY,
       Abilities.OBLIVIOUS,
-      470,
-      72,
-      90,
-      55,
-      85,
-      60,
-      108,
-      70,
-      5,
-      154,
+      570, // bst
+      90, // hp
+      100, // atk
+      90, // def
+      100, // spa
+      90, // spd
+      100, // spe
+      45,
+      50,
+      300,
       GrowthRate.FAST,
       null,
       false,
