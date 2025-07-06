@@ -19168,11 +19168,12 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [1, Moves.MOONBLAST],
     [44, Moves.MEMENTO],
     [48, Moves.TORMENT],
+    [50, Moves.PLAY_ROUGH],
     [52, Moves.MAGIC_ROOM],
     [56, Moves.FOUL_PLAY],
     [60, Moves.WISH],
     [64, Moves.HYPER_VOICE],
-    [70, Moves.PLAY_ROUGH],
+    [70, Moves.POPULATION_BOMB],
   ],
   [Species.MANG]: [
     [1, Moves.TACKLE],
