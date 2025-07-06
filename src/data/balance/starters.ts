@@ -625,6 +625,7 @@ export const speciesStarterCosts = {
   [Species.SHOOKY]: 3,
   [Species.MANG]: 3,
   [Species.COOKY]: 3,
+  [Species.TATA]: 5,
 };
 
 const starterCandyCosts: {

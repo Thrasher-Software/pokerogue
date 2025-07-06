@@ -2060,6 +2060,7 @@ export enum Species {
   CRUNCHY_SQUAD,
   MANG,
   COOKY,
+  TATA,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pokémon) | Source} */
   ALOLA_RATTATA = 2019,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pokémon) | Source} */

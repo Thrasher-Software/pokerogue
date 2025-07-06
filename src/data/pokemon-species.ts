@@ -43035,6 +43035,34 @@ export function initSpecies() {
       false,
     ),
     new PokemonSpecies(
+      Species.TATA,
+      9,
+      false,
+      false,
+      false,
+      "BT21 Star Being",
+      PokemonType.FIRE,
+      PokemonType.PSYCHIC,
+      1.5,
+      25.0,
+      Abilities.MAGIC_GUARD,
+      Abilities.FLASH_FIRE,
+      Abilities.SOLAR_POWER,
+      540,
+      75, // HP
+      85, // Attack
+      75, // Defense
+      125, // Sp. Atk
+      100, // Sp. Def
+      90, // Speed
+      100,
+      60, // Base Friendship
+      190, // Exp Yield
+      GrowthRate.MEDIUM_FAST,
+      50,
+      false,
+    ),
+    new PokemonSpecies(
       Species.ALOLA_RATTATA,
       7,
       false,

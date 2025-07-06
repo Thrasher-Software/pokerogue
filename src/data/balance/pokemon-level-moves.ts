@@ -19213,6 +19213,23 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [44, Moves.FOCUS_PUNCH],
     [50, Moves.MOONBLAST],
   ],
+  [Species.TATA]: [
+    [1, Moves.EMBER],
+    [1, Moves.CONFUSION],
+    [5, Moves.PSYWAVE],
+    [10, Moves.FLAME_CHARGE],
+    [15, Moves.PSYBEAM],
+    [20, Moves.FIRE_SPIN],
+    [25, Moves.BUTTER],
+    [30, Moves.FLAMETHROWER],
+    [36, Moves.CALM_MIND],
+    [42, Moves.FIRE_BLAST],
+    [48, Moves.PSYCHIC],
+    [54, Moves.WILL_O_WISP],
+    [60, Moves.MYSTICAL_FIRE],
+    [66, Moves.PSYSHOCK],
+    [72, Moves.FLARE_BLITZ],
+  ],
 };
 
 export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {
