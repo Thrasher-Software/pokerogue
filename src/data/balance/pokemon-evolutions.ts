@@ -2938,7 +2938,7 @@ export const pokemonEvolutions: PokemonEvolutions = {
     ),
   ],
   [Species.SHOOKY]: [
-    new SpeciesEvolution(Species.CRUNCHY_SQUAD, 6, null, null),
+    new SpeciesEvolution(Species.CRUNCHY_SQUAD, 40, null, null),
   ],
 };
 
