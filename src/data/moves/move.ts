@@ -20890,6 +20890,53 @@ export function initMoves() {
     )
       .attr(ConfuseAttr)
       .punchingMove(),
+    new StatusMove(Moves.CHIMMY_TUNE, PokemonType.NORMAL, -1, 20, -1, 0, 9)
+      .attr(StatStageChangeAttr, [Stat.ATK, Stat.DEF], 1)
+      .soundBased()
+      .target(MoveTarget.USER_AND_ALLIES),
+    new AttackMove(
+      Moves.CHIMMY_JAM,
+      PokemonType.NORMAL,
+      MoveCategory.SPECIAL,
+      15,
+      85,
+      10,
+      7,
+      0,
+      9,
+    )
+      .attr(MultiHitAttr, MultiHitType._2)
+      .attr(ConfuseAttr)
+      .soundBased()
+      .target(MoveTarget.ALL_NEAR_ENEMIES),
+    new AttackMove(
+      Moves.CHIMMY_BLUES,
+      PokemonType.NORMAL,
+      MoveCategory.SPECIAL,
+      70,
+      100,
+      10,
+      -1,
+      0,
+      9,
+    )
+      .attr(StatStageChangeAttr, [Stat.ATK], -1)
+      .soundBased()
+      .target(MoveTarget.ALL_NEAR_ENEMIES),
+    new AttackMove(
+      Moves.BALLAD_OF_CHIMMY,
+      PokemonType.FIRE,
+      MoveCategory.SPECIAL,
+      80,
+      85,
+      5,
+      10,
+      0,
+      9,
+    )
+      .attr(StatusEffectAttr, StatusEffect.BURN)
+      .soundBased()
+      .target(MoveTarget.ALL_NEAR_ENEMIES),
   );
   allMoves.map((m) => {
     if (

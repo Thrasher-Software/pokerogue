@@ -19237,6 +19237,25 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [66, Moves.PSYSHOCK],
     [72, Moves.FLARE_BLITZ],
   ],
+  [Species.CHIMMY]: [
+    [1, Moves.TACKLE],
+    [1, Moves.LEER],
+    [5, Moves.EMBER],
+    [8, Moves.CHIMMY_TUNE],
+    [10, Moves.BITE],
+    [15, Moves.WORK_UP],
+    [20, Moves.FIRE_PUNCH],
+    [23, Moves.CHIMMY_JAM],
+    [25, Moves.HEADBUTT],
+    [27, Moves.MEGA_PUNCH],
+    [30, Moves.SLAM],
+    [35, Moves.FLAME_WHEEL],
+    [40, Moves.FLARE_BLITZ],
+    [43, Moves.CHIMMY_BLUES],
+    [45, Moves.DOUBLE_EDGE],
+    [50, Moves.GIGA_IMPACT],
+    [60, Moves.BALLAD_OF_CHIMMY],
+  ],
 };
 
 export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {

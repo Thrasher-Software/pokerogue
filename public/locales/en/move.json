@@ -3894,5 +3894,21 @@
   "glitterPunch": {
     "name": "Glitter Punch",
     "effect": "A dazzling punch that sparkles with spirit. May confuse the target with its radiant impact."
+  },
+  "chimmyTune": {
+    "name": "CHIMMY Tune",
+    "effect": "CHIMMY plays a tune on their harmonica, boosting their allies attack."
+  },
+  "chimmyJam": {
+    "name": "CHIMMY Jam",
+    "effect": "CHIMMY plays a jam on their harmonica, attacking the enemy twice with a chance to confuse!"
+  },
+  "chimmyBlues": {
+    "name": "CHIMMY Blues",
+    "effect": "CHIMMY plays a bluesy tune on their harmonica, attacking the enemies and lowering their attack."
+  },
+  "balladOfChimmy": {
+    "name": "Ballad of CHIMMY",
+    "effect": "CHIMMY plays a ballad on their harmonica, attacking the enemies with a chance to BURN!"
   }
 }

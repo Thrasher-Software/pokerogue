@@ -71,7 +71,7 @@ class DefaultOverrides {
    *
    * If `"odd-doubles"`, follow the `"double"` rule on odd wave numbers, and follow the `"single"` rule on even wave numbers.
    */
-  readonly BATTLE_STYLE_OVERRIDE: BattleStyle | null = null;
+  readonly BATTLE_STYLE_OVERRIDE: BattleStyle | null = "double";
   readonly STARTING_WAVE_OVERRIDE: number = 0;
   readonly STARTING_BIOME_OVERRIDE: Biome | null = null;
   readonly ARENA_TINT_OVERRIDE: TimeOfDay | null = null;

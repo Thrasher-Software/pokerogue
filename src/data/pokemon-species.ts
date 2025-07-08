@@ -43063,6 +43063,34 @@ export function initSpecies() {
       false,
     ),
     new PokemonSpecies(
+      Species.CHIMMY,
+      9,
+      false,
+      false,
+      false,
+      "BT21 Idealist",
+      PokemonType.FIRE,
+      PokemonType.NORMAL,
+      0.4,
+      7.5,
+      Abilities.BLAZE,
+      Abilities.PICKUP,
+      Abilities.HUSTLE,
+      507, //BST
+      78, //HP
+      82, //ATK
+      82, //DEF
+      83, //SPATK
+      80, //SPDEF
+      102, //SPD
+      100, //CATCH RATE
+      70, //BASE FRIENDSHIP
+      177, //EXP YIELD
+      GrowthRate.MEDIUM_SLOW,
+      50,
+      false,
+    ),
+    new PokemonSpecies(
       Species.ALOLA_RATTATA,
       7,
       false,
