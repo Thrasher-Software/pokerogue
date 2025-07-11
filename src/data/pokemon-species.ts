@@ -42685,28 +42685,28 @@ export function initSpecies() {
       9,
       false,
       false,
-      true,
+      false,
       "BT21 Sleepyhead",
       PokemonType.PSYCHIC,
       PokemonType.NORMAL,
-      0.4,
-      4,
-      Abilities.SIMPLE,
-      Abilities.NONE,
-      Abilities.NONE,
-      600,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      300,
+      0.4, // Height
+      4, // Weight
+      Abilities.SYNCHRONIZE, // Primary Ability
+      Abilities.OWN_TEMPO, // Secondary Ability
+      Abilities.SIMPLE, // Hidden Ability
+      510, // BST
+      95, // HP
+      60, // ATK
+      70, // DEF
+      110, // SpATK
+      105, // SpDEF
+      70, // SPD
+      100, // Catch Rate
+      70, // Base Friendship
+      200, // Base Exp Yield
       GrowthRate.MEDIUM_SLOW,
-      null,
-      false,
+      50, // Gender Ratio
+      false, // Related to changing forms
     ),
     new PokemonSpecies(
       Species.ARTORIAS,
