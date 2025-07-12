@@ -263,6 +263,15 @@ class FriendshipEvolutionCondition extends SpeciesEvolutionCondition {
   }
 }
 
+class DefenseEvolutionCondition extends SpeciesEvolutionCondition {
+  public amount: number;
+  constructor(amount: number) {
+    super((p) => p.stats[2] >= amount);
+    this.amount = amount;
+    this.description = i18next.t("pokemonEvolutions:defense");
+  }
+}
+
 class FriendshipTimeOfDayEvolutionCondition extends SpeciesEvolutionCondition {
   public amount: number;
   public timesOfDay: TimeOfDay[];
@@ -2939,6 +2948,15 @@ export const pokemonEvolutions: PokemonEvolutions = {
   ],
   [Species.SHOOKY]: [
     new SpeciesEvolution(Species.CRUNCHY_SQUAD, 40, null, null),
+  ],
+  [Species.SUDOWOODO]: [
+    new SpeciesEvolution(
+      Species.KIMURAGI,
+      1,
+      null,
+      new DefenseEvolutionCondition(80),
+      SpeciesWildEvolutionDelay.VERY_LONG,
+    ),
   ],
 };
 

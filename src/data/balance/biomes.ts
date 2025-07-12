@@ -13213,6 +13213,7 @@ export function initBiomes() {
       PokemonType.NORMAL,
       [[Biome.TOWN, BiomePoolTier.COMMON]],
     ],
+    [Species.KIMURAGI, PokemonType.ROCK, PokemonType.FIGHTING, []],
     [
       Species.ALOLA_RATTATA,
       PokemonType.DARK,

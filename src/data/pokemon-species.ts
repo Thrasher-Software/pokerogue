@@ -43091,6 +43091,34 @@ export function initSpecies() {
       false,
     ),
     new PokemonSpecies(
+      Species.KIMURAGI,
+      9, //generation
+      false, // Not sublegendary
+      false, // Not legendary
+      false, // Not mythical
+      "Bonsai Master Pokémon",
+      PokemonType.ROCK,
+      PokemonType.FIGHTING,
+      2.0, // Height
+      45, //Weight
+      Abilities.OVERCOAT, // Primary Ability
+      Abilities.BATTLE_ARMOR, // Secondary Ability
+      Abilities.REGENERATOR, // Hidden Ability
+      500, // Stat Total
+      80, //  HP
+      115, // ATK
+      120, //DEF
+      50, //SpATK
+      75, //SpDEF
+      60, //SPD
+      40, // Catch Rate
+      50, // Base Friendship
+      200, // Base EXP
+      GrowthRate.MEDIUM_FAST, // Growth Rate
+      50, // Gender Ratio
+      false, // Can't change forms
+    ),
+    new PokemonSpecies(
       Species.ALOLA_RATTATA,
       7,
       false,
