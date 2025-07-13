@@ -19257,7 +19257,6 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [60, Moves.BALLAD_OF_CHIMMY],
   ],
   [Species.KIMURAGI]: [
-    [EVOLVE_MOVE, Moves.HIGH_HORSEPOWER],
     [1, Moves.ROCK_THROW],
     [1, Moves.FAKE_TEARS],
     [1, Moves.FLAIL],
@@ -19272,12 +19271,12 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [24, Moves.TEARFUL_LOOK],
     [28, Moves.SUCKER_PUNCH],
     [32, Moves.ROCK_SLIDE],
-    [36, Moves.LOW_SWEEP],
+    [36, Moves.DRAGON_CLAW],
     [40, Moves.COUNTER],
-    [44, Moves.CLOSE_COMBAT],
+    [44, Moves.SCALE_SHOT],
     [48, Moves.STONE_EDGE],
-    [50, Moves.HIGH_JUMP_KICK],
-    [54, Moves.GIGA_IMPACT],
+    [52, Moves.GIGA_IMPACT],
+    [56, Moves.OUTRAGE],
   ],
 };
 

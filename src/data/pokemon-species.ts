@@ -43098,7 +43098,7 @@ export function initSpecies() {
       false, // Not mythical
       "Bonsai Master Pokémon",
       PokemonType.ROCK,
-      PokemonType.FIGHTING,
+      PokemonType.DRAGON,
       2.0, // Height
       45, //Weight
       Abilities.OVERCOAT, // Primary Ability
