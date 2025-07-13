@@ -23,6 +23,7 @@
   "treasure": "After gathering enough treasure",
   "nature": "Being of a specific nature",
   "biome": "In a certain biome",
+  "defense": "Having high defense",
   "Forms": {
     "ability": "Due to its ability",
     "item": "Activating {{item}}",
