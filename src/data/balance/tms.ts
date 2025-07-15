@@ -916,6 +916,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.SWORDS_DANCE]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -1835,6 +1836,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.BODY_SLAM]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -2453,6 +2455,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.TAKE_DOWN]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -3149,6 +3152,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.DOUBLE_EDGE]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -3801,6 +3805,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.ROAR]: [
+    Species.KIMURAGI,
     Species.VENUSAUR,
     Species.CHARMANDER,
     Species.CHARMELEON,
@@ -4037,6 +4042,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FLAMETHROWER]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -5410,6 +5416,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.HYPER_BEAM]: [
+    Species.KIMURAGI,
     Species.VENUSAUR,
     Species.CHARIZARD,
     Species.BLASTOISE,
@@ -6234,6 +6241,7 @@ export const tmSpecies: TmSpecies = {
     Species.STEVE,
   ],
   [Moves.COUNTER]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -6461,6 +6469,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.STRENGTH]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -6850,6 +6859,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SOLAR_BEAM]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -8093,6 +8103,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.EARTHQUAKE]: [
+    Species.KIMURAGI,
     Species.VENUSAUR,
     Species.CHARIZARD,
     Species.BLASTOISE,
@@ -8408,6 +8419,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.DIG]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -8834,6 +8846,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.TOXIC]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -12596,6 +12609,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.FOCUS_ENERGY]: [
+    Species.KIMURAGI,
     Species.BEEDRILL,
     Species.RATTATA,
     Species.RATICATE,
@@ -12914,6 +12928,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SELF_DESTRUCT]: [
+    Species.KIMURAGI,
     Species.JIGGLYPUFF,
     Species.WIGGLYTUFF,
     Species.GEODUDE,
@@ -13017,6 +13032,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.FIRE_BLAST]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -14320,6 +14336,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_SANDSLASH,
   ],
   [Moves.FLASH]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -14643,6 +14660,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.EXPLOSION]: [
+    Species.KIMURAGI,
     Species.GEODUDE,
     Species.GRAVELER,
     Species.GOLEM,
@@ -15800,6 +15818,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SLIDE]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -16197,6 +16216,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.TRI_ATTACK]: [
+    Species.KIMURAGI,
     Species.SPEAROW,
     Species.FEAROW,
     Species.CLEFAIRY,
@@ -16258,6 +16278,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SUPER_FANG]: [
+    Species.KIMURAGI,
     Species.RATTATA,
     Species.RATICATE,
     Species.SANDSHREW,
@@ -16351,6 +16372,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SUBSTITUTE]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -19697,6 +19719,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.PROTECT]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -20762,6 +20785,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.SCARY_FACE]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -21293,6 +21317,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.MUD_SLAP]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -21768,6 +21793,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.SPIKES]: [
+    Species.KIMURAGI,
     Species.SANDSHREW,
     Species.SANDSLASH,
     Species.SHELLDER,
@@ -22175,6 +22201,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.OUTRAGE]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -22344,6 +22371,7 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.SANDSTORM]: [
+    Species.KIMURAGI,
     Species.CHARIZARD,
     Species.SANDSHREW,
     Species.SANDSLASH,
@@ -22840,6 +22868,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.ENDURE]: [
+    Species.KIMURAGI,
     Species.RJ,
     Species.ARTORIAS,
     Species.BULBASAUR,
@@ -24120,6 +24149,7 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.FALSE_SWIPE]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -24261,6 +24291,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SWAGGER]: [
+    Species.KIMURAGI,
     Species.SHOOKY,
     Species.CRUNCHY_SQUAD,
     Species.RJ,
@@ -27252,6 +27283,7 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.RETURN]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -28312,6 +28344,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FRUSTRATION]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -30232,6 +30265,7 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.IRON_TAIL]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -30792,6 +30826,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.HIDDEN_POWER]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -32584,6 +32619,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SUNNY_DAY]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -33293,6 +33329,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.CRUNCH]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -33535,6 +33572,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.PSYCH_UP]: [
+    Species.KIMURAGI,
     Species.BUTTERFREE,
     Species.CLEFAIRY,
     Species.CLEFABLE,
@@ -34240,6 +34278,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SMASH]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -35971,6 +36010,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -37257,6 +37297,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.NATURE_POWER]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -38593,6 +38634,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SUPERPOWER]: [
+    Species.KIMURAGI,
     Species.NIDOQUEEN,
     Species.NIDOKING,
     Species.ARCANINE,
@@ -39035,6 +39077,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.BRICK_BREAK]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -39717,6 +39760,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ENDEAVOR]: [
+    Species.KIMURAGI,
     Species.BEEDRILL,
     Species.RATTATA,
     Species.RATICATE,
@@ -40357,6 +40401,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SECRET_POWER]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -42420,6 +42465,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.ROCK_TOMB]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -42824,6 +42870,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.METAL_SOUND]: [
+    Species.KIMURAGI,
     Species.MAGNEMITE,
     Species.MAGNETON,
     Species.VOLTORB,
@@ -43170,6 +43217,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.SAND_TOMB]: [
+    Species.KIMURAGI,
     Species.SANDSHREW,
     Species.SANDSLASH,
     Species.NIDOQUEEN,
@@ -43920,6 +43968,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.IRON_DEFENSE]: [
+    Species.KIMURAGI,
     Species.SQUIRTLE,
     Species.WARTORTLE,
     Species.BLASTOISE,
@@ -44176,6 +44225,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.DRAGON_CLAW]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -44537,6 +44587,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_STUNFISK,
   ],
   [Moves.MUD_SHOT]: [
+    Species.KIMURAGI,
     Species.EKANS,
     Species.ARBOK,
     Species.SANDSHREW,
@@ -45055,6 +45106,7 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.MAGICAL_LEAF]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -45191,6 +45243,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.CALM_MIND]: [
+    Species.KIMURAGI,
     Species.RJ,
     Species.PIKACHU,
     Species.RAICHU,
@@ -45471,6 +45524,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.DRAGON_DANCE]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -45542,6 +45596,7 @@ export const tmSpecies: TmSpecies = {
     Species.GOUGING_FIRE,
   ],
   [Moves.ROCK_BLAST]: [
+    Species.KIMURAGI,
     Species.NIDOQUEEN,
     Species.NIDOKING,
     Species.DIGLETT,
@@ -46210,6 +46265,7 @@ export const tmSpecies: TmSpecies = {
     [Species.INDEEDEE, "male"],
   ],
   [Moves.GYRO_BALL]: [
+    Species.KIMURAGI,
     Species.SQUIRTLE,
     Species.WARTORTLE,
     Species.BLASTOISE,
@@ -46686,6 +46742,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.U_TURN]: [
+    Species.KIMURAGI,
     Species.BUTTERFREE,
     Species.BEEDRILL,
     Species.PIDGEY,
@@ -48598,6 +48655,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.ROCK_POLISH]: [
+    Species.KIMURAGI,
     Species.GEODUDE,
     Species.GRAVELER,
     Species.GOLEM,
@@ -49801,6 +49859,7 @@ export const tmSpecies: TmSpecies = {
     Species.TERAPAGOS,
   ],
   [Moves.DRAGON_PULSE]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -49931,6 +49990,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_GOODRA,
   ],
   [Moves.POWER_GEM]: [
+    Species.KIMURAGI,
     Species.MEOWTH,
     Species.PERSIAN,
     Species.GOLDUCK,
@@ -50775,6 +50835,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.EARTH_POWER]: [
+    Species.KIMURAGI,
     Species.VENUSAUR,
     Species.SANDSHREW,
     Species.SANDSLASH,
@@ -50985,6 +51046,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.GIGA_IMPACT]: [
+    Species.KIMURAGI,
     Species.VENUSAUR,
     Species.CHARIZARD,
     Species.BLASTOISE,
@@ -51594,7 +51656,7 @@ export const tmSpecies: TmSpecies = {
     [Species.BASCULIN, "blue-striped", "red-striped"],
   ],
   [Moves.NASTY_PLOT]: [
-    // Species.SHOOKY,
+    Species.SHOOKY,
     Species.PIKACHU,
     Species.RAICHU,
     Species.VULPIX,
@@ -51886,6 +51948,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SHADOW_CLAW]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -52101,6 +52164,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.THUNDER_FANG]: [
+    Species.KIMURAGI,
     Species.ARBOK,
     Species.GROWLITHE,
     Species.ARCANINE,
@@ -52204,6 +52268,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ARCANINE,
   ],
   [Moves.ICE_FANG]: [
+    Species.KIMURAGI,
     Species.ARBOK,
     Species.RHYHORN,
     Species.RHYDON,
@@ -52306,6 +52371,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.FIRE_FANG]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -53410,6 +53476,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.DRACO_METEOR]: [
+    Species.KIMURAGI,
     Species.DRATINI,
     Species.DRAGONAIR,
     Species.DRAGONITE,
@@ -54042,6 +54109,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.STONE_EDGE]: [
+    Species.KIMURAGI,
     Species.SANDSHREW,
     Species.SANDSLASH,
     Species.NIDOQUEEN,
@@ -54290,6 +54358,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.STEALTH_ROCK]: [
+    Species.KIMURAGI,
     Species.SANDSHREW,
     Species.SANDSLASH,
     Species.NIDOQUEEN,
@@ -55159,6 +55228,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.HONE_CLAWS]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -55795,6 +55865,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MR_MIME,
   ],
   [Moves.SMACK_DOWN]: [
+    Species.KIMURAGI,
     Species.BLASTOISE,
     Species.SANDSHREW,
     Species.SANDSLASH,
@@ -56621,7 +56692,8 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.FOUL_PLAY]: [
-    // Species.SHOOKY,
+    Species.KIMURAGI,
+    Species.SHOOKY,
     Species.VULPIX,
     Species.NINETALES,
     Species.DIGLETT,
@@ -56792,6 +56864,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ROUND]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -59499,6 +59572,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_MOTH,
   ],
   [Moves.BULLDOZE]: [
+    Species.KIMURAGI,
     Species.VENUSAUR,
     Species.CHARIZARD,
     Species.BLASTOISE,
@@ -59911,6 +59985,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_NINETALES,
   ],
   [Moves.DRAGON_TAIL]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -61021,7 +61096,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
     Species.VAN,
     Species.KOYA,
-    //Species.SHOOKY,
+    Species.SHOOKY,
     Species.PIKACHU,
     Species.RAICHU,
     Species.CLEFAIRY,
@@ -63124,6 +63199,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.HIGH_HORSEPOWER]: [
+    Species.KIMURAGI,
     Species.SANDSHREW,
     Species.SANDSLASH,
     Species.NIDOQUEEN,
@@ -63544,6 +63620,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.LUNGE]: [
+    Species.KIMURAGI,
     Species.VENONAT,
     Species.VENOMOTH,
     Species.BELLSPROUT,
@@ -64388,6 +64465,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.BODY_PRESS]: [
+    Species.KIMURAGI,
     Species.RJ,
     Species.BLASTOISE,
     Species.NIDOQUEEN,
@@ -64554,6 +64632,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.BREAKING_SWIPE]: [
+    Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -64868,6 +64947,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_SANDSLASH,
   ],
   [Moves.SCALE_SHOT]: [
+    Species.KIMURAGI,
     Species.CHARIZARD,
     Species.EKANS,
     Species.ARBOK,
@@ -64950,6 +65030,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.METEOR_BEAM]: [
+    Species.KIMURAGI,
     Species.CLEFAIRY,
     Species.CLEFABLE,
     Species.ONIX,
@@ -66059,6 +66140,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ARCANINE,
   ],
   [Moves.TERA_BLAST]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -67378,6 +67460,7 @@ export const tmSpecies: TmSpecies = {
     Species.HYDRAPPLE,
   ],
   [Moves.TRAILBLAZE]: [
+    Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -67937,6 +68020,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.DRAGON_CHEER]: [
+    Species.KIMURAGI,
     Species.CHARIZARD,
     Species.GYARADOS,
     Species.LAPRAS,
