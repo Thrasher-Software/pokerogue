@@ -186,6 +186,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.COOKY,
         Species.TATA,
         Species.CHIMMY,
+        Species.REGIGIGAS,
       ],
     },
     [BiomePoolTier.UNCOMMON]: {
@@ -8744,7 +8745,10 @@ export function initBiomes() {
       Species.REGIGIGAS,
       PokemonType.NORMAL,
       -1,
-      [[Biome.TEMPLE, BiomePoolTier.BOSS_ULTRA_RARE]],
+      [
+        [Biome.TOWN, BiomePoolTier.COMMON],
+        [Biome.TEMPLE, BiomePoolTier.BOSS_ULTRA_RARE],
+      ],
     ],
     [
       Species.GIRATINA,

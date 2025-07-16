@@ -82,6 +82,7 @@ export enum FormChangeItem {
   ICY_REINS_OF_UNITY,
   SHADOW_REINS_OF_UNITY,
   ULTRANECROZIUM_Z,
+  CRYSTAL_PIECE,
 
   SHARP_METEORITE = 100,
   HARD_METEORITE,
@@ -1330,6 +1331,14 @@ export const pokemonFormChanges: PokemonFormChanges = {
       "",
       SpeciesFormKey.ORIGIN,
       new SpeciesFormChangeItemTrigger(FormChangeItem.LUSTROUS_GLOBE),
+    ),
+  ],
+  [Species.REGIGIGAS]: [
+    new SpeciesFormChange(
+      Species.REGIGIGAS,
+      "",
+      SpeciesFormKey.PRIMAL,
+      new SpeciesFormChangeItemTrigger(FormChangeItem.CRYSTAL_PIECE),
     ),
   ],
   [Species.GIRATINA]: [
