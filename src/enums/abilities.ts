@@ -622,4 +622,5 @@ export enum Abilities {
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Poison_Puppeteer_(ability) | Source} */
   POISON_PUPPETEER,
   MASK_OFF,
+  FOUNDRY,
 }

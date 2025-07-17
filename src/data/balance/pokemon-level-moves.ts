@@ -19278,6 +19278,24 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [52, Moves.GIGA_IMPACT],
     [56, Moves.OUTRAGE],
   ],
+  [Species.DELTA_REGISTEEL]: [
+    [1, Moves.LEER],
+    [1, Moves.EMBER],
+    [1, Moves.SMOKESCREEN],
+    [1, Moves.SMOG],
+    [12, Moves.CLEAR_SMOG],
+    [16, Moves.FLAME_WHEEL],
+    [20, Moves.CONFUSE_RAY],
+    [24, Moves.MINIMIZE],
+    [28, Moves.FIRE_PUNCH],
+    [31, Moves.ANCIENT_POWER],
+    [47, Moves.SUNNY_DAY],
+    [43, Moves.LAVA_PLUME],
+    [49, Moves.HAMMER_ARM],
+    [55, Moves.RECOVER],
+    [61, Moves.LAST_RESORT],
+    [67, Moves.ERUPTION],
+  ],
 };
 
 export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {

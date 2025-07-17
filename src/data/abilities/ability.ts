@@ -11970,5 +11970,11 @@ export function initAbilities() {
       .unsuppressable()
       .bypassFaint()
       .ignorable(),
+    new Ability(Abilities.FOUNDRY, 9).attr(
+      MoveTypeChangeAbAttr,
+      PokemonType.FIRE,
+      1.2,
+      (user, target, move) => move.type === PokemonType.ROCK,
+    ),
   );
 }

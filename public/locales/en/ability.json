@@ -1242,5 +1242,9 @@
   "maskOff": {
     "name": "Mask Off",
     "description": "Mang absorbs damage with its mask."
+  },
+  "foundry": {
+    "name": "Foundry",
+    "description": "Foundry causes all Rock-type moves used by the Pokémon with this Ability to become Fire-type and receive a 30% damage boost, in addition to all other modifiers."
   }
 }
