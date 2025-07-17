@@ -186,7 +186,6 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.COOKY,
         Species.TATA,
         Species.CHIMMY,
-        Species.REGIGIGAS,
       ],
     },
     [BiomePoolTier.UNCOMMON]: {
