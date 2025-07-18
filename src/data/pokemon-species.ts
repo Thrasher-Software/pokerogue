@@ -58,6 +58,7 @@ export enum Region {
   GALAR,
   HISUI,
   PALDEA,
+  DELTA,
 }
 
 // TODO: this is horrible and will need to be removed once a refactor/cleanup of forms is executed.
@@ -43165,34 +43166,6 @@ export function initSpecies() {
       false, // Can't change forms
     ),
     new PokemonSpecies(
-      Species.DELTA_REGISTEEL,
-      9, //generation
-      false, // Not sublegendary
-      true, // Not legendary
-      false, // Not mythical
-      "Crater Pokémon",
-      PokemonType.FIRE,
-      null,
-      1.9, // Height
-      205, //Weight
-      Abilities.FLAME_BODY, // Primary Ability
-      Abilities.NONE, // Secondary Ability
-      Abilities.FOUNDRY, // Hidden Ability
-      580, // Stat Total
-      80, //  HP
-      75, // ATK
-      150, //DEF
-      75, //SpATK
-      150, //SpDEF
-      50, //SPD
-      3, // Catch Rate
-      35, // Base Friendship
-      290, // Base EXP
-      GrowthRate.SLOW, // Growth Rate
-      null, // Genderless
-      false, // Can't change forms
-    ),
-    new PokemonSpecies(
       Species.ALOLA_RATTATA,
       7,
       false,
@@ -44907,5 +44880,33 @@ export function initSpecies() {
       50,
       false,
     ), //Marked as Sub-Legend, for casing purposes
+    new PokemonSpecies(
+      Species.DELTA_REGISTEEL,
+      9, //generation
+      false, // Not sublegendary
+      true, // legendary
+      false, // Not mythical
+      "Crater Pokémon",
+      PokemonType.FIRE,
+      null,
+      1.9, // Height
+      205, //Weight
+      Abilities.FLAME_BODY, // Primary Ability
+      Abilities.NONE, // Secondary Ability
+      Abilities.FOUNDRY, // Hidden Ability
+      580, // Stat Total
+      80, //  HP
+      75, // ATK
+      150, //DEF
+      75, //SpATK
+      150, //SpDEF
+      50, //SPD
+      3, // Catch Rate
+      35, // Base Friendship
+      290, // Base EXP
+      GrowthRate.SLOW, // Growth Rate
+      null, // Genderless
+      false, // Can't change forms
+    ),
   );
 }

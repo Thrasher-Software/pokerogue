@@ -3457,6 +3457,12 @@ export const speciesEggMoves = {
     Moves.WISH,
     Moves.LIGHT_OF_RUIN,
   ],
+  [Species.DELTA_REGISTEEL]: [
+    Moves.BURNING_BULWARK,
+    Moves.HEAVY_SLAM,
+    Moves.SUNNY_DAY,
+    Moves.BLUE_FLARE,
+  ],
 };
 
 function parseEggMoves(content: string): void {

@@ -3937,7 +3937,7 @@
 					}
 				},
 				{
-					"filename": "1040",
+					"filename": "10379",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -3958,7 +3958,7 @@
 					}
 				},
 				{
-					"filename": "1040s",
+					"filename": "10379s",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -7008,6 +7008,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:bf5aa977e957cc7a6fddad9bf8000641:c13472724afc762c99596c3792168bf6:6fb417eff82c0971c86b4818772ba292$"
+		"smartupdate": "$TexturePacker:SmartUpdate:e95e6f2f477d6ec7135935f5fe7df4b2:476bdaf0438cdcfafaafdfd751b69756:6fb417eff82c0971c86b4818772ba292$"
 	}
 }

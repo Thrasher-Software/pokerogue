@@ -2063,7 +2063,6 @@ export enum Species {
   TATA,
   CHIMMY,
   KIMURAGI,
-  DELTA_REGISTEEL,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pokémon) | Source} */
   ALOLA_RATTATA = 2019,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pokémon) | Source} */
@@ -2178,4 +2177,5 @@ export enum Species {
   PALDEA_WOOPER = 8194,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pokémon) | Source} */
   BLOODMOON_URSALUNA = 8901,
+  DELTA_REGISTEEL = 10379,
 }
