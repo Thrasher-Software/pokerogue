@@ -608,6 +608,18 @@ In addition to the lists below, please check [the PokéRogue wiki](https://wiki.
 - lyn
 - Pom
 
+## 🌀 Planar Chaos Fork Team
+
+## Developers
+- Jake Wiley
+
+# Artists
+- Andi Reyes
+- Alcor
+
+# Special Art Contributors
+- andersQT
+
 
 # ✨ Special Thanks
 

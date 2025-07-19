@@ -44907,7 +44907,7 @@ export function initSpecies() {
       64, // Exp Yield
       GrowthRate.MEDIUM_SLOW,
       50,
-      false,
+      true,
     ),
     new PokemonSpecies(
       Species.DELTA_REGISTEEL,
