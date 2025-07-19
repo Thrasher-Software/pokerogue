@@ -1514,5 +1514,7 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.CHIMMY]: { 0: Abilities.PUNK_ROCK },
   [Species.KIMURAGI]: { 0: Abilities.SAP_SIPPER },
   [Species.DELTA_BULBASAUR]: { 0: Abilities.MAGIC_GUARD },
+  [Species.DELTA_IVYSAUR]: { 0: Abilities.MAGIC_GUARD },
+  [Species.DELTA_VENUSAUR]: { 0: Abilities.MAGIC_GUARD },
   [Species.DELTA_REGISTEEL]: { 0: Abilities.WHITE_SMOKE },
 };

@@ -11980,5 +11980,10 @@ export function initAbilities() {
       LowHpMoveTypePowerBoostAbAttr,
       PokemonType.PSYCHIC,
     ),
+    new Ability(Abilities.HUBRIS, 9).attr(
+      PostVictoryStatStageChangeAbAttr,
+      Stat.SPATK,
+      1,
+    ),
   );
 }

@@ -2958,6 +2958,12 @@ export const pokemonEvolutions: PokemonEvolutions = {
       SpeciesWildEvolutionDelay.VERY_LONG,
     ),
   ],
+  [Species.DELTA_BULBASAUR]: [
+    new SpeciesEvolution(Species.DELTA_IVYSAUR, 16, null, null),
+  ],
+  [Species.DELTA_IVYSAUR]: [
+    new SpeciesEvolution(Species.DELTA_VENUSAUR, 32, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

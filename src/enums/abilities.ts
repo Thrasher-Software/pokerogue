@@ -624,4 +624,5 @@ export enum Abilities {
   MASK_OFF,
   FOUNDRY,
   PSYCHO_CALL,
+  HUBRIS,
 }

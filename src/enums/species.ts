@@ -2178,5 +2178,7 @@ export enum Species {
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pokémon) | Source} */
   BLOODMOON_URSALUNA = 8901,
   DELTA_BULBASAUR = 10001,
+  DELTA_IVYSAUR = 10002,
+  DELTA_VENUSAUR = 10003,
   DELTA_REGISTEEL = 10379,
 }

@@ -7738,16 +7738,16 @@
 					}
 				},
 				{
-					"filename": "diancite",
+					"filename": "delta_venusaurite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
-						"h": 32
+						"w": 24,
+						"h": 24
 					},
 					"spriteSourceSize": {
-						"x": 8,
-						"y": 8,
+						"x": 4,
+						"y": 4,
 						"w": 16,
 						"h": 16
 					},
@@ -7759,7 +7759,7 @@
 					}
 				},
 				{
-					"filename": "galladite",
+					"filename": "diancite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -7780,7 +7780,7 @@
 					}
 				},
 				{
-					"filename": "garchompite",
+					"filename": "galladite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -7801,7 +7801,7 @@
 					}
 				},
 				{
-					"filename": "gardevoirite",
+					"filename": "garchompite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -7822,7 +7822,7 @@
 					}
 				},
 				{
-					"filename": "gengarite",
+					"filename": "gardevoirite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -7843,7 +7843,7 @@
 					}
 				},
 				{
-					"filename": "glalitite",
+					"filename": "gengarite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -7864,7 +7864,7 @@
 					}
 				},
 				{
-					"filename": "gyaradosite",
+					"filename": "glalitite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -7885,7 +7885,7 @@
 					}
 				},
 				{
-					"filename": "heracronite",
+					"filename": "gyaradosite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -7906,7 +7906,7 @@
 					}
 				},
 				{
-					"filename": "houndoominite",
+					"filename": "heracronite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -7922,6 +7922,27 @@
 					"frame": {
 						"x": 300,
 						"y": 375,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "houndoominite",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 8,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 316,
+						"y": 359,
 						"w": 16,
 						"h": 16
 					}
@@ -7942,7 +7963,7 @@
 					},
 					"frame": {
 						"x": 316,
-						"y": 359,
+						"y": 375,
 						"w": 16,
 						"h": 16
 					}
@@ -7962,8 +7983,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 316,
-						"y": 375,
+						"x": 332,
+						"y": 358,
 						"w": 16,
 						"h": 16
 					}
@@ -7984,7 +8005,7 @@
 					},
 					"frame": {
 						"x": 332,
-						"y": 358,
+						"y": 374,
 						"w": 16,
 						"h": 16
 					}
@@ -8004,8 +8025,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 332,
-						"y": 374,
+						"x": 348,
+						"y": 358,
 						"w": 16,
 						"h": 16
 					}
@@ -8026,34 +8047,13 @@
 					},
 					"frame": {
 						"x": 348,
-						"y": 358,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "manectite",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 32,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 8,
-						"y": 8,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 348,
 						"y": 374,
 						"w": 16,
 						"h": 16
 					}
 				},
 				{
-					"filename": "mawilite",
+					"filename": "manectite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8074,7 +8074,7 @@
 					}
 				},
 				{
-					"filename": "medichamite",
+					"filename": "mawilite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8095,7 +8095,7 @@
 					}
 				},
 				{
-					"filename": "metagrossite",
+					"filename": "medichamite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8116,7 +8116,7 @@
 					}
 				},
 				{
-					"filename": "mewtwonite_x",
+					"filename": "metagrossite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8137,7 +8137,7 @@
 					}
 				},
 				{
-					"filename": "mewtwonite_y",
+					"filename": "mewtwonite_x",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8158,7 +8158,7 @@
 					}
 				},
 				{
-					"filename": "nugget",
+					"filename": "mewtwonite_y",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8179,7 +8179,7 @@
 					}
 				},
 				{
-					"filename": "pidgeotite",
+					"filename": "nugget",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8200,7 +8200,7 @@
 					}
 				},
 				{
-					"filename": "pinsirite",
+					"filename": "pidgeotite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8221,7 +8221,7 @@
 					}
 				},
 				{
-					"filename": "rayquazite",
+					"filename": "pinsirite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8242,7 +8242,7 @@
 					}
 				},
 				{
-					"filename": "sablenite",
+					"filename": "rayquazite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8263,7 +8263,7 @@
 					}
 				},
 				{
-					"filename": "salamencite",
+					"filename": "sablenite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8284,7 +8284,7 @@
 					}
 				},
 				{
-					"filename": "sceptilite",
+					"filename": "salamencite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8305,7 +8305,7 @@
 					}
 				},
 				{
-					"filename": "scizorite",
+					"filename": "sceptilite",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -8321,6 +8321,27 @@
 					"frame": {
 						"x": 364,
 						"y": 359,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "scizorite",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 8,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 364,
+						"y": 375,
 						"w": 16,
 						"h": 16
 					}
@@ -8341,7 +8362,7 @@
 					},
 					"frame": {
 						"x": 364,
-						"y": 375,
+						"y": 343,
 						"w": 16,
 						"h": 16
 					}
@@ -8361,8 +8382,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 364,
-						"y": 343,
+						"x": 380,
+						"y": 359,
 						"w": 16,
 						"h": 16
 					}
@@ -8383,7 +8404,7 @@
 					},
 					"frame": {
 						"x": 380,
-						"y": 359,
+						"y": 375,
 						"w": 16,
 						"h": 16
 					}
@@ -8403,8 +8424,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 380,
-						"y": 375,
+						"x": 396,
+						"y": 359,
 						"w": 16,
 						"h": 16
 					}
@@ -8425,7 +8446,7 @@
 					},
 					"frame": {
 						"x": 396,
-						"y": 359,
+						"y": 375,
 						"w": 16,
 						"h": 16
 					}
@@ -8445,8 +8466,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 396,
-						"y": 375,
+						"x": 412,
+						"y": 359,
 						"w": 16,
 						"h": 16
 					}
@@ -8467,7 +8488,7 @@
 					},
 					"frame": {
 						"x": 412,
-						"y": 359,
+						"y": 375,
 						"w": 16,
 						"h": 16
 					}
@@ -8487,8 +8508,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 412,
-						"y": 375,
+						"x": 368,
+						"y": 391,
 						"w": 16,
 						"h": 16
 					}
@@ -8499,6 +8520,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:39d9eb4d2e7a3adab4d4a313938acb07:d56b7a2858e3591d036e1fdad4e1772c:110e074689c9edd2c54833ce2e4d9270$"
+		"smartupdate": "$TexturePacker:SmartUpdate:eb8e98da64d08cf3607c771da90242c1:cce1df59526e42149afaf4141713c23f:110e074689c9edd2c54833ce2e4d9270$"
 	}
 }

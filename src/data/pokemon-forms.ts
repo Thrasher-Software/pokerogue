@@ -66,6 +66,7 @@ export enum FormChangeItem {
   SWAMPERTITE,
   TYRANITARITE,
   VENUSAURITE,
+  DELTA_VENUSAURITE,
 
   BLUE_ORB = 50,
   RED_ORB,
@@ -2527,6 +2528,14 @@ export const pokemonFormChanges: PokemonFormChanges = {
       "masked",
       new SpeciesFormChangeAbilityTrigger(),
       true,
+    ),
+  ],
+  [Species.DELTA_VENUSAUR]: [
+    new SpeciesFormChange(
+      Species.DELTA_VENUSAUR,
+      "",
+      SpeciesFormKey.MEGA,
+      new SpeciesFormChangeItemTrigger(FormChangeItem.DELTA_VENUSAURITE),
     ),
   ],
   [Species.GALAR_DARMANITAN]: [

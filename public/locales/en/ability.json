@@ -1250,5 +1250,9 @@
   "psychoCall": {
     "name": "Psycho Call",
     "description": "Powers up Psychic-type moves when the Pokémon’s HP is low."
+  },
+  "hubris": {
+    "name": "Hubris",
+    "description": "When the Pokémon knocks out a target, it shows hubris, which boosts its Special Attack stat."
   }
 }

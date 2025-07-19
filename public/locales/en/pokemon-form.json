@@ -312,6 +312,7 @@
     "GALAR": "Galarian {{pokemonName}}",
     "HISUI": "Hisuian {{pokemonName}}",
     "PALDEA": "Paldean {{pokemonName}}",
+    "DELTA": "Delta {{pokemonName}}",
     "ETERNAL": "Eternal Flower {{pokemonName}}",
     "BLOODMOON": "Bloodmoon {{pokemonName}}"
   },
