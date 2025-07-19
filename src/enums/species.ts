@@ -2177,5 +2177,6 @@ export enum Species {
   PALDEA_WOOPER = 8194,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pokémon) | Source} */
   BLOODMOON_URSALUNA = 8901,
+  DELTA_BULBASAUR = 10001,
   DELTA_REGISTEEL = 10379,
 }

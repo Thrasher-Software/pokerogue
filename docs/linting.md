@@ -19,8 +19,8 @@ On the other hand, if Biome complains about a piece of code, **there's probably 
 Biome has integration with many popular code editors. See [these](https://biomejs.dev/guides/editors/first-party-extensions/) [pages](https://biomejs.dev/guides/editors/third-party-extensions/) for information about enabling Biome in your editor of choice.
 
 ## Automated Runs
-Generally speaking, most users shouldn't need to run Biome directly; in addition to editor integration, [pre-commit hook](../lefthook.yml) will periodically run Biome before each commit.
-You will **not** be able to push code with `error`-level linting problems - fix them beforehand.
+Generally speaking, most users shouldn't need to run Biome directly; in addition to editor integration, you can run Biome manually before committing your changes.
+You should avoid committing code with `error`-level linting problems - fix them beforehand.
 
 We also have a [Github Action](../.github/workflows/quality.yml) to verify code quality each time a PR is updated, preventing bad code from inadvertently making its way upstream.
 

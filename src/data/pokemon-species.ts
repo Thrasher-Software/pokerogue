@@ -578,6 +578,7 @@ export abstract class PokemonSpeciesForm {
       case Species.FRILLISH:
       case Species.JELLICENT:
       case Species.PYROAR:
+      case Species.DELTA_BULBASAUR:
         ret += female ? "-f" : "";
         break;
     }
@@ -44880,6 +44881,34 @@ export function initSpecies() {
       50,
       false,
     ), //Marked as Sub-Legend, for casing purposes
+    new PokemonSpecies(
+      Species.DELTA_BULBASAUR,
+      9,
+      false,
+      false,
+      false,
+      "Crystal Pokémon",
+      PokemonType.FAIRY,
+      PokemonType.PSYCHIC,
+      0.7,
+      6.9,
+      Abilities.PSYCHO_CALL,
+      Abilities.NONE,
+      Abilities.REGENERATOR,
+      318, // BST
+      45, // HP
+      49, // ATK
+      49, // DEF
+      65, // SpATK
+      65, // SpDEF
+      45, // SPD
+      45, // Catch Rate
+      50, // Base Friendship
+      64, // Exp Yield
+      GrowthRate.MEDIUM_SLOW,
+      50,
+      false,
+    ),
     new PokemonSpecies(
       Species.DELTA_REGISTEEL,
       9, //generation

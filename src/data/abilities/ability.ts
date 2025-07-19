@@ -11976,5 +11976,9 @@ export function initAbilities() {
       1.2,
       (user, target, move) => move.type === PokemonType.ROCK,
     ),
+    new Ability(Abilities.PSYCHO_CALL, 9).attr(
+      LowHpMoveTypePowerBoostAbAttr,
+      PokemonType.PSYCHIC,
+    ),
   );
 }
