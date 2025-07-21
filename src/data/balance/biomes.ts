@@ -2586,7 +2586,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [Species.RESHIRAM],
+      [TimeOfDay.ALL]: [Species.RESHIRAM, Species.DELTA_REGISTEEL],
     },
   },
   [Biome.GRAVEYARD]: {
@@ -13388,7 +13388,12 @@ export function initBiomes() {
         [Biome.METROPOLIS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
       ],
     ],
-    [Species.DELTA_REGISTEEL, PokemonType.FIRE, null, []],
+    [
+      Species.DELTA_REGISTEEL,
+      PokemonType.FIRE,
+      null,
+      [[Biome.VOLCANO, BiomePoolTier.BOSS_ULTRA_RARE]],
+    ],
     [
       Species.ALOLA_RATTATA,
       PokemonType.DARK,

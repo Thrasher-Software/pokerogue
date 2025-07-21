@@ -4055,6 +4055,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FLAMETHROWER]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -5433,6 +5434,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.HYPER_BEAM]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_BLASTOISE,
@@ -6489,6 +6491,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.STRENGTH]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -7319,6 +7322,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.THUNDERBOLT]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.RATTATA,
@@ -7599,6 +7603,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.THUNDER_WAVE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -8139,6 +8144,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.EARTHQUAKE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_BLASTOISE,
@@ -8459,6 +8465,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.DIG]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_BLASTOISE,
     Species.DELTA_WARTORTLE,
     Species.DELTA_SQUIRTLE,
@@ -8889,6 +8896,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.TOXIC]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -10635,6 +10643,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SNEASEL,
   ],
   [Moves.DOUBLE_TEAM]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -11890,6 +11899,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.LIGHT_SCREEN]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BLASTOISE,
@@ -12352,6 +12362,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.REFLECT]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BLASTOISE,
@@ -13108,6 +13119,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.FIRE_BLAST]: [
+    Species.DELTA_REGISTEEL,
     Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
@@ -14739,6 +14751,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.EXPLOSION]: [
+    Species.DELTA_REGISTEEL,
     Species.KIMURAGI,
     Species.GEODUDE,
     Species.GRAVELER,
@@ -14839,6 +14852,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.REST]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -15906,6 +15920,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SLIDE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -16467,6 +16482,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SUBSTITUTE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -19829,6 +19845,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.PROTECT]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -24425,6 +24442,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SWAGGER]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -26289,6 +26307,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.SLEEP_TALK]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -27445,6 +27464,7 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.RETURN]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -28515,6 +28535,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FRUSTRATION]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -31020,6 +31041,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.HIDDEN_POWER]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -32822,6 +32844,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SUNNY_DAY]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -36094,6 +36117,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.WILL_O_WISP]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -36243,6 +36267,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -39331,6 +39356,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.BRICK_BREAK]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_BLASTOISE,
     Species.DELTA_WARTORTLE,
     Species.DELTA_SQUIRTLE,
@@ -42624,6 +42650,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.OVERHEAT]: [
+    Species.DELTA_REGISTEEL,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -42734,6 +42761,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.ROCK_TOMB]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BLASTOISE,
@@ -46555,6 +46583,7 @@ export const tmSpecies: TmSpecies = {
     [Species.INDEEDEE, "male"],
   ],
   [Moves.GYRO_BALL]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_BLASTOISE,
     Species.DELTA_WARTORTLE,
     Species.DELTA_SQUIRTLE,
@@ -47401,6 +47430,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.PAYBACK]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -47918,6 +47948,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.EMBARGO]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -50407,6 +50438,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ARCANINE,
   ],
   [Moves.DRAIN_PUNCH]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_BLASTOISE,
     Species.DELTA_WARTORTLE,
     Species.DELTA_SQUIRTLE,
@@ -50615,6 +50647,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FOCUS_BLAST]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_BLASTOISE,
     Species.DELTA_WARTORTLE,
     Species.DELTA_SQUIRTLE,
@@ -51398,6 +51431,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.GIGA_IMPACT]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_BLASTOISE,
@@ -53395,6 +53429,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.ROCK_CLIMB]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BLASTOISE,
@@ -54480,6 +54515,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.STONE_EDGE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_BLASTOISE,
     Species.DELTA_WARTORTLE,
     Species.DELTA_SQUIRTLE,
@@ -55407,6 +55443,7 @@ export const tmSpecies: TmSpecies = {
     Species.HYDRAPPLE,
   ],
   [Moves.CHARGE_BEAM]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -56254,6 +56291,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MR_MIME,
   ],
   [Moves.SMACK_DOWN]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -56745,6 +56783,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.FLAME_CHARGE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -57265,6 +57304,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ROUND]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -59086,6 +59126,7 @@ export const tmSpecies: TmSpecies = {
     Species.NAGANADEL,
   ],
   [Moves.INCINERATE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -59291,6 +59332,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_TAUROS,
   ],
   [Moves.QUASH]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -60016,6 +60058,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_MOTH,
   ],
   [Moves.BULLDOZE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_VENUSAUR,
@@ -62093,6 +62136,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_TYPHLOSION,
   ],
   [Moves.CONFIDE]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -63434,6 +63478,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_EXEGGUTOR,
   ],
   [Moves.POWER_UP_PUNCH]: [
+    Species.DELTA_REGISTEEL,
     Species.DELTA_BLASTOISE,
     Species.DELTA_WARTORTLE,
     Species.DELTA_SQUIRTLE,
