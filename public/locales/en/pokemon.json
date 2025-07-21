@@ -1098,5 +1098,8 @@
   "delta_registeel": "Registeel",
   "delta_bulbasaur": "Bulbasaur",
   "delta_ivysaur": "Ivysaur",
-  "delta_venusaur": "Venusaur"
+  "delta_venusaur": "Venusaur",
+  "delta_charmander": "Charmander",
+  "delta_charmeleon": "Charmeleon",
+  "delta_charizard": "Charizard"
 }

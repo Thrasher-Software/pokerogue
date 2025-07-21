@@ -1254,5 +1254,13 @@
   "hubris": {
     "name": "Hubris",
     "description": "When the Pokémon knocks out a target, it shows hubris, which boosts its Special Attack stat."
+  },
+  "spiritCall": {
+    "name": "Spirit Call",
+    "description": "Powers up Ghost-type moves when the Pokémon’s HP is low."
+  },
+  "noctem": {
+    "name": "Noctem",
+    "description": "A blanket of darkness descends when the Pokémon enters a battle."
   }
 }

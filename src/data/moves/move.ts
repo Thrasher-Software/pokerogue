@@ -897,6 +897,14 @@ export default class Move implements Localizable {
       moveAccuracy.value = Math.floor(moveAccuracy.value * 0.9);
     }
 
+    if (globalScene.arena.weather?.weatherType === WeatherType.DARKNESS) {
+      /**
+       *  The 0.9 multiplier is Planar Chaos only implementation.
+       *  We're basically mimicking Fog for now.
+       */
+      moveAccuracy.value = Math.floor(moveAccuracy.value * 0.9);
+    }
+
     if (!isOhko && globalScene.arena.getTag(ArenaTagType.GRAVITY)) {
       moveAccuracy.value = Math.floor(moveAccuracy.value * 1.67);
     }

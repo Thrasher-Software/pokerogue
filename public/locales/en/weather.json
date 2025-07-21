@@ -34,5 +34,8 @@
   "strongWindsEffectMessage": "The mysterious strong winds weakened the attack!",
   "strongWindsContinueMessage": "The mysterious strong winds blow on regardless!",
   "strongWindsClearMessage": "The mysterious strong winds have dissipated!",
+  "darknessStartMessage": "A blanket of darkness descends!",
+  "darknessLapseMessage": "The darkness continues.",
+  "darknessClearMessage": "The darkness fades.",
   "defaultEffectMessage": "The attack was blocked by the weather effect!"
 }

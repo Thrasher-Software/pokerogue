@@ -627,7 +627,8 @@ export const speciesStarterCosts = {
   [Species.COOKY]: 3,
   [Species.TATA]: 5,
   [Species.CHIMMY]: 4,
-  [Species.DELTA_BULBASAUR]: 3,
+  [Species.DELTA_BULBASAUR]: 4,
+  [Species.DELTA_CHARMANDER]: 4,
   [Species.DELTA_REGISTEEL]: 6,
 };
 

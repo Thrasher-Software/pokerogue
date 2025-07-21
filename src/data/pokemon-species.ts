@@ -471,9 +471,16 @@ export abstract class PokemonSpeciesForm {
     const showGenderDiffs =
       this.genderDiffs &&
       female &&
-      ![SpeciesFormKey.MEGA, SpeciesFormKey.GIGANTAMAX].includes(
+      (![SpeciesFormKey.MEGA, SpeciesFormKey.GIGANTAMAX].includes(
         formSpriteKey as SpeciesFormKey,
-      );
+      ) ||
+        // This is how I got Mega Delta Venusaur to render correctly.
+        // For the curious, at line 474, that is saying not to check for gender diffs
+        // for Mega and Gigantamax Pokemon.
+        // The line below this says "oh except for Delta Venusaur ofc"
+        // However, if there is no gendered version of D Venusaur the game will
+        // hit you with a cool 404 so we may handle this differently later.
+        this.speciesId === Species.DELTA_VENUSAUR);
 
     return `${showGenderDiffs ? "female__" : ""}${this.speciesId}${formSpriteKey ? `-${formSpriteKey}` : ""}`;
   }
@@ -45012,6 +45019,136 @@ export function initSpecies() {
         50,
         263,
         true,
+      ),
+    ),
+    new PokemonSpecies(
+      Species.DELTA_CHARMANDER,
+      9,
+      false,
+      false,
+      false,
+      "Bone Lizard Pokémon",
+      PokemonType.GHOST,
+      PokemonType.DRAGON,
+      0.6,
+      8.5,
+      Abilities.SPIRIT_CALL,
+      Abilities.NONE,
+      Abilities.DARK_AURA,
+      309, // BST
+      39, // HP
+      52, // ATK
+      43, // DEF
+      60, // SpATK
+      50, // SpDEF
+      65, // SPD
+      45, // Catch Rate
+      50, // Base Friendship
+      62, // Exp Yield
+      GrowthRate.MEDIUM_SLOW,
+      87.5,
+      false,
+    ),
+    new PokemonSpecies(
+      Species.DELTA_CHARMELEON,
+      9,
+      false,
+      false,
+      false,
+      "Skeleton Pokémon",
+      PokemonType.GHOST,
+      PokemonType.DRAGON,
+      0.6,
+      8.5,
+      Abilities.SPIRIT_CALL,
+      Abilities.NONE,
+      Abilities.DARK_AURA,
+      405, // BST
+      58, // HP
+      64, // ATK
+      58, // DEF
+      80, // SpATK
+      65, // SpDEF
+      80, // SPD
+      45, // Catch Rate
+      50, // Base Friendship
+      142, // Exp Yield
+      GrowthRate.MEDIUM_SLOW,
+      87.5,
+      false,
+    ),
+    new PokemonSpecies(
+      Species.DELTA_CHARIZARD,
+      9,
+      false,
+      false,
+      false,
+      "Skeleton Pokémon",
+      PokemonType.GHOST,
+      PokemonType.DRAGON,
+      1.7,
+      90.5,
+      Abilities.SPIRIT_CALL,
+      Abilities.NONE,
+      Abilities.DARK_AURA, // Hidden Ability
+      534, // BST
+      78, // HP
+      84, // ATK
+      78, // DEF
+      109, // SpATK
+      85, // SpDEF
+      100, // SPD
+      45, // Catch Rate
+      50, // Base Friendship
+      267, // Exp Yield
+      GrowthRate.MEDIUM_SLOW,
+      87.5, // Gender Ratio
+      false,
+      true,
+      new PokemonForm(
+        "Normal",
+        "",
+        PokemonType.GHOST,
+        PokemonType.DRAGON,
+        1.7,
+        90.5,
+        Abilities.SPIRIT_CALL,
+        Abilities.NONE,
+        Abilities.DARK_AURA,
+        534,
+        78,
+        84,
+        78,
+        109,
+        85,
+        100,
+        45,
+        50,
+        267,
+        false,
+        null,
+        true,
+      ),
+      new PokemonForm(
+        "Mega",
+        SpeciesFormKey.MEGA,
+        PokemonType.GHOST,
+        PokemonType.DRAGON,
+        1.7,
+        110.5,
+        Abilities.NOCTEM,
+        Abilities.NONE,
+        Abilities.NOCTEM,
+        634,
+        78,
+        104,
+        78,
+        159,
+        115,
+        100,
+        45,
+        50,
+        267,
       ),
     ),
     new PokemonSpecies(

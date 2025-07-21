@@ -11985,5 +11985,12 @@ export function initAbilities() {
       Stat.SPATK,
       1,
     ),
+    new Ability(Abilities.SPIRIT_CALL, 9).attr(
+      LowHpMoveTypePowerBoostAbAttr,
+      PokemonType.GHOST,
+    ),
+    new Ability(Abilities.NOCTEM, 9)
+      .attr(PostSummonWeatherChangeAbAttr, WeatherType.DARKNESS)
+      .attr(PostBiomeChangeWeatherChangeAbAttr, WeatherType.DARKNESS),
   );
 }

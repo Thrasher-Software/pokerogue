@@ -2964,6 +2964,12 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_IVYSAUR]: [
     new SpeciesEvolution(Species.DELTA_VENUSAUR, 32, null, null),
   ],
+  [Species.DELTA_CHARMANDER]: [
+    new SpeciesEvolution(Species.DELTA_CHARMELEON, 16, null, null),
+  ],
+  [Species.DELTA_CHARMELEON]: [
+    new SpeciesEvolution(Species.DELTA_CHARIZARD, 36, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

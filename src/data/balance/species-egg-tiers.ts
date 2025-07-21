@@ -592,5 +592,7 @@ export const speciesEggTiers = {
   [Species.COOKY]: EggTier.RARE,
   [Species.TATA]: EggTier.RARE,
   [Species.CHIMMY]: EggTier.RARE,
+  [Species.DELTA_BULBASAUR]: EggTier.RARE,
+  [Species.DELTA_CHARMANDER]: EggTier.RARE,
   [Species.DELTA_REGISTEEL]: EggTier.EPIC,
 };

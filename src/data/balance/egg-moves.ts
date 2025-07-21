@@ -3469,6 +3469,12 @@ export const speciesEggMoves = {
     Moves.SUNNY_DAY,
     Moves.BLUE_FLARE,
   ],
+  [Species.DELTA_CHARMANDER]: [
+    Moves.FLAMETHROWER,
+    Moves.BADDY_BAD,
+    Moves.PSYCHIC,
+    Moves.ASTRAL_BARRAGE,
+  ],
 };
 
 function parseEggMoves(content: string): void {

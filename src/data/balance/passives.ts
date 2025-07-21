@@ -1516,5 +1516,8 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.DELTA_BULBASAUR]: { 0: Abilities.MAGIC_GUARD },
   [Species.DELTA_IVYSAUR]: { 0: Abilities.MAGIC_GUARD },
   [Species.DELTA_VENUSAUR]: { 0: Abilities.MAGIC_GUARD },
+  [Species.DELTA_CHARMANDER]: { 0: Abilities.LEVITATE },
+  [Species.DELTA_CHARMELEON]: { 0: Abilities.LEVITATE },
+  [Species.DELTA_CHARIZARD]: { 0: Abilities.HUBRIS },
   [Species.DELTA_REGISTEEL]: { 0: Abilities.WHITE_SMOKE },
 };

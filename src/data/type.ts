@@ -2,7 +2,10 @@ import { PokemonType } from "#enums/pokemon-type";
 
 export type TypeDamageMultiplier = 0 | 0.125 | 0.25 | 0.5 | 1 | 2 | 4 | 8;
 
-export function getTypeDamageMultiplier(attackType: PokemonType, defType: PokemonType): TypeDamageMultiplier {
+export function getTypeDamageMultiplier(
+  attackType: PokemonType,
+  defType: PokemonType,
+): TypeDamageMultiplier {
   if (attackType === PokemonType.UNKNOWN || defType === PokemonType.UNKNOWN) {
     return 1;
   }
@@ -250,6 +253,7 @@ export function getTypeDamageMultiplier(attackType: PokemonType, defType: Pokemo
       switch (attackType) {
         case PokemonType.POISON:
         case PokemonType.STEEL:
+        case PokemonType.BUG:
           return 2;
         case PokemonType.FIGHTING:
         case PokemonType.BUG:

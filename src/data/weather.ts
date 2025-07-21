@@ -89,6 +89,11 @@ export class Weather {
           return 1.5;
         }
         break;
+      case WeatherType.DARKNESS:
+        if (attackType === PokemonType.DARK) {
+          return 1.5;
+        }
+        break;
     }
 
     return 1;
@@ -152,6 +157,8 @@ export function getWeatherStartMessage(
       return i18next.t("weather:harshSunStartMessage");
     case WeatherType.STRONG_WINDS:
       return i18next.t("weather:strongWindsStartMessage");
+    case WeatherType.DARKNESS:
+      return i18next.t("weather:darknessStartMessage");
   }
 
   return null;
@@ -179,6 +186,8 @@ export function getWeatherLapseMessage(
       return i18next.t("weather:harshSunLapseMessage");
     case WeatherType.STRONG_WINDS:
       return i18next.t("weather:strongWindsLapseMessage");
+    case WeatherType.DARKNESS:
+      return i18next.t("weather:darknessLapseMessage");
   }
 
   return null;
@@ -224,6 +233,8 @@ export function getWeatherClearMessage(
       return i18next.t("weather:harshSunClearMessage");
     case WeatherType.STRONG_WINDS:
       return i18next.t("weather:strongWindsClearMessage");
+    case WeatherType.DARKNESS:
+      return i18next.t("weather:darknessClearMessage");
   }
 
   return null;
@@ -433,6 +444,11 @@ export function getRandomWeatherType(arena: Arena): WeatherType {
         weatherPool.push({ weatherType: WeatherType.SUNNY, weight: 2 });
       }
       break;
+    case Biome.ABYSS:
+      weatherPool = [
+        { weatherType: WeatherType.NONE, weight: 8 },
+        { weatherType: WeatherType.DARKNESS, weight: 5 },
+      ];
   }
 
   if (arena.biomeType === Biome.TOWN && timedEventManager.isEventActive()) {
