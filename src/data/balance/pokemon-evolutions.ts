@@ -2973,6 +2973,9 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_SQUIRTLE]: [
     new SpeciesEvolution(Species.DELTA_WARTORTLE, 16, null, null),
   ],
+  [Species.DELTA_WARTORTLE]: [
+    new SpeciesEvolution(Species.DELTA_BLASTOISE, 36, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {
