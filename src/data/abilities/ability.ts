@@ -11992,5 +11992,12 @@ export function initAbilities() {
     new Ability(Abilities.NOCTEM, 9)
       .attr(PostSummonWeatherChangeAbAttr, WeatherType.DARKNESS)
       .attr(PostBiomeChangeWeatherChangeAbAttr, WeatherType.DARKNESS),
+    new Ability(Abilities.SHADOW_CALL, 9).attr(
+      LowHpMoveTypePowerBoostAbAttr,
+      PokemonType.DARK,
+    ),
+    new Ability(Abilities.SHADOW_DANCE, 9)
+      .attr(StatMultiplierAbAttr, Stat.SPD, 2)
+      .condition(getWeatherCondition(WeatherType.DARKNESS)),
   );
 }

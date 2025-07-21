@@ -1262,5 +1262,13 @@
   "noctem": {
     "name": "Noctem",
     "description": "A blanket of darkness descends when the Pokémon enters a battle."
+  },
+  "shadowCall": {
+    "name": "Shadow Call",
+    "description": "Powers up Dark-type moves when the Pokémon’s HP is low."
+  },
+  "shadowDance": {
+    "name": "Shadow Dance",
+    "description": "Boosts the Pokémon’s Speed stat in darkness."
   }
 }

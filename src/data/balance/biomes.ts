@@ -13223,6 +13223,7 @@ export function initBiomes() {
     [Species.DELTA_CHARMANDER, PokemonType.GHOST, PokemonType.DRAGON, []],
     [Species.DELTA_CHARMELEON, PokemonType.GHOST, PokemonType.DRAGON, []],
     [Species.DELTA_CHARIZARD, PokemonType.FAIRY, PokemonType.PSYCHIC, []],
+    [Species.DELTA_SQUIRTLE, PokemonType.DARK, PokemonType.FIGHTING, []],
     [Species.DELTA_REGISTEEL, PokemonType.FIRE, null, []],
     [
       Species.ALOLA_RATTATA,

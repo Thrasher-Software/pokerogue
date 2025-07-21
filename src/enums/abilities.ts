@@ -627,4 +627,6 @@ export enum Abilities {
   HUBRIS,
   SPIRIT_CALL,
   NOCTEM,
+  SHADOW_CALL,
+  SHADOW_DANCE,
 }

@@ -629,6 +629,7 @@ export const speciesStarterCosts = {
   [Species.CHIMMY]: 4,
   [Species.DELTA_BULBASAUR]: 4,
   [Species.DELTA_CHARMANDER]: 4,
+  [Species.DELTA_SQUIRTLE]: 4,
   [Species.DELTA_REGISTEEL]: 6,
 };
 
