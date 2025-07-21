@@ -20945,6 +20945,9 @@ export function initMoves() {
       .attr(StatusEffectAttr, StatusEffect.BURN)
       .soundBased()
       .target(MoveTarget.ALL_NEAR_ENEMIES),
+    new StatusMove(Moves.NEW_MOON, PokemonType.DARK, -1, 5, -1, 0, 9)
+      .attr(WeatherChangeAttr, WeatherType.DARKNESS)
+      .target(MoveTarget.BOTH_SIDES),
   );
   allMoves.map((m) => {
     if (

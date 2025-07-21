@@ -90,8 +90,14 @@ export class Weather {
         }
         break;
       case WeatherType.DARKNESS:
-        if (attackType === PokemonType.DARK) {
+        if (
+          attackType === PokemonType.DARK ||
+          attackType === PokemonType.GHOST
+        ) {
           return 1.5;
+        }
+        if (attackType === PokemonType.FAIRY) {
+          return 0.5;
         }
         break;
     }
