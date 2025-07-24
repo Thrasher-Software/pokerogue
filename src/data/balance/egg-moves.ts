@@ -3481,6 +3481,12 @@ export const speciesEggMoves = {
     Moves.PSYCHIC,
     Moves.ASTRAL_BARRAGE,
   ],
+  [Species.DELTA_LOTAD]: [
+    Moves.PSYCHIC,
+    Moves.BADDY_BAD,
+    Moves.ICE_BEAM,
+    Moves.COMET_AZUR,
+  ],
 };
 
 function parseEggMoves(content: string): void {
