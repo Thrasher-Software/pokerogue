@@ -4,8 +4,8 @@
       "image": "10009-mega.png",
       "format": "RGBA8888",
       "size": {
-        "w": 100,
-        "h": 50
+        "w": 160,
+        "h": 78
       },
       "scale": 1,
       "frames": [
@@ -14,20 +14,20 @@
           "rotated": false,
           "trimmed": false,
           "sourceSize": {
-            "w": 100,
-            "h": 50
+            "w": 160,
+            "h": 78
           },
           "spriteSourceSize": {
             "x": 0,
             "y": 0,
-            "w": 100,
-            "h": 50
+            "w": 160,
+            "h": 78
           },
           "frame": {
             "x": 0,
             "y": 0,
-            "w": 100,
-            "h": 50
+            "w": 160,
+            "h": 78
           }
         }
       ]
