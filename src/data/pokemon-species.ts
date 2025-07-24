@@ -44892,7 +44892,7 @@ export function initSpecies() {
     ), //Marked as Sub-Legend, for casing purposes
     new PokemonSpecies(
       Species.DELTA_BULBASAUR,
-      9,
+      1,
       false,
       false,
       false,
@@ -44920,7 +44920,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_IVYSAUR,
-      9,
+      1,
       false,
       false,
       false,
@@ -44948,7 +44948,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_VENUSAUR,
-      9,
+      1,
       false,
       false,
       false,
@@ -45023,7 +45023,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_CHARMANDER,
-      9,
+      1,
       false,
       false,
       false,
@@ -45051,7 +45051,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_CHARMELEON,
-      9,
+      1,
       false,
       false,
       false,
@@ -45079,7 +45079,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_CHARIZARD,
-      9,
+      1,
       false,
       false,
       false,
@@ -45153,7 +45153,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_SQUIRTLE,
-      9,
+      1,
       false,
       false,
       false,
@@ -45181,7 +45181,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_WARTORTLE,
-      9,
+      1,
       false,
       false,
       false,
@@ -45209,7 +45209,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_BLASTOISE,
-      9,
+      1,
       false,
       false,
       false,
@@ -45283,7 +45283,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_LOTAD,
-      9,
+      3,
       false,
       false,
       false,
@@ -45311,7 +45311,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_LOMBRE,
-      9,
+      3,
       false,
       false,
       false,
@@ -45339,7 +45339,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_LUDICOLO,
-      9,
+      3,
       false,
       false,
       false,
@@ -45367,7 +45367,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_REGISTEEL,
-      9, //generation
+      3, //generation
       false, // Not sublegendary
       true, // legendary
       false, // Not mythical
