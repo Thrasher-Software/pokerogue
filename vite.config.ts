@@ -3,7 +3,10 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import { minifyJsonPlugin } from "./src/plugins/vite/vite-minify-json-plugin";
 
 export const defaultConfig: UserConfig = {
-  plugins: [tsconfigPaths(), minifyJsonPlugin(["images", "battle-anims"], true)],
+  plugins: [
+    tsconfigPaths(),
+    minifyJsonPlugin(["images", "battle-anims"], true),
+  ],
   clearScreen: false,
   appType: "mpa",
   build: {
@@ -11,7 +14,10 @@ export const defaultConfig: UserConfig = {
     minify: "esbuild",
     sourcemap: false,
     rollupOptions: {
-      onwarn(warning: Rollup.RollupLog, defaultHandler: (warning: string | Rollup.RollupLog) => void) {
+      onwarn(
+        warning: Rollup.RollupLog,
+        defaultHandler: (warning: string | Rollup.RollupLog) => void,
+      ) {
         // Suppress "Module level directives cause errors when bundled" warnings
         if (warning.code === "MODULE_LEVEL_DIRECTIVE") {
           return;
@@ -34,6 +40,9 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       port: !Number.isNaN(envPort) ? envPort : 8000,
+    },
+    preview: {
+      allowedHosts: ["pokerogue-f956.onrender.com"],
     },
   };
 });
