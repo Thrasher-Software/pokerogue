@@ -87,6 +87,8 @@ export enum FormChangeItem {
   DELTA_CHARIZARDITE,
   DELTA_BLASTOISINITE,
   DELTA_BISHARPITE,
+  DELTA_GARDEVOIRITE,
+  DELTA_GALLADITE,
 
   SHARP_METEORITE = 100,
   HARD_METEORITE,
@@ -2555,6 +2557,22 @@ export const pokemonFormChanges: PokemonFormChanges = {
       "",
       SpeciesFormKey.MEGA,
       new SpeciesFormChangeItemTrigger(FormChangeItem.DELTA_BLASTOISINITE),
+    ),
+  ],
+  [Species.DELTA_GARDEVOIR]: [
+    new SpeciesFormChange(
+      Species.DELTA_GARDEVOIR,
+      "",
+      SpeciesFormKey.MEGA,
+      new SpeciesFormChangeItemTrigger(FormChangeItem.DELTA_GARDEVOIRITE),
+    ),
+  ],
+  [Species.DELTA_GALLADE]: [
+    new SpeciesFormChange(
+      Species.DELTA_GALLADE,
+      "",
+      SpeciesFormKey.MEGA,
+      new SpeciesFormChangeItemTrigger(FormChangeItem.DELTA_GALLADITE),
     ),
   ],
   [Species.DELTA_BISHARP]: [

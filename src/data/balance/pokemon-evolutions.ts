@@ -2991,6 +2991,19 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_PAWNIARD]: [
     new SpeciesEvolution(Species.DELTA_BISHARP, 52, null, null),
   ],
+  [Species.DELTA_RALTS]: [
+    new SpeciesEvolution(Species.DELTA_KIRLIA, 20, null, null),
+  ],
+  [Species.DELTA_KIRLIA]: [
+    new SpeciesEvolution(Species.DELTA_GARDEVOIR, 30, null, null),
+    new SpeciesEvolution(
+      Species.DELTA_GALLADE,
+      1,
+      EvolutionItem.DAWN_STONE,
+      null,
+      SpeciesWildEvolutionDelay.LONG,
+    ),
+  ],
 };
 
 interface PokemonPrevolutions {

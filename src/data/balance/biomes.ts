@@ -13427,12 +13427,16 @@ export function initBiomes() {
         ],
       ],
     ],
+    [Species.DELTA_RALTS, PokemonType.ELECTRIC, PokemonType.ICE, []],
+    [Species.DELTA_KIRLIA, PokemonType.ELECTRIC, PokemonType.ICE, []],
+    [Species.DELTA_GARDEVOIR, PokemonType.ELECTRIC, PokemonType.ICE, []],
     [
       Species.DELTA_REGISTEEL,
       PokemonType.FIRE,
       null,
       [[Biome.VOLCANO, BiomePoolTier.BOSS_ULTRA_RARE]],
     ],
+    [Species.DELTA_GALLADE, PokemonType.ELECTRIC, PokemonType.ICE, []],
     [Species.DELTA_PAWNIARD, PokemonType.FLYING, PokemonType.FIGHTING, []],
     [Species.DELTA_BISHARP, PokemonType.FLYING, PokemonType.FIGHTING, []],
     [
