@@ -2569,6 +2569,35 @@ export abstract class WeatherHealAttr extends HealAttr {
 }
 
 export class PlantHealAttr extends WeatherHealAttr {
+  apply(user: Pokemon, target: Pokemon, move: Move, args: any[]): boolean {
+    let healRatio = 0.5;
+    if (!globalScene.arena.weather?.isEffectSuppressed()) {
+      const weatherType =
+        globalScene.arena.weather?.weatherType || WeatherType.NONE;
+
+      // Special handling for darkness weather
+      if (weatherType === WeatherType.DARKNESS) {
+        healRatio = this.getDarknessHealRatio(move.id);
+      } else {
+        healRatio = this.getWeatherHealRatio(weatherType);
+      }
+    }
+    this.addHealPhase(user, healRatio);
+    return true;
+  }
+
+  getDarknessHealRatio(moveId: Moves): number {
+    switch (moveId) {
+      case Moves.SYNTHESIS:
+      case Moves.MORNING_SUN:
+        return 1 / 3; // 1/3 max HP in darkness
+      case Moves.MOONLIGHT:
+        return 2 / 3; // 2/3 max HP in darkness
+      default:
+        return 0.5; // Default fallback
+    }
+  }
+
   getWeatherHealRatio(weatherType: WeatherType): number {
     switch (weatherType) {
       case WeatherType.SUNNY:

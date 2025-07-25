@@ -42,6 +42,8 @@ export default defineConfig(({ mode }) => {
       port: !Number.isNaN(envPort) ? envPort : 8000,
     },
     preview: {
+      host: "0.0.0.0",
+      port: !Number.isNaN(envPort) ? envPort : 8000,
       allowedHosts: ["pokerogue-f956.onrender.com"],
     },
   };
