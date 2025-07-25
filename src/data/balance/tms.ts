@@ -4478,6 +4478,9 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.SURF]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.SQUIRTLE,
     Species.WARTORTLE,
     Species.BLASTOISE,
@@ -4724,6 +4727,9 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.ICE_BEAM]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_CHARIZARD,
     Species.SQUIRTLE,
     Species.WARTORTLE,
@@ -5024,6 +5030,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.BLIZZARD]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.SQUIRTLE,
     Species.WARTORTLE,
     Species.BLASTOISE,
@@ -5434,6 +5443,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.HYPER_BEAM]: [
+    Species.DELTA_LUDICOLO,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_VENUSAUR,
@@ -7322,6 +7332,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.THUNDERBOLT]: [
+    Species.DELTA_LUDICOLO,
     Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
@@ -7603,6 +7614,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.THUNDER_WAVE]: [
+    Species.DELTA_LUDICOLO,
     Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
@@ -7900,6 +7912,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.THUNDER]: [
+    Species.DELTA_LUDICOLO,
     Species.RATTATA,
     Species.RATICATE,
     Species.PIKACHU,
@@ -8896,6 +8909,9 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.TOXIC]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -9743,6 +9759,9 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.PSYCHIC]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -10643,6 +10662,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SNEASEL,
   ],
   [Moves.DOUBLE_TEAM]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -11899,6 +11921,9 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.LIGHT_SCREEN]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
@@ -12362,6 +12387,9 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.REFLECT]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
@@ -13325,6 +13353,9 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.WATERFALL]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.SQUIRTLE,
     Species.WARTORTLE,
     Species.BLASTOISE,
@@ -14155,6 +14186,8 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.DREAM_EATER]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -14427,6 +14460,9 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_SANDSLASH,
   ],
   [Moves.FLASH]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
@@ -14852,6 +14888,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.REST]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -16482,6 +16521,9 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SUBSTITUTE]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -19845,6 +19887,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.PROTECT]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -24442,6 +24487,9 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SWAGGER]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -25384,6 +25432,9 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MOLTRES,
   ],
   [Moves.ATTRACT]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -26307,6 +26358,9 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.SLEEP_TALK]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -27464,6 +27518,9 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.RETURN]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -28535,6 +28592,9 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FRUSTRATION]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -29605,6 +29665,9 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SAFEGUARD]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BLASTOISE,
@@ -31041,6 +31104,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.HIDDEN_POWER]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -32114,6 +32180,9 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.RAIN_DANCE]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.SQUIRTLE,
     Species.WARTORTLE,
     Species.BLASTOISE,
@@ -33801,6 +33870,9 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.PSYCH_UP]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -34069,6 +34141,9 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWKING,
   ],
   [Moves.SHADOW_BALL]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -34519,6 +34594,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SMASH]: [
+    Species.DELTA_LUDICOLO,
     Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
@@ -35727,6 +35803,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.HAIL]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -36267,6 +36346,9 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -39105,6 +39187,9 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.RECYCLE]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -40367,6 +40452,9 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_TAUROS,
   ],
   [Moves.SKILL_SWAP]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -40687,6 +40775,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SECRET_POWER]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -41759,6 +41850,9 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.DIVE]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.SQUIRTLE,
     Species.WARTORTLE,
     Species.BLASTOISE,
@@ -45557,6 +45651,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.CALM_MIND]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BLASTOISE,
@@ -46721,6 +46818,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.BRINE]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.SQUIRTLE,
     Species.WARTORTLE,
     Species.BLASTOISE,
@@ -47948,6 +48048,9 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.EMBARGO]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -49323,6 +49426,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.DARK_PULSE]: [
+    Species.DELTA_LUDICOLO,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -50647,6 +50751,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FOCUS_BLAST]: [
+    Species.DELTA_LUDICOLO,
     Species.DELTA_REGISTEEL,
     Species.DELTA_BLASTOISE,
     Species.DELTA_WARTORTLE,
@@ -50888,6 +50993,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.ENERGY_BALL]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BLASTOISE,
@@ -51431,6 +51538,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.GIGA_IMPACT]: [
+    Species.DELTA_LUDICOLO,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_VENUSAUR,
@@ -53725,6 +53833,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.TRICK_ROOM]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -55443,6 +55553,9 @@ export const tmSpecies: TmSpecies = {
     Species.HYDRAPPLE,
   ],
   [Moves.CHARGE_BEAM]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
@@ -55950,6 +56063,9 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_YAMASK,
   ],
   [Moves.PSYSHOCK]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -57304,6 +57420,9 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ROUND]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -58231,6 +58350,9 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_STUNFISK,
   ],
   [Moves.ECHOED_VOICE]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -58625,6 +58747,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.ALLY_SWITCH]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BLASTOISE,
@@ -58810,9 +58935,12 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
     Species.VAN,
     Species.KOYA,
-    //Species.SHOOKY,
+    Species.SHOOKY,
   ],
   [Moves.SCALD]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_BLASTOISE,
     Species.DELTA_WARTORTLE,
     Species.DELTA_SQUIRTLE,
@@ -62136,6 +62264,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_TYPHLOSION,
   ],
   [Moves.CONFIDE]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -63185,6 +63316,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.DAZZLING_GLEAM]: [
+    Species.DELTA_LUDICOLO,
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -68950,6 +69084,11 @@ export const tmSpecies: TmSpecies = {
     Species.SIRFETCHD,
   ],
   [Moves.COMET_AZUR]: [
+    Species.DELTA_LOMBRE,
+    Species.DELTA_LOTAD,
+    Species.DELTA_LUDICOLO,
+    Species.MUNNA,
+    Species.MUSHARNA,
     Species.ALAKAZAM,
     Species.MEW,
     Species.MEWTWO,
