@@ -2988,6 +2988,9 @@ export const pokemonEvolutions: PokemonEvolutions = {
       SpeciesWildEvolutionDelay.LONG,
     ),
   ],
+  [Species.DELTA_PAWNIARD]: [
+    new SpeciesEvolution(Species.DELTA_BISHARP, 52, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

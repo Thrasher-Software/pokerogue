@@ -3487,6 +3487,12 @@ export const speciesEggMoves = {
     Moves.ICE_BEAM,
     Moves.COMET_AZUR,
   ],
+  [Species.DELTA_PAWNIARD]: [
+    Moves.FLOATY_FALL,
+    Moves.KOWTOW_CLEAVE,
+    Moves.SACRED_SWORD,
+    Moves.VICTORY_DANCE,
+  ],
 };
 
 function parseEggMoves(content: string): void {

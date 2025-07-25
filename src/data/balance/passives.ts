@@ -1526,4 +1526,6 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.DELTA_LOTAD]: { 0: Abilities.MAGICIAN },
   [Species.DELTA_LOMBRE]: { 0: Abilities.MAGICIAN },
   [Species.DELTA_LUDICOLO]: { 0: Abilities.MAGICIAN },
+  [Species.DELTA_PAWNIARD]: { 0: Abilities.SWORD_OF_RUIN },
+  [Species.DELTA_BISHARP]: { 0: Abilities.SWORD_OF_RUIN },
 };

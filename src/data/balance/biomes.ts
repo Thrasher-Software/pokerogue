@@ -13433,6 +13433,8 @@ export function initBiomes() {
       null,
       [[Biome.VOLCANO, BiomePoolTier.BOSS_ULTRA_RARE]],
     ],
+    [Species.DELTA_PAWNIARD, PokemonType.FLYING, PokemonType.FIGHTING, []],
+    [Species.DELTA_BISHARP, PokemonType.FLYING, PokemonType.FIGHTING, []],
     [
       Species.ALOLA_RATTATA,
       PokemonType.DARK,
