@@ -44892,7 +44892,7 @@ export function initSpecies() {
     ), //Marked as Sub-Legend, for casing purposes
     new PokemonSpecies(
       Species.DELTA_BULBASAUR,
-      9,
+      1,
       false,
       false,
       false,
@@ -44920,7 +44920,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_IVYSAUR,
-      9,
+      1,
       false,
       false,
       false,
@@ -44948,7 +44948,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_VENUSAUR,
-      9,
+      1,
       false,
       false,
       false,
@@ -45023,7 +45023,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_CHARMANDER,
-      9,
+      1,
       false,
       false,
       false,
@@ -45051,7 +45051,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_CHARMELEON,
-      9,
+      1,
       false,
       false,
       false,
@@ -45079,7 +45079,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_CHARIZARD,
-      9,
+      1,
       false,
       false,
       false,
@@ -45153,7 +45153,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_SQUIRTLE,
-      9,
+      1,
       false,
       false,
       false,
@@ -45181,7 +45181,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_WARTORTLE,
-      9,
+      1,
       false,
       false,
       false,
@@ -45209,7 +45209,7 @@ export function initSpecies() {
     ),
     new PokemonSpecies(
       Species.DELTA_BLASTOISE,
-      9,
+      1,
       false,
       false,
       false,
@@ -45282,8 +45282,92 @@ export function initSpecies() {
       ),
     ),
     new PokemonSpecies(
+      Species.DELTA_LOTAD,
+      3,
+      false,
+      false,
+      false,
+      "Magician Pokemon",
+      PokemonType.PSYCHIC,
+      PokemonType.WATER,
+      0.5,
+      2.6,
+      Abilities.MAGIC_BOUNCE,
+      Abilities.SYNCHRONIZE,
+      Abilities.UNAWARE,
+      220, // BST
+      30, // HP
+      30, // Attack
+      30, // Defense
+      40, // Sp. Atk
+      50, // Sp. Def
+      30, // Speed
+      100, // Catch Rate
+      50, // Base Friendship
+      100, // Base Exp Yield
+      GrowthRate.MEDIUM_SLOW,
+      50,
+      false,
+    ),
+    new PokemonSpecies(
+      Species.DELTA_LOMBRE,
+      3,
+      false,
+      false,
+      false,
+      "Wizard Pokémon",
+      PokemonType.PSYCHIC,
+      PokemonType.WATER,
+      1.2,
+      32.5,
+      Abilities.MAGIC_BOUNCE,
+      Abilities.SYNCHRONIZE,
+      Abilities.UNAWARE,
+      340,
+      60,
+      50,
+      50,
+      60,
+      70,
+      50,
+      120,
+      50,
+      119,
+      GrowthRate.MEDIUM_SLOW,
+      50,
+      false,
+    ),
+    new PokemonSpecies(
+      Species.DELTA_LUDICOLO,
+      3,
+      false,
+      false,
+      false,
+      "Sage Pokémon",
+      PokemonType.PSYCHIC,
+      PokemonType.WATER,
+      1.5,
+      55,
+      Abilities.MAGIC_BOUNCE,
+      Abilities.SYNCHRONIZE,
+      Abilities.UNAWARE,
+      480,
+      80,
+      70,
+      70,
+      90,
+      100,
+      70,
+      45,
+      50,
+      240,
+      GrowthRate.MEDIUM_SLOW,
+      50,
+      true,
+    ),
+    new PokemonSpecies(
       Species.DELTA_REGISTEEL,
-      9, //generation
+      3, //generation
       false, // Not sublegendary
       true, // legendary
       false, // Not mythical

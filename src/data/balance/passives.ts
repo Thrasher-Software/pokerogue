@@ -1523,4 +1523,7 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.DELTA_SQUIRTLE]: { 0: Abilities.MOXIE },
   [Species.DELTA_WARTORTLE]: { 0: Abilities.MOXIE },
   [Species.DELTA_BLASTOISE]: { 0: Abilities.MOXIE },
+  [Species.DELTA_LOTAD]: { 0: Abilities.MAGICIAN },
+  [Species.DELTA_LOMBRE]: { 0: Abilities.MAGICIAN },
+  [Species.DELTA_LUDICOLO]: { 0: Abilities.MAGICIAN },
 };

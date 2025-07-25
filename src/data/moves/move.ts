@@ -20712,7 +20712,7 @@ export function initMoves() {
       .attr(StatusEffectAttr, StatusEffect.PARALYSIS),
     // I wanna keep this move but I gotta reign it in
     new SelfStatusMove(Moves.CHUG_SPLASH, PokemonType.WATER, -1, 5, -1, 0, 9)
-      .attr(HealAttr, 0.5, false, false)
+      .attr(HealAttr, 0.25, false, false)
       .target(MoveTarget.USER_AND_ALLIES)
       .triageMove(),
     new AttackMove(

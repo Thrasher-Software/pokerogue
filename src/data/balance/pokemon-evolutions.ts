@@ -2976,6 +2976,18 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_WARTORTLE]: [
     new SpeciesEvolution(Species.DELTA_BLASTOISE, 36, null, null),
   ],
+  [Species.DELTA_LOTAD]: [
+    new SpeciesEvolution(Species.DELTA_LOMBRE, 14, null, null),
+  ],
+  [Species.DELTA_LOMBRE]: [
+    new SpeciesEvolution(
+      Species.DELTA_LUDICOLO,
+      1,
+      EvolutionItem.WATER_STONE,
+      null,
+      SpeciesWildEvolutionDelay.LONG,
+    ),
+  ],
 };
 
 interface PokemonPrevolutions {

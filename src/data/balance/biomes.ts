@@ -13388,6 +13388,9 @@ export function initBiomes() {
         [Biome.METROPOLIS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
       ],
     ],
+    [Species.DELTA_LOTAD, PokemonType.PSYCHIC, PokemonType.WATER, []],
+    [Species.DELTA_LOMBRE, PokemonType.PSYCHIC, PokemonType.WATER, []],
+    [Species.DELTA_LUDICOLO, PokemonType.PSYCHIC, PokemonType.WATER, []],
     [
       Species.DELTA_REGISTEEL,
       PokemonType.FIRE,
