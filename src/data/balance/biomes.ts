@@ -239,8 +239,8 @@ export const biomePokemonPools: BiomePokemonPools = {
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [Species.TANDEMAUS],
       [TimeOfDay.DAY]: [Species.TANDEMAUS],
-      [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.DUSK]: [Species.DELTA_LOTAD],
+      [TimeOfDay.NIGHT]: [Species.DELTA_LOTAD],
       [TimeOfDay.ALL]: [
         Species.ABRA,
         Species.SURSKIT,
@@ -1142,8 +1142,12 @@ export const biomePokemonPools: BiomePokemonPools = {
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
-      [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.DUSK]: [
+        { 1: [Species.DELTA_LOTAD], 14: [Species.DELTA_LOMBRE] },
+      ],
+      [TimeOfDay.NIGHT]: [
+        { 1: [Species.DELTA_LOTAD], 14: [Species.DELTA_LOMBRE] },
+      ],
       [TimeOfDay.ALL]: [
         {
           1: [Species.TOTODILE],
@@ -1355,8 +1359,12 @@ export const biomePokemonPools: BiomePokemonPools = {
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
-      [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.DUSK]: [
+        { 1: [Species.DELTA_LOTAD], 14: [Species.DELTA_LOMBRE] },
+      ],
+      [TimeOfDay.NIGHT]: [
+        { 1: [Species.DELTA_LOTAD], 14: [Species.DELTA_LOMBRE] },
+      ],
       [TimeOfDay.ALL]: [
         {
           1: [Species.SQUIRTLE],
@@ -2980,8 +2988,8 @@ export const biomePokemonPools: BiomePokemonPools = {
     [BiomePoolTier.BOSS_RARE]: {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [Species.ESPEON],
-      [TimeOfDay.DUSK]: [Species.RUNERIGUS],
-      [TimeOfDay.NIGHT]: [Species.RUNERIGUS],
+      [TimeOfDay.DUSK]: [Species.RUNERIGUS, Species.DELTA_LUDICOLO],
+      [TimeOfDay.NIGHT]: [Species.RUNERIGUS, Species.DELTA_LUDICOLO],
       [TimeOfDay.ALL]: [Species.MR_MIME, Species.WOBBUFFET, Species.ARCHEOPS],
     },
     [BiomePoolTier.BOSS_SUPER_RARE]: {
@@ -13388,9 +13396,37 @@ export function initBiomes() {
         [Biome.METROPOLIS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
       ],
     ],
-    [Species.DELTA_LOTAD, PokemonType.PSYCHIC, PokemonType.WATER, []],
-    [Species.DELTA_LOMBRE, PokemonType.PSYCHIC, PokemonType.WATER, []],
-    [Species.DELTA_LUDICOLO, PokemonType.PSYCHIC, PokemonType.WATER, []],
+    [
+      Species.DELTA_LOTAD,
+      PokemonType.PSYCHIC,
+      PokemonType.WATER,
+      [
+        [Biome.TOWN, BiomePoolTier.RARE, [TimeOfDay.DUSK, TimeOfDay.NIGHT]],
+        [Biome.LAKE, BiomePoolTier.RARE, [TimeOfDay.DUSK, TimeOfDay.NIGHT]],
+        [Biome.SWAMP, BiomePoolTier.RARE, [TimeOfDay.DUSK, TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_LOMBRE,
+      PokemonType.PSYCHIC,
+      PokemonType.WATER,
+      [
+        [Biome.LAKE, BiomePoolTier.RARE, [TimeOfDay.DUSK, TimeOfDay.NIGHT]],
+        [Biome.SWAMP, BiomePoolTier.RARE, [TimeOfDay.DUSK, TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_LUDICOLO,
+      PokemonType.PSYCHIC,
+      PokemonType.WATER,
+      [
+        [
+          Biome.RUINS,
+          BiomePoolTier.BOSS_RARE,
+          [TimeOfDay.DUSK, TimeOfDay.NIGHT],
+        ],
+      ],
+    ],
     [
       Species.DELTA_REGISTEEL,
       PokemonType.FIRE,
