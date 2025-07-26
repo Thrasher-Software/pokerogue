@@ -3004,6 +3004,15 @@ export const pokemonEvolutions: PokemonEvolutions = {
       SpeciesWildEvolutionDelay.LONG,
     ),
   ],
+  [Species.DELTA_KARRABLAST]: [
+    new SpeciesEvolution(
+      Species.DELTA_ESCAVALIER,
+      1,
+      EvolutionItem.LINKING_CORD,
+      null,
+      SpeciesWildEvolutionDelay.VERY_LONG,
+    ),
+  ],
 };
 
 interface PokemonPrevolutions {

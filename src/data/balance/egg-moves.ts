@@ -3499,6 +3499,12 @@ export const speciesEggMoves = {
     Moves.DAZZLING_GLEAM,
     Moves.ELECTRO_DRIFT,
   ],
+  [Species.DELTA_KARRABLAST]: [
+    Moves.GLITTER_PUNCH,
+    Moves.TRIPLE_AXEL,
+    Moves.BITTER_BLADE,
+    Moves.SUNSTEEL_STRIKE,
+  ],
 };
 
 function parseEggMoves(content: string): void {
