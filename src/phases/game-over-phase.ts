@@ -49,7 +49,10 @@ export class GameOverPhase extends BattlePhase {
     globalScene.hideAbilityBar();
 
     // Failsafe if players somehow skip floor 200 in classic mode
-    if (globalScene.gameMode.isClassic && globalScene.currentBattle.waveIndex > 200) {
+    if (
+      globalScene.gameMode.isClassic &&
+      globalScene.currentBattle.waveIndex > 200
+    ) {
       this.isVictory = true;
     }
 
@@ -84,28 +87,44 @@ export class GameOverPhase extends BattlePhase {
             globalScene.ui.fadeOut(1250).then(() => {
               globalScene.reset();
               globalScene.clearPhaseQueue();
-              globalScene.gameData.loadSession(globalScene.sessionSlotId).then(() => {
-                globalScene.pushPhase(new EncounterPhase(true));
+              globalScene.gameData
+                .loadSession(globalScene.sessionSlotId)
+                .then(() => {
+                  globalScene.pushPhase(new EncounterPhase(true));
 
-                const availablePartyMembers = globalScene.getPokemonAllowedInBattle().length;
+                  const availablePartyMembers =
+                    globalScene.getPokemonAllowedInBattle().length;
 
-                globalScene.pushPhase(new SummonPhase(0));
-                if (globalScene.currentBattle.double && availablePartyMembers > 1) {
-                  globalScene.pushPhase(new SummonPhase(1));
-                }
-                if (
-                  globalScene.currentBattle.waveIndex > 1 &&
-                  globalScene.currentBattle.battleType !== BattleType.TRAINER
-                ) {
-                  globalScene.pushPhase(new CheckSwitchPhase(0, globalScene.currentBattle.double));
-                  if (globalScene.currentBattle.double && availablePartyMembers > 1) {
-                    globalScene.pushPhase(new CheckSwitchPhase(1, globalScene.currentBattle.double));
+                  globalScene.pushPhase(new SummonPhase(0));
+                  if (
+                    globalScene.currentBattle.double &&
+                    availablePartyMembers > 1
+                  ) {
+                    globalScene.pushPhase(new SummonPhase(1));
                   }
-                }
+                  if (
+                    globalScene.currentBattle.waveIndex > 1 &&
+                    globalScene.currentBattle.battleType !== BattleType.TRAINER
+                  ) {
+                    globalScene.pushPhase(
+                      new CheckSwitchPhase(0, globalScene.currentBattle.double),
+                    );
+                    if (
+                      globalScene.currentBattle.double &&
+                      availablePartyMembers > 1
+                    ) {
+                      globalScene.pushPhase(
+                        new CheckSwitchPhase(
+                          1,
+                          globalScene.currentBattle.double,
+                        ),
+                      );
+                    }
+                  }
 
-                globalScene.ui.fadeIn(1250);
-                this.end();
-              });
+                  globalScene.ui.fadeIn(1250);
+                  this.end();
+                });
             });
           },
           () => this.handleGameOver(),
@@ -131,7 +150,10 @@ export class GameOverPhase extends BattlePhase {
             for (const pokemon of globalScene.getPlayerParty()) {
               this.awardRibbon(pokemon);
 
-              if (pokemon.species.getRootSpeciesId() !== pokemon.species.getRootSpeciesId(true)) {
+              if (
+                pokemon.species.getRootSpeciesId() !==
+                pokemon.species.getRootSpeciesId(true)
+              ) {
                 this.awardRibbon(pokemon, true);
               }
             }
@@ -142,16 +164,20 @@ export class GameOverPhase extends BattlePhase {
 
         const fadeDuration = this.isVictory ? 10000 : 5000;
         globalScene.fadeOutBgm(fadeDuration, true);
-        const activeBattlers = globalScene.getField().filter(p => p?.isActive(true));
-        activeBattlers.map(p => p.hideInfo());
+        const activeBattlers = globalScene
+          .getField()
+          .filter((p) => p?.isActive(true));
+        activeBattlers.map((p) => p.hideInfo());
         globalScene.ui.fadeOut(fadeDuration).then(() => {
-          activeBattlers.map(a => a.setVisible(false));
+          activeBattlers.map((a) => a.setVisible(false));
           globalScene.setFieldScale(1, true);
           globalScene.clearPhaseQueue();
           globalScene.ui.clearText();
 
           if (this.isVictory && globalScene.gameMode.isChallenge) {
-            globalScene.gameMode.challenges.forEach(c => globalScene.validateAchvs(ChallengeAchv, c));
+            globalScene.gameMode.challenges.forEach((c) =>
+              globalScene.validateAchvs(ChallengeAchv, c),
+            );
           }
 
           const clear = (endCardPhase?: EndCardPhase) => {
@@ -159,14 +185,26 @@ export class GameOverPhase extends BattlePhase {
               this.handleUnlocks();
 
               for (const species of this.firstRibbons) {
-                globalScene.unshiftPhase(new RibbonModifierRewardPhase(modifierTypes.VOUCHER_PLUS, species));
+                globalScene.unshiftPhase(
+                  new RibbonModifierRewardPhase(
+                    modifierTypes.VOUCHER_PLUS,
+                    species,
+                  ),
+                );
               }
               if (!firstClear) {
-                globalScene.unshiftPhase(new GameOverModifierRewardPhase(modifierTypes.VOUCHER_PREMIUM));
+                globalScene.unshiftPhase(
+                  new GameOverModifierRewardPhase(
+                    modifierTypes.VOUCHER_PREMIUM,
+                  ),
+                );
               }
             }
-            this.getRunHistoryEntry().then(runHistoryEntry => {
-              globalScene.gameData.saveRunHistory(runHistoryEntry, this.isVictory);
+            this.getRunHistoryEntry().then((runHistoryEntry) => {
+              globalScene.gameData.saveRunHistory(
+                runHistoryEntry,
+                this.isVictory,
+              );
               globalScene.pushPhase(new PostGameOverPhase(endCardPhase));
               this.end();
             });
@@ -177,7 +215,8 @@ export class GameOverPhase extends BattlePhase {
 
             if (!globalScene.ui.shouldSkipDialogue(dialogueKey)) {
               globalScene.ui.fadeIn(500).then(() => {
-                const genderIndex = globalScene.gameData.gender ?? PlayerGender.UNSET;
+                const genderIndex =
+                  globalScene.gameData.gender ?? PlayerGender.UNSET;
                 const genderStr = PlayerGender[genderIndex].toLowerCase();
                 // Dialogue has to be retrieved so that the rival's expressions can be loaded and shown via getCharVariantFromDialogue
                 const dialogue = i18next.t(dialogueKey, { context: genderStr });
@@ -227,19 +266,20 @@ export class GameOverPhase extends BattlePhase {
           isVictory: this.isVictory,
           clientSessionId: clientSessionId,
         })
-        .then(success => doGameOver(!globalScene.gameMode.isDaily || !!success))
-        .catch(_err => {
+        .then((success) =>
+          doGameOver(!globalScene.gameMode.isDaily || !!success),
+        )
+        .catch((_err) => {
           globalScene.clearPhaseQueue();
           globalScene.clearPhaseQueueSplice();
-          globalScene.unshiftPhase(new MessagePhase(i18next.t("menu:serverCommunicationFailed"), 2500));
+          globalScene.unshiftPhase(
+            new MessagePhase(i18next.t("menu:serverCommunicationFailed"), 2500),
+          );
           // force the game to reload after 2 seconds.
-          setTimeout(() => {
-            window.location.reload();
-          }, 2000);
-          this.end();
+          doGameOver(false);
         });
     } else if (this.isVictory) {
-      globalScene.gameData.offlineNewClear().then(result => {
+      globalScene.gameData.offlineNewClear().then((result) => {
         doGameOver(result);
       });
     } else {
@@ -253,17 +293,21 @@ export class GameOverPhase extends BattlePhase {
         globalScene.unshiftPhase(new UnlockPhase(Unlockables.ENDLESS_MODE));
       }
       if (
-        globalScene.getPlayerParty().filter(p => p.fusionSpecies).length &&
+        globalScene.getPlayerParty().filter((p) => p.fusionSpecies).length &&
         !globalScene.gameData.unlocks[Unlockables.SPLICED_ENDLESS_MODE]
       ) {
-        globalScene.unshiftPhase(new UnlockPhase(Unlockables.SPLICED_ENDLESS_MODE));
+        globalScene.unshiftPhase(
+          new UnlockPhase(Unlockables.SPLICED_ENDLESS_MODE),
+        );
       }
       if (!globalScene.gameData.unlocks[Unlockables.MINI_BLACK_HOLE]) {
         globalScene.unshiftPhase(new UnlockPhase(Unlockables.MINI_BLACK_HOLE));
       }
       if (
         !globalScene.gameData.unlocks[Unlockables.EVIOLITE] &&
-        globalScene.getPlayerParty().some(p => p.getSpeciesForm(true).speciesId in pokemonEvolutions)
+        globalScene
+          .getPlayerParty()
+          .some((p) => p.getSpeciesForm(true).speciesId in pokemonEvolutions)
       ) {
         globalScene.unshiftPhase(new UnlockPhase(Unlockables.EVIOLITE));
       }
@@ -272,10 +316,15 @@ export class GameOverPhase extends BattlePhase {
 
   awardRibbon(pokemon: Pokemon, forStarter = false): void {
     const speciesId = getPokemonSpecies(pokemon.species.speciesId);
-    const speciesRibbonCount = globalScene.gameData.incrementRibbonCount(speciesId, forStarter);
+    const speciesRibbonCount = globalScene.gameData.incrementRibbonCount(
+      speciesId,
+      forStarter,
+    );
     // first time classic win, award voucher
     if (speciesRibbonCount === 1) {
-      this.firstRibbons.push(getPokemonSpecies(pokemon.species.getRootSpeciesId(forStarter)));
+      this.firstRibbons.push(
+        getPokemonSpecies(pokemon.species.getRootSpeciesId(forStarter)),
+      );
     }
   }
 
@@ -285,30 +334,41 @@ export class GameOverPhase extends BattlePhase {
    * @returns A promise containing the {@linkcode SessionSaveData}
    */
   private async getRunHistoryEntry(): Promise<SessionSaveData> {
-    const preWaveSessionData = await globalScene.gameData.getSession(globalScene.sessionSlotId);
+    const preWaveSessionData = await globalScene.gameData.getSession(
+      globalScene.sessionSlotId,
+    );
     return {
       seed: globalScene.seed,
       playTime: globalScene.sessionPlayTime,
       gameMode: globalScene.gameMode.modeId,
-      party: globalScene.getPlayerParty().map(p => new PokemonData(p)),
-      enemyParty: globalScene.getEnemyParty().map(p => new PokemonData(p)),
+      party: globalScene.getPlayerParty().map((p) => new PokemonData(p)),
+      enemyParty: globalScene.getEnemyParty().map((p) => new PokemonData(p)),
       modifiers: preWaveSessionData
         ? preWaveSessionData.modifiers
-        : globalScene.findModifiers(() => true).map(m => new PersistentModifierData(m, true)),
+        : globalScene
+            .findModifiers(() => true)
+            .map((m) => new PersistentModifierData(m, true)),
       enemyModifiers: preWaveSessionData
         ? preWaveSessionData.enemyModifiers
-        : globalScene.findModifiers(() => true, false).map(m => new PersistentModifierData(m, false)),
+        : globalScene
+            .findModifiers(() => true, false)
+            .map((m) => new PersistentModifierData(m, false)),
       arena: new ArenaData(globalScene.arena),
       pokeballCounts: globalScene.pokeballCounts,
       money: Math.floor(globalScene.money),
       score: globalScene.score,
       waveIndex: globalScene.currentBattle.waveIndex,
       battleType: globalScene.currentBattle.battleType,
-      trainer: globalScene.currentBattle.trainer ? new TrainerData(globalScene.currentBattle.trainer) : null,
+      trainer: globalScene.currentBattle.trainer
+        ? new TrainerData(globalScene.currentBattle.trainer)
+        : null,
       gameVersion: globalScene.game.config.gameVersion,
       timestamp: new Date().getTime(),
-      challenges: globalScene.gameMode.challenges.map(c => new ChallengeData(c)),
-      mysteryEncounterType: globalScene.currentBattle.mysteryEncounter?.encounterType ?? -1,
+      challenges: globalScene.gameMode.challenges.map(
+        (c) => new ChallengeData(c),
+      ),
+      mysteryEncounterType:
+        globalScene.currentBattle.mysteryEncounter?.encounterType ?? -1,
       mysteryEncounterSaveData: globalScene.mysteryEncounterSaveData,
       playerFaints: globalScene.arena.playerFaints,
     } as SessionSaveData;
