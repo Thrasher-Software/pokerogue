@@ -19464,8 +19464,8 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   ],
   [Species.DELTA_RALTS]: [
     [1, Moves.GROWL],
-    [5, Moves.POWDER_SNOW], // Custom
-    [7, Moves.THUNDER_SHOCK], // Custom
+    [1, Moves.POWDER_SNOW], // Custom
+    [5, Moves.THUNDER_SHOCK], // Custom
     [12, Moves.DOUBLE_TEAM],
     [17, Moves.NUZZLE],
     [21, Moves.SHOCK_WAVE],

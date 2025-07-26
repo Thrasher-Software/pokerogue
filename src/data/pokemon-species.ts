@@ -42997,7 +42997,7 @@ export function initSpecies() {
       false,
       false,
       false,
-      "BT21 Disguise, Guy",
+      "BT21 Dance Star",
       PokemonType.FAIRY,
       PokemonType.FIGHTING,
       0.2,
