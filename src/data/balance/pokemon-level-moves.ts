@@ -19276,6 +19276,22 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [52, Moves.GIGA_IMPACT],
     [56, Moves.OUTRAGE],
   ],
+  [Species.FOALIT]: [
+    [1, Moves.POUND],
+    [1, Moves.GROWL],
+    [3, Moves.EMBER],
+    [6, Moves.LICK],
+    [9, Moves.ROAR], // ?? idk
+    [12, Moves.HEADBUTT],
+    [15, Moves.BITE], // Horses bite so it's fine
+    [18, Moves.DOUBLE_KICK], // Clearly stays
+    [21, Moves.BLAZE_KICK],
+    [24, Moves.SCARY_FACE],
+    [27, Moves.SWAGGER],
+    [30, Moves.FLAMETHROWER],
+    [33, Moves.THRASH],
+    [36, Moves.FLARE_BLITZ],
+  ],
   [Species.DELTA_BULBASAUR]: [
     [1, Moves.TACKLE],
     [1, Moves.BABY_DOLL_EYES],

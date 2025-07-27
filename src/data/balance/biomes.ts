@@ -13335,6 +13335,7 @@ export function initBiomes() {
       [[Biome.TOWN, BiomePoolTier.COMMON]],
     ],
     [Species.KIMURAGI, PokemonType.ROCK, PokemonType.FIGHTING, []],
+    [Species.FOALIT, PokemonType.FIRE, -1, []],
     [
       Species.DELTA_BULBASAUR,
       PokemonType.FAIRY,

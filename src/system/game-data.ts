@@ -115,6 +115,7 @@ export const defaultStarterSpecies: Species[] = [
   Species.KOYA,
   Species.HARDEVIL,
   Species.STEVE,
+  Species.FOALIT,
 ];
 
 const saveKey = "x0i2O7WRiANTqPmZ"; // Temporary; secure encryption is not yet necessary

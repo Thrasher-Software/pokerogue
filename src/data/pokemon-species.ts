@@ -43178,6 +43178,34 @@ export function initSpecies() {
       false, // Can't change forms
     ),
     new PokemonSpecies(
+      Species.FOALIT, // Name
+      9, // Generation, I just use 9 for now
+      false, // Not Sub Legend
+      false, // Not Legend
+      false, // Mythical
+      "Jersey Rascal Pokémon",
+      PokemonType.FIRE,
+      null, // Second typing
+      0.4, // Height in Metric
+      4.3, // Weight in Metric
+      Abilities.BLAZE, // Primary
+      Abilities.NONE, // Secondary
+      Abilities.INTIMIDATE, // Hidden
+      320, // BST
+      45, // HP
+      75, // ATK
+      40, // DEF
+      55, // SpATK
+      40, // SpDEF
+      65, // SPD
+      45, // Catch Rate
+      50, // Base Friendship
+      64, // Base Exp
+      GrowthRate.MEDIUM_SLOW,
+      50, // Gender Ratio
+      false, // Cannot cahnge forms
+    ),
+    new PokemonSpecies(
       Species.ALOLA_RATTATA,
       7,
       false,

@@ -3457,6 +3457,12 @@ export const speciesEggMoves = {
     Moves.WISH,
     Moves.LIGHT_OF_RUIN,
   ],
+  [Species.FOALIT]: [
+    Moves.BADDY_BAD,
+    Moves.PARTING_SHOT,
+    Moves.HIGH_HORSEPOWER,
+    Moves.V_CREATE,
+  ],
   [Species.DELTA_BULBASAUR]: [
     Moves.GLITTER_PUNCH,
     Moves.MAGICAL_LEAF,
