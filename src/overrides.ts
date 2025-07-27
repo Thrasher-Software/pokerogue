@@ -159,7 +159,7 @@ class DefaultOverrides {
   // --------------------------
   // OPPONENT / ENEMY OVERRIDES
   // --------------------------
-  readonly OPP_SPECIES_OVERRIDE: Species | number = 1032;
+  readonly OPP_SPECIES_OVERRIDE: Species | number = 0;
   /**
    * This will make all opponents fused Pokemon
    */
