@@ -314,6 +314,7 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.FIRE_PUNCH]: [
+    Species.FOALIT,
     Species.MANG,
     Species.CHARMANDER,
     Species.CHARMELEON,
@@ -916,6 +917,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.SWORDS_DANCE]: [
+    Species.FOALIT,
     Species.DELTA_GALLADE,
     Species.DELTA_ESCAVALIER,
     Species.DELTA_KARRABLAST,
@@ -1628,6 +1630,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.MEGA_KICK]: [
+    Species.FOALIT,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -1852,6 +1855,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.BODY_SLAM]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
@@ -2471,6 +2475,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.TAKE_DOWN]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
@@ -3168,6 +3173,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.DOUBLE_EDGE]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
@@ -4061,6 +4067,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FLAMETHROWER]: [
+    Species.FOALIT,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -6292,6 +6299,7 @@ export const tmSpecies: TmSpecies = {
     Species.STEVE,
   ],
   [Moves.COUNTER]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
@@ -6520,6 +6528,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.STRENGTH]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -7255,6 +7264,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.FIRE_SPIN]: [
+    Species.FOALIT,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -8514,6 +8524,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.DIG]: [
+    Species.FOALIT,
     Species.DELTA_ESCAVALIER,
     Species.DELTA_KARRABLAST,
     Species.DELTA_REGISTEEL,
@@ -8947,6 +8958,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.TOXIC]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -10371,6 +10383,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.NIGHT_SHADE]: [
+    Species.FOALIT,
     Species.CLEFAIRY,
     Species.CLEFABLE,
     Species.NINETALES,
@@ -10480,6 +10493,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SCREECH]: [
+    Species.FOALIT,
     Species.RATTATA,
     Species.EKANS,
     Species.ARBOK,
@@ -11792,6 +11806,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.CONFUSE_RAY]: [
+    Species.FOALIT,
     Species.VULPIX,
     Species.NINETALES,
     Species.ZUBAT,
@@ -13216,6 +13231,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.FIRE_BLAST]: [
+    Species.FOALIT,
     Species.DELTA_REGISTEEL,
     Species.KIMURAGI,
     Species.CHARMANDER,
@@ -13580,6 +13596,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.SWIFT]: [
+    Species.FOALIT,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -14960,6 +14977,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.REST]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -16603,6 +16621,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SUBSTITUTE]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -18176,6 +18195,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SNORE]: [
+    Species.FOALIT,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -19097,6 +19117,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.CURSE]: [
+    Species.FOALIT,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -19976,6 +19997,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.PROTECT]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -21063,6 +21085,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.SCARY_FACE]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
@@ -21601,6 +21624,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.MUD_SLAP]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
@@ -22488,6 +22512,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.OUTRAGE]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
@@ -23155,6 +23180,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.ENDURE]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.RJ,
     Species.ARTORIAS,
@@ -24436,6 +24462,7 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.FALSE_SWIPE]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -24589,6 +24616,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SWAGGER]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -26478,6 +26506,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.SLEEP_TALK]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -27646,6 +27675,7 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.RETURN]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -28728,6 +28758,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FRUSTRATION]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -31251,6 +31282,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.HIDDEN_POWER]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -33068,6 +33100,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SUNNY_DAY]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_REGISTEEL,
@@ -33784,6 +33817,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.CRUNCH]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
@@ -34757,6 +34791,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SMASH]: [
+    Species.FOALIT,
     Species.DELTA_LUDICOLO,
     Species.KIMURAGI,
     Species.BULBASAUR,
@@ -35409,6 +35444,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "aqua"],
   ],
   [Moves.BEAT_UP]: [
+    Species.FOALIT,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -35805,6 +35841,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.HEAT_WAVE]: [
+    Species.FOALIT,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -36363,6 +36400,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.WILL_O_WISP]: [
+    Species.FOALIT,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -36513,6 +36551,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -38435,6 +38474,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.HELPING_HAND]: [
+    Species.FOALIT,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -39990,6 +40030,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.KNOCK_OFF]: [
+    Species.FOALIT,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -40970,6 +41011,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SECRET_POWER]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -42269,6 +42311,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.BLAZE_KICK]: [
+    Species.FOALIT,
     Species.CHARIZARD,
     Species.HITMONLEE,
     Species.MEW,
@@ -42525,6 +42568,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SAMUROTT,
   ],
   [Moves.WEATHER_BALL]: [
+    Species.FOALIT,
     Species.BULBASAUR,
     Species.IVYSAUR,
     Species.VENUSAUR,
@@ -42947,6 +42991,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.OVERHEAT]: [
+    Species.FOALIT,
     Species.DELTA_REGISTEEL,
     Species.CHARMANDER,
     Species.CHARMELEON,
@@ -45507,6 +45552,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.COVET]: [
+    Species.FOALIT,
     Species.RATTATA,
     Species.RATICATE,
     Species.PIKACHU,
@@ -48384,6 +48430,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MUK,
   ],
   [Moves.FLING]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_KARRABLAST,
     Species.DELTA_CHARIZARD,
@@ -49201,6 +49248,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.FLARE_BLITZ]: [
+    Species.FOALIT,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -52402,6 +52450,7 @@ export const tmSpecies: TmSpecies = {
     [Species.BASCULIN, "blue-striped", "red-striped"],
   ],
   [Moves.NASTY_PLOT]: [
+    Species.FOALIT,
     Species.SHOOKY,
     Species.PIKACHU,
     Species.RAICHU,
@@ -52700,6 +52749,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SHADOW_CLAW]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_CHARIZARD,
@@ -53131,6 +53181,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.FIRE_FANG]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.CHARMANDER,
     Species.CHARMELEON,
@@ -57176,6 +57227,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.FLAME_CHARGE]: [
+    Species.FOALIT,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -57700,6 +57752,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ROUND]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -58638,6 +58691,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_STUNFISK,
   ],
   [Moves.ECHOED_VOICE]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -59554,6 +59608,7 @@ export const tmSpecies: TmSpecies = {
     Species.NAGANADEL,
   ],
   [Moves.INCINERATE]: [
+    Species.FOALIT,
     Species.DELTA_REGISTEEL,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -60250,6 +60305,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SAMUROTT,
   ],
   [Moves.FIRE_PLEDGE]: [
+    Species.FOALIT,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -62585,6 +62641,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_TYPHLOSION,
   ],
   [Moves.CONFIDE]: [
+    Species.FOALIT,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -64195,6 +64252,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.HIGH_HORSEPOWER]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.SANDSHREW,
     Species.SANDSLASH,
@@ -66457,6 +66515,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_GOODRA,
   ],
   [Moves.BURNING_JEALOUSY]: [
+    Species.FOALIT,
     Species.VULPIX,
     Species.NINETALES,
     Species.MAGMAR,
@@ -67137,6 +67196,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ARCANINE,
   ],
   [Moves.TERA_BLAST]: [
+    Species.FOALIT,
     Species.KIMURAGI,
     Species.BULBASAUR,
     Species.IVYSAUR,
@@ -69148,6 +69208,7 @@ export const tmSpecies: TmSpecies = {
     [Species.INDEEDEE, "female"],
   ],
   [Moves.TEMPER_FLARE]: [
+    Species.FOALIT,
     Species.CHARMANDER,
     Species.CHARMELEON,
     Species.CHARIZARD,
@@ -69443,6 +69504,7 @@ export const tmSpecies: TmSpecies = {
   ],
   [Moves.WOLF_KNIGHT_SLAM]: [Species.MACHOP, Species.ARTORIAS],
   [Moves.NEW_MOON]: [
+    Species.FOALIT,
     Species.GASTLY,
     Species.HAUNTER,
     Species.GENGAR,

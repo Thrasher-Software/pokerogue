@@ -721,7 +721,10 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.INDEEDEE,
       ],
       [TimeOfDay.DUSK]: [{ 1: [Species.ESPURR], 25: [Species.MEOWSTIC] }],
-      [TimeOfDay.NIGHT]: [{ 1: [Species.ESPURR], 25: [Species.MEOWSTIC] }],
+      [TimeOfDay.NIGHT]: [
+        { 1: [Species.ESPURR], 25: [Species.MEOWSTIC] },
+        Species.FOALIT,
+      ],
       [TimeOfDay.ALL]: [
         Species.PIKACHU,
         { 1: [Species.GLAMEOW], 38: [Species.PURUGLY] },
@@ -2503,7 +2506,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.NIGHT]: [Species.FOALIT],
       [TimeOfDay.ALL]: [
         {
           1: [Species.CHARMANDER],
@@ -13335,7 +13338,15 @@ export function initBiomes() {
       [[Biome.TOWN, BiomePoolTier.COMMON]],
     ],
     [Species.KIMURAGI, PokemonType.ROCK, PokemonType.FIGHTING, []],
-    [Species.FOALIT, PokemonType.FIRE, -1, []],
+    [
+      Species.FOALIT,
+      PokemonType.FIRE,
+      -1,
+      [
+        [Biome.METROPOLIS, BiomePoolTier.UNCOMMON, [TimeOfDay.NIGHT]],
+        [Biome.VOLCANO, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
     [
       Species.DELTA_BULBASAUR,
       PokemonType.FAIRY,
