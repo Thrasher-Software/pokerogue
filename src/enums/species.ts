@@ -2064,6 +2064,8 @@ export enum Species {
   CHIMMY,
   KIMURAGI,
   FOALIT,
+  LEDSARK,
+  LEDSEVIL,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pokémon) | Source} */
   ALOLA_RATTATA = 2019,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pokémon) | Source} */

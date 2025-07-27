@@ -43206,6 +43206,62 @@ export function initSpecies() {
       false, // Cannot cahnge forms
     ),
     new PokemonSpecies(
+      Species.LEDSARK, // Name
+      9, // Generation, I just use 9 for now
+      false, // Not Sub Legend
+      false, // Not Legend
+      false, // Mythical
+      "Jersey Devil Pokémon",
+      PokemonType.FIRE,
+      null, // Second typing
+      1.0, // Height in Metric
+      10.5, // Weight in Metric
+      Abilities.BLAZE, // Primary
+      Abilities.NONE, // Secondary
+      Abilities.INTIMIDATE, // Hidden
+      420, // BST
+      65, // HP
+      95, // ATK
+      60, // DEF
+      70, // SPATK
+      50, // SPDEF
+      80, // SPD
+      45, // CATCH RATE
+      50, // BASE FRIENDSHIP
+      147, // BASE EXP YIELD
+      GrowthRate.MEDIUM_SLOW,
+      50, // Gender Ratio
+      false,
+    ),
+    new PokemonSpecies(
+      Species.LEDSEVIL, // Name
+      9, // Generation, I just use 9 for now
+      false, // Not Sub Legend
+      false, // Not Legend
+      false, // Mythical
+      "Prince of Jersey Pokémon",
+      PokemonType.FIRE,
+      PokemonType.DARK, // Second typing
+      1.5, // Height in Metric
+      15.0, // Weight in Metric
+      Abilities.BLAZE, // Primary
+      Abilities.NONE, // Secondary
+      Abilities.INTIMIDATE, // Hidden
+      530, // BST
+      95, // HP
+      115, // ATK
+      90, // DEF
+      80, // SPATK
+      90, // SPDEF
+      60, // SPD
+      45, // CATCH RATE
+      50, // BASE FRIENDSHIP
+      265, // EXP YIELD
+      GrowthRate.MEDIUM_SLOW,
+      50, // Gender Ratio
+      false,
+    ),
+    new PokemonSpecies(
       Species.ALOLA_RATTATA,
       7,
       false,

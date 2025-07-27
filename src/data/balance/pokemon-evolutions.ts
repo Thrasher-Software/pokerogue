@@ -3013,6 +3013,8 @@ export const pokemonEvolutions: PokemonEvolutions = {
       SpeciesWildEvolutionDelay.VERY_LONG,
     ),
   ],
+  [Species.FOALIT]: [new SpeciesEvolution(Species.LEDSARK, 16, null, null)],
+  [Species.LEDSARK]: [new SpeciesEvolution(Species.LEDSEVIL, 36, null, null)],
 };
 
 interface PokemonPrevolutions {

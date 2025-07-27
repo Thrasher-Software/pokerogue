@@ -723,7 +723,11 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DUSK]: [{ 1: [Species.ESPURR], 25: [Species.MEOWSTIC] }],
       [TimeOfDay.NIGHT]: [
         { 1: [Species.ESPURR], 25: [Species.MEOWSTIC] },
-        Species.FOALIT,
+        {
+          1: [Species.FOALIT],
+          16: [Species.LEDSARK],
+          36: [Species.LEDSEVIL],
+        },
       ],
       [TimeOfDay.ALL]: [
         Species.PIKACHU,
@@ -2506,7 +2510,13 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [Species.FOALIT],
+      [TimeOfDay.NIGHT]: [
+        {
+          1: [Species.FOALIT],
+          16: [Species.LEDSARK],
+          36: [Species.LEDSEVIL],
+        },
+      ],
       [TimeOfDay.ALL]: [
         {
           1: [Species.CHARMANDER],
@@ -13342,6 +13352,24 @@ export function initBiomes() {
       Species.FOALIT,
       PokemonType.FIRE,
       -1,
+      [
+        [Biome.METROPOLIS, BiomePoolTier.UNCOMMON, [TimeOfDay.NIGHT]],
+        [Biome.VOLCANO, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.LEDSARK,
+      PokemonType.FIRE,
+      -1,
+      [
+        [Biome.METROPOLIS, BiomePoolTier.UNCOMMON, [TimeOfDay.NIGHT]],
+        [Biome.VOLCANO, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.LEDSEVIL,
+      PokemonType.FIRE,
+      PokemonType.DARK,
       [
         [Biome.METROPOLIS, BiomePoolTier.UNCOMMON, [TimeOfDay.NIGHT]],
         [Biome.VOLCANO, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
