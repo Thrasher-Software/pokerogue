@@ -3439,6 +3439,18 @@ export const speciesEggMoves = {
     Moves.MACH_PUNCH,
     Moves.DISARMING_VOICE,
   ],
+  [Species.TATA]: [
+    Moves.FLAMETHROWER,
+    Moves.PSYCHIC,
+    Moves.SIZZLY_SLIDE,
+    Moves.V_CREATE,
+  ],
+  [Species.COOKY]: [
+    Moves.FLAMETHROWER,
+    Moves.PSYCHIC,
+    Moves.SIZZLY_SLIDE,
+    Moves.V_CREATE,
+  ],
   [Species.RJ]: [
     Moves.STUFF_CHEEKS,
     Moves.GRAV_APPLE,
