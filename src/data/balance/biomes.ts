@@ -1270,6 +1270,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         },
         Species.TATSUGIRI,
         Species.HARDEVIL,
+        { 1: [Species.DELTA_KARRABLAST], 30: [Species.DELTA_ESCAVALIER] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -1661,7 +1662,12 @@ export const biomePokemonPools: BiomePokemonPools = {
     },
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
-      [TimeOfDay.DAY]: [],
+      [TimeOfDay.DAY]: [
+        {
+          1: [Species.DELTA_PAWNIARD],
+          52: [Species.DELTA_BISHARP],
+        },
+      ],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [Species.MURKROW],
       [TimeOfDay.ALL]: [
@@ -2124,7 +2130,13 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.NIGHT]: [
+        {
+          1: [Species.DELTA_RALTS],
+          20: [Species.DELTA_KIRLIA],
+          30: [Species.DELTA_GARDEVOIR],
+        },
+      ],
       [TimeOfDay.ALL]: [
         Species.JYNX,
         Species.LAPRAS,
@@ -2187,7 +2199,12 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [Species.ARTICUNO, Species.REGICE, Species.ROTOM],
+      [TimeOfDay.ALL]: [
+        Species.ARTICUNO,
+        Species.REGICE,
+        Species.ROTOM,
+        Species.DELTA_GALLADE,
+      ],
     },
     [BiomePoolTier.BOSS_ULTRA_RARE]: {
       [TimeOfDay.DAWN]: [],
@@ -2369,7 +2386,13 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.NIGHT]: [
+        {
+          1: [Species.DELTA_RALTS],
+          20: [Species.DELTA_KIRLIA],
+          30: [Species.DELTA_GARDEVOIR],
+        },
+      ],
       [TimeOfDay.ALL]: [{ 1: [Species.MAREEP], 15: [Species.FLAAFFY] }],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -2750,6 +2773,10 @@ export const biomePokemonPools: BiomePokemonPools = {
           1: [Species.DELTA_SQUIRTLE],
           16: [Species.DELTA_WARTORTLE],
           36: [Species.DELTA_BLASTOISE],
+        },
+        {
+          1: [Species.DELTA_PAWNIARD],
+          52: [Species.DELTA_BISHARP],
         },
       ],
     },
@@ -3672,6 +3699,7 @@ export const biomePokemonPools: BiomePokemonPools = {
           16: [Species.DELTA_IVYSAUR],
           32: [Species.DELTA_VENUSAUR],
         },
+        { 1: [Species.DELTA_KARRABLAST], 30: [Species.DELTA_ESCAVALIER] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -3960,6 +3988,11 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.DELIBIRD,
         { 1: [Species.ALOLA_SANDSHREW], 30: [Species.ALOLA_SANDSLASH] },
         { 1: [Species.ALOLA_VULPIX], 30: [Species.ALOLA_NINETALES] },
+        {
+          1: [Species.DELTA_RALTS],
+          20: [Species.DELTA_KIRLIA],
+          30: [Species.DELTA_GARDEVOIR],
+        },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -4155,6 +4188,11 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.ALL]: [
         Species.DITTO,
         { 1: [Species.PORYGON], 30: [Species.PORYGON2] },
+        {
+          1: [Species.DELTA_RALTS],
+          20: [Species.DELTA_KIRLIA],
+          30: [Species.DELTA_GARDEVOIR],
+        },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -13427,20 +13465,87 @@ export function initBiomes() {
         ],
       ],
     ],
-    [Species.DELTA_RALTS, PokemonType.ELECTRIC, PokemonType.ICE, []],
-    [Species.DELTA_KIRLIA, PokemonType.ELECTRIC, PokemonType.ICE, []],
-    [Species.DELTA_GARDEVOIR, PokemonType.ELECTRIC, PokemonType.ICE, []],
+    [
+      Species.DELTA_RALTS,
+      PokemonType.ELECTRIC,
+      PokemonType.ICE,
+      [
+        [Biome.SNOWY_FOREST, BiomePoolTier.RARE],
+        [Biome.LABORATORY, BiomePoolTier.RARE],
+        [Biome.POWER_PLANT, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+        [Biome.ICE_CAVE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_KIRLIA,
+      PokemonType.ELECTRIC,
+      PokemonType.ICE,
+      [
+        [Biome.SNOWY_FOREST, BiomePoolTier.RARE],
+        [Biome.LABORATORY, BiomePoolTier.RARE],
+        [Biome.POWER_PLANT, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+        [Biome.ICE_CAVE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_GARDEVOIR,
+      PokemonType.ELECTRIC,
+      PokemonType.ICE,
+      [
+        [Biome.SNOWY_FOREST, BiomePoolTier.RARE],
+        [Biome.LABORATORY, BiomePoolTier.RARE],
+        [Biome.POWER_PLANT, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+        [Biome.ICE_CAVE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
     [
       Species.DELTA_REGISTEEL,
       PokemonType.FIRE,
       -1,
       [[Biome.VOLCANO, BiomePoolTier.BOSS_ULTRA_RARE]],
     ],
-    [Species.DELTA_GALLADE, PokemonType.ELECTRIC, PokemonType.ICE, []],
-    [Species.DELTA_KARRABLAST, PokemonType.FAIRY, -1, []],
-    [Species.DELTA_ESCAVALIER, PokemonType.FAIRY, -1, []],
-    [Species.DELTA_PAWNIARD, PokemonType.FLYING, PokemonType.FIGHTING, []],
-    [Species.DELTA_BISHARP, PokemonType.FLYING, PokemonType.FIGHTING, []],
+    [
+      Species.DELTA_GALLADE,
+      PokemonType.ELECTRIC,
+      PokemonType.ICE,
+      [[Biome.ICE_CAVE, BiomePoolTier.SUPER_RARE]],
+    ],
+    [
+      Species.DELTA_KARRABLAST,
+      PokemonType.FAIRY,
+      -1,
+      [
+        [Biome.FAIRY_CAVE, BiomePoolTier.RARE],
+        [Biome.BEACH, BiomePoolTier.RARE],
+      ],
+    ],
+    [
+      Species.DELTA_ESCAVALIER,
+      PokemonType.FAIRY,
+      -1,
+      [
+        [Biome.FAIRY_CAVE, BiomePoolTier.RARE],
+        [Biome.BEACH, BiomePoolTier.RARE],
+      ],
+    ],
+    [
+      Species.DELTA_PAWNIARD,
+      PokemonType.FLYING,
+      PokemonType.FIGHTING,
+      [
+        [Biome.DOJO, BiomePoolTier.RARE],
+        [Biome.MOUNTAIN, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+      ],
+    ],
+    [
+      Species.DELTA_BISHARP,
+      PokemonType.FLYING,
+      PokemonType.FIGHTING,
+      [
+        [Biome.DOJO, BiomePoolTier.RARE],
+        [Biome.MOUNTAIN, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+      ],
+    ],
     [
       Species.ALOLA_RATTATA,
       PokemonType.DARK,
