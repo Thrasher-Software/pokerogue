@@ -314,6 +314,7 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.FIRE_PUNCH]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.MANG,
@@ -918,6 +919,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.SWORDS_DANCE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_GALLADE,
@@ -1632,6 +1634,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.MEGA_KICK]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CHARMANDER,
@@ -1858,6 +1861,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.BODY_SLAM]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -2479,6 +2483,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.TAKE_DOWN]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -3178,6 +3183,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.DOUBLE_EDGE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -4073,6 +4079,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FLAMETHROWER]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_REGISTEEL,
@@ -6306,6 +6313,7 @@ export const tmSpecies: TmSpecies = {
     Species.STEVE,
   ],
   [Moves.COUNTER]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -6536,6 +6544,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.STRENGTH]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -7273,6 +7282,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.FIRE_SPIN]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CHARMANDER,
@@ -8534,6 +8544,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.DIG]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_ESCAVALIER,
@@ -8969,6 +8980,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.TOXIC]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -10395,6 +10407,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.NIGHT_SHADE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CLEFAIRY,
@@ -10506,6 +10519,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SCREECH]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.RATTATA,
@@ -11820,6 +11834,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.CONFUSE_RAY]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.VULPIX,
@@ -13246,6 +13261,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.FIRE_BLAST]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_REGISTEEL,
@@ -13612,6 +13628,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.SWIFT]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CHARMANDER,
@@ -14994,6 +15011,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.REST]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -16639,6 +16657,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SUBSTITUTE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -18214,6 +18233,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SNORE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.BULBASAUR,
@@ -20017,6 +20037,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.PROTECT]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -21106,6 +21127,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.SCARY_FACE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -21646,6 +21668,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.MUD_SLAP]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -22535,6 +22558,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.OUTRAGE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -23204,6 +23228,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.ENDURE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -24487,6 +24512,7 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.FALSE_SWIPE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -24642,6 +24668,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SWAGGER]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -26533,6 +26560,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.SLEEP_TALK]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -27703,6 +27731,7 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.RETURN]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -28787,6 +28816,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FRUSTRATION]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -31312,6 +31342,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.HIDDEN_POWER]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -33131,6 +33162,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SUNNY_DAY]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -33849,6 +33881,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.CRUNCH]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -34824,6 +34857,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SMASH]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_LUDICOLO,
@@ -35478,6 +35512,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "aqua"],
   ],
   [Moves.BEAT_UP]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CHARMANDER,
@@ -35876,6 +35911,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.HEAT_WAVE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CHARMANDER,
@@ -36436,6 +36472,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.WILL_O_WISP]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_REGISTEEL,
@@ -36588,6 +36625,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -38512,6 +38550,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.HELPING_HAND]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.BULBASAUR,
@@ -40069,6 +40108,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.KNOCK_OFF]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.BULBASAUR,
@@ -41051,6 +41091,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SECRET_POWER]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -42352,6 +42393,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.BLAZE_KICK]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CHARIZARD,
@@ -42610,6 +42652,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SAMUROTT,
   ],
   [Moves.WEATHER_BALL]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.BULBASAUR,
@@ -43034,6 +43077,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.OVERHEAT]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_REGISTEEL,
@@ -45596,6 +45640,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.COVET]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.RATTATA,
@@ -48475,6 +48520,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MUK,
   ],
   [Moves.FLING]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -49294,6 +49340,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.FLARE_BLITZ]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CHARMANDER,
@@ -52497,6 +52544,7 @@ export const tmSpecies: TmSpecies = {
     [Species.BASCULIN, "blue-striped", "red-striped"],
   ],
   [Moves.NASTY_PLOT]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.SHOOKY,
@@ -52797,6 +52845,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SHADOW_CLAW]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -53230,6 +53279,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.FIRE_FANG]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -57277,6 +57327,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.FLAME_CHARGE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_REGISTEEL,
@@ -57803,6 +57854,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ROUND]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -58743,6 +58795,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_STUNFISK,
   ],
   [Moves.ECHOED_VOICE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -59661,6 +59714,7 @@ export const tmSpecies: TmSpecies = {
     Species.NAGANADEL,
   ],
   [Moves.INCINERATE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_REGISTEEL,
@@ -60359,6 +60413,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SAMUROTT,
   ],
   [Moves.FIRE_PLEDGE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CHARMANDER,
@@ -62696,6 +62751,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_TYPHLOSION,
   ],
   [Moves.CONFIDE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.DELTA_BISHARP,
@@ -64308,6 +64364,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.HIGH_HORSEPOWER]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -66572,6 +66629,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_GOODRA,
   ],
   [Moves.BURNING_JEALOUSY]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.VULPIX,
@@ -67254,6 +67312,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ARCANINE,
   ],
   [Moves.TERA_BLAST]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.KIMURAGI,
@@ -69267,6 +69326,7 @@ export const tmSpecies: TmSpecies = {
     [Species.INDEEDEE, "female"],
   ],
   [Moves.TEMPER_FLARE]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.CHARMANDER,
@@ -69564,6 +69624,7 @@ export const tmSpecies: TmSpecies = {
   ],
   [Moves.WOLF_KNIGHT_SLAM]: [Species.MACHOP, Species.ARTORIAS],
   [Moves.NEW_MOON]: [
+    Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
     Species.GASTLY,
