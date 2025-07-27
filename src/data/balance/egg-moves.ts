@@ -3427,11 +3427,23 @@ export const speciesEggMoves = {
     Moves.CRUNCH,
     Moves.GIGA_IMPACT,
   ],
+  [Species.HARDEVIL]: [
+    Moves.DIRE_CLAW,
+    Moves.BRUTAL_SWING,
+    Moves.HEAVY_SLAM,
+    Moves.GIGA_IMPACT,
+  ],
   [Species.VAN]: [
     Moves.LIGHTNING_SPEAR,
     Moves.CHUG_SPLASH,
     Moves.MACH_PUNCH,
     Moves.COMET_AZUR,
+  ],
+  [Species.CHIMMY]: [
+    Moves.HIGH_JUMP_KICK,
+    Moves.CHUG_SPLASH,
+    Moves.TORCH_SONG,
+    Moves.VICTORY_DANCE,
   ],
   [Species.KOYA]: [
     Moves.COMET_AZUR,
@@ -3468,6 +3480,12 @@ export const speciesEggMoves = {
     Moves.EARTH_POWER,
     Moves.WISH,
     Moves.LIGHT_OF_RUIN,
+  ],
+  [Species.STEVE]: [
+    Moves.TRIPLE_AXEL,
+    Moves.FLOATY_FALL,
+    Moves.CLOSE_COMBAT,
+    Moves.DRAGON_ASCENT,
   ],
   [Species.FOALIT]: [
     Moves.BADDY_BAD,
