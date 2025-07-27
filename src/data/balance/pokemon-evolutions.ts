@@ -2988,6 +2988,31 @@ export const pokemonEvolutions: PokemonEvolutions = {
       SpeciesWildEvolutionDelay.LONG,
     ),
   ],
+  [Species.DELTA_PAWNIARD]: [
+    new SpeciesEvolution(Species.DELTA_BISHARP, 52, null, null),
+  ],
+  [Species.DELTA_RALTS]: [
+    new SpeciesEvolution(Species.DELTA_KIRLIA, 20, null, null),
+  ],
+  [Species.DELTA_KIRLIA]: [
+    new SpeciesEvolution(Species.DELTA_GARDEVOIR, 30, null, null),
+    new SpeciesEvolution(
+      Species.DELTA_GALLADE,
+      1,
+      EvolutionItem.DAWN_STONE,
+      null,
+      SpeciesWildEvolutionDelay.LONG,
+    ),
+  ],
+  [Species.DELTA_KARRABLAST]: [
+    new SpeciesEvolution(
+      Species.DELTA_ESCAVALIER,
+      1,
+      EvolutionItem.LINKING_CORD,
+      null,
+      SpeciesWildEvolutionDelay.VERY_LONG,
+    ),
+  ],
 };
 
 interface PokemonPrevolutions {

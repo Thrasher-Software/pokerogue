@@ -11999,5 +11999,8 @@ export function initAbilities() {
     new Ability(Abilities.SHADOW_DANCE, 9)
       .attr(StatMultiplierAbAttr, Stat.SPD, 2)
       .condition(getWeatherCondition(WeatherType.DARKNESS)),
+    new Ability(Abilities.WIND_FORCE, 5)
+      .attr(TypeImmunityStatStageChangeAbAttr, PokemonType.FLYING, Stat.SPD, 1)
+      .ignorable(),
   );
 }

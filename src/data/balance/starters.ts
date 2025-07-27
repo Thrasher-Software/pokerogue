@@ -631,7 +631,10 @@ export const speciesStarterCosts = {
   [Species.DELTA_CHARMANDER]: 4,
   [Species.DELTA_SQUIRTLE]: 4,
   [Species.DELTA_LOTAD]: 4,
+  [Species.DELTA_RALTS]: 4,
   [Species.DELTA_REGISTEEL]: 6,
+  [Species.DELTA_PAWNIARD]: 4,
+  [Species.DELTA_KARRABLAST]: 4,
 };
 
 const starterCandyCosts: {

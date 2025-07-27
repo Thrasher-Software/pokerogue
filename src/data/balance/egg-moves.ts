@@ -3428,10 +3428,10 @@ export const speciesEggMoves = {
     Moves.GIGA_IMPACT,
   ],
   [Species.VAN]: [
-    Moves.COMET_AZUR,
+    Moves.LIGHTNING_SPEAR,
     Moves.CHUG_SPLASH,
     Moves.MACH_PUNCH,
-    Moves.DISARMING_VOICE,
+    Moves.COMET_AZUR,
   ],
   [Species.KOYA]: [
     Moves.COMET_AZUR,
@@ -3486,6 +3486,24 @@ export const speciesEggMoves = {
     Moves.BADDY_BAD,
     Moves.ICE_BEAM,
     Moves.COMET_AZUR,
+  ],
+  [Species.DELTA_PAWNIARD]: [
+    Moves.FLOATY_FALL,
+    Moves.KOWTOW_CLEAVE,
+    Moves.SACRED_SWORD,
+    Moves.VICTORY_DANCE,
+  ],
+  [Species.DELTA_RALTS]: [
+    Moves.LIGHTNING_SPEAR,
+    Moves.ICICLE_CRASH,
+    Moves.DAZZLING_GLEAM,
+    Moves.ELECTRO_DRIFT,
+  ],
+  [Species.DELTA_KARRABLAST]: [
+    Moves.GLITTER_PUNCH,
+    Moves.TRIPLE_AXEL,
+    Moves.BITTER_BLADE,
+    Moves.SUNSTEEL_STRIKE,
   ],
 };
 

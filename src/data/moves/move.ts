@@ -2597,7 +2597,6 @@ export class PlantHealAttr extends WeatherHealAttr {
         return 0.5; // Default fallback
     }
   }
-
   getWeatherHealRatio(weatherType: WeatherType): number {
     switch (weatherType) {
       case WeatherType.SUNNY:
@@ -4438,6 +4437,22 @@ export class GrowthStatStageChangeAttr extends StatStageChangeAttr {
   }
 }
 
+export class DarknessStatChangeAttr extends StatStageChangeAttr {
+  constructor() {
+    super([Stat.ATK, Stat.ACC], 1, true);
+  }
+
+  getLevels(user: Pokemon): number {
+    if (!globalScene.arena.weather?.isEffectSuppressed()) {
+      const weatherType = globalScene.arena.weather?.weatherType;
+      if (weatherType === WeatherType.DARKNESS) {
+        return this.stages + 1;
+      }
+    }
+    return this.stages;
+  }
+}
+
 export class CutHpStatStageBoostAttr extends StatStageChangeAttr {
   private cutRatio: number;
   private messageCallback: ((user: Pokemon) => void) | undefined;
@@ -5187,12 +5202,32 @@ export class AntiSunlightPowerDecreaseAttr extends VariablePowerAttr {
       const weatherType =
         globalScene.arena.weather?.weatherType || WeatherType.NONE;
       switch (weatherType) {
+        case WeatherType.DARKNESS:
+          power.value *= 0.3;
+          return true;
         case WeatherType.RAIN:
         case WeatherType.SANDSTORM:
         case WeatherType.HAIL:
         case WeatherType.SNOW:
         case WeatherType.HEAVY_RAIN:
           power.value *= 0.5;
+          return true;
+      }
+    }
+
+    return false;
+  }
+}
+
+export class DarknessPowerIncreaseAttr extends VariablePowerAttr {
+  apply(user: Pokemon, target: Pokemon, move: Move, args: any[]): boolean {
+    if (!globalScene.arena.weather?.isEffectSuppressed()) {
+      const power = args[0] as NumberHolder;
+      const weatherType =
+        globalScene.arena.weather?.weatherType || WeatherType.NONE;
+      switch (weatherType) {
+        case WeatherType.DARKNESS:
+          power.value *= 1.5;
           return true;
       }
     }
@@ -6313,6 +6348,9 @@ export class WeatherBallTypeAttr extends VariableMoveTypeAttr {
         case WeatherType.HAIL:
         case WeatherType.SNOW:
           moveType.value = PokemonType.ICE;
+          break;
+        case WeatherType.DARKNESS:
+          moveType.value = PokemonType.DARK;
           break;
         default:
           if (moveType.value === move.type) {
@@ -11043,6 +11081,7 @@ export function initMoves() {
     )
       .target(MoveTarget.ALL_NEAR_OTHERS)
       .attr(HitsTagForDoubleDamageAttr, BattlerTagType.UNDERWATER)
+      .attr(DarknessPowerIncreaseAttr)
       .attr(GulpMissileTagAttr),
     new AttackMove(
       Moves.ICE_BEAM,
@@ -13495,6 +13534,7 @@ export function initMoves() {
           WeatherType.FOG,
           WeatherType.HEAVY_RAIN,
           WeatherType.HARSH_SUN,
+          WeatherType.DARKNESS,
         ];
         if (
           weatherTypes.includes(weather.weatherType) &&
@@ -15207,6 +15247,7 @@ export function initMoves() {
       )
       .chargeAttr(SemiInvulnerableAttr, BattlerTagType.HIDDEN)
       .ignoresProtect(),
+    // I need to make sure this works.
     new SelfStatusMove(
       Moves.HONE_CLAWS,
       PokemonType.DARK,
@@ -15215,7 +15256,7 @@ export function initMoves() {
       -1,
       0,
       5,
-    ).attr(StatStageChangeAttr, [Stat.ATK, Stat.ACC], 1, true),
+    ).attr(DarknessStatChangeAttr),
     new StatusMove(Moves.WIDE_GUARD, PokemonType.ROCK, -1, 10, -1, 3, 5)
       .target(MoveTarget.USER_SIDE)
       .attr(AddArenaTagAttr, ArenaTagType.WIDE_GUARD, 1, true, true)
@@ -16374,6 +16415,7 @@ export function initMoves() {
         i18next.t("moveTriggers:vanishedInstantly", { pokemonName: "{USER}" }),
       )
       .chargeAttr(SemiInvulnerableAttr, BattlerTagType.HIDDEN)
+      .chargeAttr(WeatherInstantChargeAttr, [WeatherType.DARKNESS])
       .ignoresProtect(),
     new StatusMove(Moves.TRICK_OR_TREAT, PokemonType.GHOST, 100, 20, -1, 0, 6)
       .attr(AddTypeAttr, PokemonType.GHOST)

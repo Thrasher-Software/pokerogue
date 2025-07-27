@@ -304,7 +304,7 @@
     "GALAR": "Galarian Form",
     "HISUI": "Hisuian Form",
     "PALDEA": "Paldean Form",
-    "DELTA": "Delta Pokemon"
+    "DELTA": "Delta Pokémon"
   },
   "appendForm": {
     "GENERIC": "{{pokemonName}} ({{formName}})",
