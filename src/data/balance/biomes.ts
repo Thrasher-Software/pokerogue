@@ -2152,6 +2152,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.LAPRAS,
         Species.FROSLASS,
         Species.CRYOGONAL,
+        { 1: [Species.DELTA_SCYTHER], 35: [Species.DELTA_SCIZOR] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -4011,7 +4012,9 @@ export const biomePokemonPools: BiomePokemonPools = {
         { 1: [Species.GALAR_DARUMAKA], 30: [Species.GALAR_DARMANITAN] },
       ],
       [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.NIGHT]: [
+        { 1: [Species.DELTA_SCYTHER], 35: [Species.DELTA_SCIZOR] },
+      ],
       [TimeOfDay.ALL]: [
         Species.DELIBIRD,
         { 1: [Species.ALOLA_SANDSHREW], 30: [Species.ALOLA_SANDSLASH] },
@@ -13514,6 +13517,24 @@ export function initBiomes() {
       [
         [Biome.TEMPLE, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
         [Biome.RUINS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_SCYTHER,
+      PokemonType.ICE,
+      PokemonType.FIGHTING,
+      [
+        [Biome.ICE_CAVE, BiomePoolTier.RARE],
+        [Biome.SNOWY_FOREST, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_SCIZOR,
+      PokemonType.ICE,
+      PokemonType.FIGHTING,
+      [
+        [Biome.ICE_CAVE, BiomePoolTier.RARE],
+        [Biome.SNOWY_FOREST, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
       ],
     ],
     [

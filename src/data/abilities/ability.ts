@@ -12002,5 +12002,9 @@ export function initAbilities() {
     new Ability(Abilities.WIND_FORCE, 5)
       .attr(TypeImmunityStatStageChangeAbAttr, PokemonType.FLYING, Stat.SPD, 1)
       .ignorable(),
+    new Ability(Abilities.ICE_CLEATS, 9)
+      .attr(StatMultiplierAbAttr, Stat.SPD, 2)
+      .attr(BlockWeatherDamageAttr, WeatherType.HAIL)
+      .condition(getWeatherCondition(WeatherType.HAIL)),
   );
 }

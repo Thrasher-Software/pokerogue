@@ -630,4 +630,5 @@ export enum Abilities {
   SHADOW_CALL,
   SHADOW_DANCE,
   WIND_FORCE,
+  ICE_CLEATS,
 }

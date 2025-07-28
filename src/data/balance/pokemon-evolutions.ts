@@ -2988,6 +2988,15 @@ export const pokemonEvolutions: PokemonEvolutions = {
       SpeciesWildEvolutionDelay.VERY_LONG,
     ),
   ],
+  [Species.DELTA_SCYTHER]: [
+    new SpeciesEvolution(
+      Species.DELTA_SCIZOR,
+      1,
+      EvolutionItem.LINKING_CORD,
+      new MoveTypeEvolutionCondition(PokemonType.STEEL),
+      SpeciesWildEvolutionDelay.VERY_LONG,
+    ),
+  ],
   [Species.DELTA_LOTAD]: [
     new SpeciesEvolution(Species.DELTA_LOMBRE, 14, null, null),
   ],

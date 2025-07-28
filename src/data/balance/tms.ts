@@ -919,6 +919,8 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.SWORDS_DANCE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
@@ -1231,6 +1233,8 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.CUT]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -3839,6 +3843,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.ROAR]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_CHARIZARD,
@@ -4757,6 +4763,8 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.ICE_BEAM]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GALLADE,
     Species.DELTA_GARDEVOIR,
     Species.DELTA_KIRLIA,
@@ -5064,6 +5072,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.BLIZZARD]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GALLADE,
     Species.DELTA_GARDEVOIR,
     Species.DELTA_KIRLIA,
@@ -5482,6 +5492,8 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.HYPER_BEAM]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_GOLEM,
     Species.DELTA_BISHARP,
@@ -6549,6 +6561,8 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.STRENGTH]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -9003,6 +9017,8 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.TOXIC]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -10784,6 +10800,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SNEASEL,
   ],
   [Moves.DOUBLE_TEAM]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -15063,6 +15081,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.REST]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -16150,6 +16170,8 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SLIDE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -16719,6 +16741,8 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SUBSTITUTE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -20104,6 +20128,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.PROTECT]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -24591,6 +24617,8 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.FALSE_SWIPE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.LEDSEVIL,
     Species.LEDSARK,
     Species.FOALIT,
@@ -24747,6 +24775,8 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SWAGGER]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -25710,6 +25740,8 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MOLTRES,
   ],
   [Moves.ATTRACT]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -26649,6 +26681,8 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.SLEEP_TALK]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -27825,6 +27859,8 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.RETURN]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -28915,6 +28951,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FRUSTRATION]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -31449,6 +31487,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.HIDDEN_POWER]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -34239,6 +34279,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.PSYCH_UP]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GOLEM,
     Species.DELTA_GRAVELER,
     Species.DELTA_GEODUDE,
@@ -36196,6 +36238,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.HAIL]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GALLADE,
     Species.DELTA_GARDEVOIR,
     Species.DELTA_KIRLIA,
@@ -36746,6 +36790,8 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -38288,6 +38334,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.TAUNT]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_CHARIZARD,
@@ -39871,6 +39919,8 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.BRICK_BREAK]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GOLEM,
     Species.DELTA_GRAVELER,
     Species.DELTA_GEODUDE,
@@ -41226,6 +41276,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SECRET_POWER]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -43331,6 +43383,8 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.ROCK_TOMB]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -44435,6 +44489,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.AERIAL_ACE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -45218,6 +45274,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.BULK_UP]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -46931,6 +46989,8 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.ROOST]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.CHARIZARD,
@@ -47678,6 +47738,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.U_TURN]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_BLASTOISE,
@@ -48046,6 +48108,8 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.PAYBACK]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_REGISTEEL,
@@ -48679,6 +48743,8 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MUK,
   ],
   [Moves.FLING]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GOLEM,
     Species.DELTA_GRAVELER,
     Species.DELTA_GEODUDE,
@@ -50669,6 +50735,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.X_SCISSOR]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -51086,6 +51154,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ARCANINE,
   ],
   [Moves.DRAIN_PUNCH]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GOLEM,
     Species.DELTA_GRAVELER,
     Species.DELTA_GEODUDE,
@@ -51301,6 +51371,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FOCUS_BLAST]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GOLEM,
     Species.DELTA_GRAVELER,
     Species.DELTA_BISHARP,
@@ -52098,6 +52170,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.GIGA_IMPACT]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_GOLEM,
     Species.DELTA_BISHARP,
@@ -52906,6 +52980,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.AVALANCHE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -53025,6 +53101,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SHADOW_CLAW]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.LEDSEVIL,
     Species.LEDSARK,
@@ -55225,6 +55303,8 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.STONE_EDGE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -56381,6 +56461,8 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.HONE_CLAWS]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
     Species.DELTA_CHARMANDER,
@@ -57644,6 +57726,8 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.LOW_SWEEP]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_GALLADE,
@@ -58064,6 +58148,8 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ROUND]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -60196,6 +60282,8 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MUK,
   ],
   [Moves.ACROBATICS]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
     Species.DELTA_CHARIZARD,
@@ -60382,6 +60470,8 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.RETALIATE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GOLEM,
     Species.DELTA_GRAVELER,
     Species.DELTA_GEODUDE,
@@ -61271,6 +61361,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FROST_BREATH]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GALLADE,
     Species.DELTA_GARDEVOIR,
     Species.DELTA_KIRLIA,
@@ -62202,6 +62294,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.SNARL]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_BISHARP,
@@ -62987,6 +63081,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_TYPHLOSION,
   ],
   [Moves.CONFIDE]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -64354,6 +64450,8 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_EXEGGUTOR,
   ],
   [Moves.POWER_UP_PUNCH]: [
+    Species.DELTA_SCIZOR,
+    Species.DELTA_SCYTHER,
     Species.DELTA_GOLEM,
     Species.DELTA_GRAVELER,
     Species.DELTA_GEODUDE,

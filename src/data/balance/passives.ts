@@ -1529,6 +1529,8 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.DELTA_GEODUDE]: { 0: Abilities.STURDY },
   [Species.DELTA_GRAVELER]: { 0: Abilities.STURDY },
   [Species.DELTA_GOLEM]: { 0: Abilities.STURDY },
+  [Species.DELTA_SCYTHER]: { 0: Abilities.INTIMIDATE },
+  [Species.DELTA_SCIZOR]: { 0: Abilities.INTIMIDATE },
   [Species.DELTA_LOTAD]: { 0: Abilities.MAGICIAN },
   [Species.DELTA_LOMBRE]: { 0: Abilities.MAGICIAN },
   [Species.DELTA_LUDICOLO]: { 0: Abilities.MAGICIAN },

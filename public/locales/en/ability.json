@@ -1270,5 +1270,9 @@
   "shadowDance": {
     "name": "Shadow Dance",
     "description": "Boosts the Pokémon’s Speed stat in darkness."
+  },
+  "iceCleats": {
+    "name": "Ice Cleats",
+    "description": "Boosts the Pokémon’s Speed stat in hail."
   }
 }
