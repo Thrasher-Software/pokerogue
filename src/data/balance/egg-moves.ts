@@ -3547,6 +3547,12 @@ export const speciesEggMoves = {
     Moves.DAZZLING_GLEAM,
     Moves.ELECTRO_DRIFT,
   ],
+  [Species.DELTA_SCRAFTY]: [
+    Moves.GRASSY_GLIDE,
+    Moves.POISON_JAB,
+    Moves.SPORE,
+    Moves.SEED_FLARE,
+  ],
   [Species.DELTA_KARRABLAST]: [
     Moves.GLITTER_PUNCH,
     Moves.TRIPLE_AXEL,

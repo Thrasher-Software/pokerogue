@@ -528,6 +528,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         },
         Species.GROWLITHE,
         { 1: [Species.TURTWIG], 18: [Species.GROTLE], 32: [Species.TORTERRA] },
+        { 1: [Species.DELTA_SCRAGGY], 39: [Species.DELTA_SCRAFTY] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -641,6 +642,7 @@ export const biomePokemonPools: BiomePokemonPools = {
           16: [Species.DELTA_IVYSAUR],
           32: [Species.DELTA_VENUSAUR],
         },
+        { 1: [Species.DELTA_SCRAGGY], 39: [Species.DELTA_SCRAFTY] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -899,6 +901,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         { 1: [Species.ROWLET], 17: [Species.DARTRIX], 34: [Species.DECIDUEYE] },
         Species.SQUAWKABILLY,
         { 1: [Species.TOEDSCOOL], 30: [Species.TOEDSCRUEL] },
+        { 1: [Species.DELTA_SCRAGGY], 39: [Species.DELTA_SCRAFTY] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -13612,6 +13615,22 @@ export function initBiomes() {
       PokemonType.ELECTRIC,
       PokemonType.ICE,
       [[Biome.ICE_CAVE, BiomePoolTier.SUPER_RARE]],
+    ],
+    [
+      Species.DELTA_SCRAGGY,
+      PokemonType.GRASS,
+      -1,
+      [[Biome.GRASS, BiomePoolTier.RARE]],
+      [[Biome.TALL_GRASS, BiomePoolTier.RARE]],
+      [[Biome.FOREST, BiomePoolTier.RARE]],
+    ],
+    [
+      Species.DELTA_SCRAFTY,
+      PokemonType.GRASS,
+      -1,
+      [[Biome.GRASS, BiomePoolTier.RARE]],
+      [[Biome.TALL_GRASS, BiomePoolTier.RARE]],
+      [[Biome.FOREST, BiomePoolTier.RARE]],
     ],
     [
       Species.DELTA_KARRABLAST,

@@ -3039,6 +3039,9 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_BERGMITE]: [
     new SpeciesEvolution(Species.DELTA_AVALUGG, 37, null, null),
   ],
+  [Species.DELTA_SCRAGGY]: [
+    new SpeciesEvolution(Species.DELTA_SCRAFTY, 39, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

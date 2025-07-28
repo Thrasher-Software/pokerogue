@@ -1542,6 +1542,8 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.DELTA_KIRLIA]: { 0: Abilities.SNOW_WARNING },
   [Species.DELTA_GARDEVOIR]: { 0: Abilities.HUBRIS },
   [Species.DELTA_GALLADE]: { 0: Abilities.MOXIE },
+  [Species.DELTA_SCRAGGY]: { 0: Abilities.GRASSY_SURGE },
+  [Species.DELTA_SCRAFTY]: { 0: Abilities.GRASSY_SURGE },
   [Species.DELTA_KARRABLAST]: { 0: Abilities.FAIRY_AURA },
   [Species.DELTA_ESCAVALIER]: { 0: Abilities.FAIRY_AURA },
 };
