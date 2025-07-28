@@ -2977,7 +2977,13 @@ export const biomePokemonPools: BiomePokemonPools = {
       ],
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.NIGHT]: [
+        {
+          1: [Species.DELTA_GEODUDE],
+          25: [Species.DELTA_GRAVELER],
+          40: [Species.DELTA_GOLEM],
+        },
+      ],
       [TimeOfDay.ALL]: [
         Species.MR_MIME,
         Species.WOBBUFFET,
@@ -3802,7 +3808,13 @@ export const biomePokemonPools: BiomePokemonPools = {
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
-      [TimeOfDay.DUSK]: [],
+      [TimeOfDay.DUSK]: [
+        {
+          1: [Species.DELTA_GEODUDE],
+          25: [Species.DELTA_GRAVELER],
+          40: [Species.DELTA_GOLEM],
+        },
+      ],
       [TimeOfDay.NIGHT]: [
         {
           1: [Species.DELTA_SQUIRTLE],
@@ -13472,6 +13484,33 @@ export function initBiomes() {
         [Biome.SLUM, BiomePoolTier.RARE],
         [Biome.TEMPLE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
         [Biome.METROPOLIS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_GEODUDE,
+      PokemonType.PSYCHIC,
+      PokemonType.ROCK,
+      [
+        [Biome.TEMPLE, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+        [Biome.RUINS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_GRAVELER,
+      PokemonType.PSYCHIC,
+      PokemonType.ROCK,
+      [
+        [Biome.TEMPLE, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+        [Biome.RUINS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_GOLEM,
+      PokemonType.PSYCHIC,
+      PokemonType.ROCK,
+      [
+        [Biome.TEMPLE, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+        [Biome.RUINS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
       ],
     ],
     [

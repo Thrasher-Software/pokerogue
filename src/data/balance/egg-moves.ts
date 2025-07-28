@@ -3505,6 +3505,12 @@ export const speciesEggMoves = {
     Moves.FLARE_BLITZ,
     Moves.DARKEST_LARIAT,
   ],
+  [Species.DELTA_GEODUDE]: [
+    Moves.AURA_SPHERE,
+    Moves.ICE_PUNCH,
+    Moves.BADDY_BAD,
+    Moves.COMET_AZUR,
+  ],
   [Species.DELTA_REGISTEEL]: [
     Moves.BURNING_BULWARK,
     Moves.HEAVY_SLAM,
