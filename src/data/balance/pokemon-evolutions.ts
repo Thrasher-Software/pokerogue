@@ -3027,6 +3027,9 @@ export const pokemonEvolutions: PokemonEvolutions = {
   ],
   [Species.FOALIT]: [new SpeciesEvolution(Species.LEDSARK, 16, null, null)],
   [Species.LEDSARK]: [new SpeciesEvolution(Species.LEDSEVIL, 36, null, null)],
+  [Species.DELTA_BERGMITE]: [
+    new SpeciesEvolution(Species.DELTA_AVALUGG, 37, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

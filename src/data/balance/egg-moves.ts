@@ -3547,6 +3547,12 @@ export const speciesEggMoves = {
     Moves.BITTER_BLADE,
     Moves.SUNSTEEL_STRIKE,
   ],
+  [Species.DELTA_BERGMITE]: [
+    Moves.FLARE_BLITZ,
+    Moves.ROCK_BLAST,
+    Moves.SKULL_BASH,
+    Moves.PRECIPICE_BLADES,
+  ],
 };
 
 function parseEggMoves(content: string): void {

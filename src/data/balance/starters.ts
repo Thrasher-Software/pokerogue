@@ -637,6 +637,7 @@ export const speciesStarterCosts = {
   [Species.DELTA_REGISTEEL]: 6,
   [Species.DELTA_PAWNIARD]: 4,
   [Species.DELTA_KARRABLAST]: 4,
+  [Species.DELTA_BERGMITE]: 4,
 };
 
 const starterCandyCosts: {

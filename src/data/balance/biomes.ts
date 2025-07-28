@@ -1674,6 +1674,7 @@ export const biomePokemonPools: BiomePokemonPools = {
           1: [Species.DELTA_PAWNIARD],
           52: [Species.DELTA_BISHARP],
         },
+        { 1: [Species.DELTA_BERGMITE], 37: [Species.DELTA_AVALUGG] },
       ],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [Species.MURKROW],
@@ -1914,7 +1915,9 @@ export const biomePokemonPools: BiomePokemonPools = {
     },
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
-      [TimeOfDay.DAY]: [],
+      [TimeOfDay.DAY]: [
+        { 1: [Species.DELTA_BERGMITE], 37: [Species.DELTA_AVALUGG] },
+      ],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
       [TimeOfDay.ALL]: [
@@ -13623,6 +13626,26 @@ export function initBiomes() {
       [
         [Biome.DOJO, BiomePoolTier.RARE],
         [Biome.MOUNTAIN, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+      ],
+    ],
+    [
+      Species.DELTA_BERGMITE,
+      PokemonType.ROCK,
+      -1,
+      [
+        [Biome.CAVE, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+        [Biome.MOUNTAIN, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+        [Biome.BADLANDS, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+      ],
+    ],
+    [
+      Species.DELTA_AVALUGG,
+      PokemonType.ROCK,
+      PokemonType.DRAGON,
+      [
+        [Biome.CAVE, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+        [Biome.MOUNTAIN, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+        [Biome.BADLANDS, BiomePoolTier.RARE, [TimeOfDay.DAY]],
       ],
     ],
     [
