@@ -616,10 +616,7 @@ In addition to the lists below, please check [the PokéRogue wiki](https://wiki.
 # Artists
 - Andi Reyes
 - Alcor
-
-# Special Art Contributors
 - andersQT
-
 
 # ✨ Special Thanks
 
@@ -634,3 +631,7 @@ In addition to the lists below, please check [the PokéRogue wiki](https://wiki.
 - Ydarissep (creator of the now defunct "Yda's Dex")
 - Admiral-Billy (Offline App - Desktop)
 - Red aka StonedModder (iOS App)
+
+# Special Thanks from Planar Chaos Team
+- The Pokemon Insurgence team for making the Delta Pokemon we use in the game.
+- Merman82 on GitHub for making the original fork featuring the Delta Pokemon that we used to source sprites and some pokemon data.

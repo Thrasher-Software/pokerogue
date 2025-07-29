@@ -2897,7 +2897,10 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [{ 1: [Species.PORYGON], 30: [Species.PORYGON2] }],
+      [TimeOfDay.ALL]: [
+        { 1: [Species.PORYGON], 30: [Species.PORYGON2] },
+        { 1: [Species.DELTA_COMBEE], 21: [Species.DELTA_VESPIQUEN] },
+      ],
     },
     [BiomePoolTier.SUPER_RARE]: {
       [TimeOfDay.DAWN]: [],
@@ -3350,6 +3353,7 @@ export const biomePokemonPools: BiomePokemonPools = {
           32: [Species.DUOSION],
           41: [Species.REUNICLUS],
         },
+        { 1: [Species.DELTA_COMBEE], 21: [Species.DELTA_VESPIQUEN] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -3435,7 +3439,9 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DUSK]: [
         { 1: [Species.GALAR_MEOWTH], 28: [Species.PERRSERKER] },
       ],
-      [TimeOfDay.NIGHT]: [],
+      [TimeOfDay.NIGHT]: [
+        { 1: [Species.DELTA_COMBEE], 21: [Species.DELTA_VESPIQUEN] },
+      ],
       [TimeOfDay.ALL]: [
         Species.ONIX,
         Species.HITMONLEE,
@@ -13609,6 +13615,26 @@ export function initBiomes() {
       PokemonType.FIRE,
       -1,
       [[Biome.VOLCANO, BiomePoolTier.BOSS_ULTRA_RARE]],
+    ],
+    [
+      Species.DELTA_COMBEE,
+      PokemonType.STEEL,
+      PokemonType.FIRE,
+      [
+        [Biome.CONSTRUCTION_SITE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+        [Biome.FACTORY, BiomePoolTier.RARE],
+        [Biome.SPACE, BiomePoolTier.RARE],
+      ],
+    ],
+    [
+      Species.DELTA_VESPIQUEN,
+      PokemonType.STEEL,
+      PokemonType.FIRE,
+      [
+        [Biome.CONSTRUCTION_SITE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+        [Biome.FACTORY, BiomePoolTier.RARE],
+        [Biome.SPACE, BiomePoolTier.RARE],
+      ],
     ],
     [
       Species.DELTA_GALLADE,

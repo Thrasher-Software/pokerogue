@@ -3523,6 +3523,12 @@ export const speciesEggMoves = {
     Moves.SUNNY_DAY,
     Moves.BLUE_FLARE,
   ],
+  [Species.DELTA_COMBEE]: [
+    Moves.FLAMETHROWER,
+    Moves.BUZZY_BUZZ,
+    Moves.FLASH_CANNON,
+    Moves.BLUE_FLARE,
+  ],
   [Species.DELTA_CHARMANDER]: [
     Moves.FLAMETHROWER,
     Moves.BADDY_BAD,

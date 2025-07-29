@@ -3042,6 +3042,14 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_SCRAGGY]: [
     new SpeciesEvolution(Species.DELTA_SCRAFTY, 39, null, null),
   ],
+  [Species.DELTA_COMBEE]: [
+    new SpeciesEvolution(
+      Species.DELTA_VESPIQUEN,
+      21,
+      null,
+      new GenderEvolutionCondition(Gender.FEMALE),
+    ),
+  ],
 };
 
 interface PokemonPrevolutions {
