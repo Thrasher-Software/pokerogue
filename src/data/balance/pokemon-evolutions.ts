@@ -2976,6 +2976,15 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_WARTORTLE]: [
     new SpeciesEvolution(Species.DELTA_BLASTOISE, 36, null, null),
   ],
+  [Species.DELTA_GROWLITHE]: [
+    new SpeciesEvolution(
+      Species.DELTA_ARCANINE,
+      1,
+      EvolutionItem.SHINY_STONE,
+      null,
+      SpeciesWildEvolutionDelay.VERY_LONG,
+    ),
+  ],
   [Species.DELTA_GEODUDE]: [
     new SpeciesEvolution(Species.DELTA_GRAVELER, 25, null, null),
   ],

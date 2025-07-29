@@ -631,6 +631,7 @@ export const speciesStarterCosts = {
   [Species.DELTA_BULBASAUR]: 4,
   [Species.DELTA_CHARMANDER]: 4,
   [Species.DELTA_SQUIRTLE]: 4,
+  [Species.DELTA_GROWLITHE]: 4,
   [Species.DELTA_GEODUDE]: 4,
   [Species.DELTA_SCYTHER]: 5,
   [Species.DELTA_LOTAD]: 4,

@@ -3914,5 +3914,9 @@
   "newMoon": {
     "name": "New Moon (P)",
     "effect": "The user covers the battlefield in darkness for five turns, powering up Dark and Ghost-type moves. It lowers the power of Fairy-type moves."
+  },
+  "ancientRoar": {
+    "name": "Ancient Roar",
+    "effect": "The user's voice shakes with a primal roar, damaging its foes with pure fear."
   }
 }

@@ -3004,6 +3004,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         },
         Species.STONJOURNER,
         Species.ARTORIAS,
+        Species.DELTA_GROWLITHE,
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -3146,6 +3147,7 @@ export const biomePokemonPools: BiomePokemonPools = {
           35: [Species.ARCTIBAX],
           54: [Species.BAXCALIBUR],
         },
+        Species.DELTA_GROWLITHE,
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -3193,6 +3195,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.TYRANTRUM,
         Species.DRACOZOLT,
         Species.DRACOVISH,
+        Species.DELTA_ARCANINE,
       ],
     },
     [BiomePoolTier.BOSS_SUPER_RARE]: {
@@ -13500,6 +13503,21 @@ export function initBiomes() {
         [Biome.TEMPLE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
         [Biome.METROPOLIS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
       ],
+    ],
+    [
+      Species.DELTA_GROWLITHE,
+      PokemonType.NORMAL,
+      PokemonType.DRAGON,
+      [
+        [Biome.WASTELAND, BiomePoolTier.RARE],
+        [Biome.RUINS, BiomePoolTier.RARE],
+      ],
+    ],
+    [
+      Species.DELTA_ARCANINE,
+      PokemonType.NORMAL,
+      PokemonType.DRAGON,
+      [[Biome.WASTELAND, BiomePoolTier.BOSS_RARE]],
     ],
     [
       Species.DELTA_GEODUDE,

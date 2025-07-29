@@ -1899,4 +1899,5 @@ export enum Moves {
   CHIMMY_BLUES,
   BALLAD_OF_CHIMMY,
   NEW_MOON,
+  ANCIENT_ROAR,
 }

@@ -21019,6 +21019,19 @@ export function initMoves() {
     new StatusMove(Moves.NEW_MOON, PokemonType.DARK, -1, 5, -1, 0, 9)
       .attr(WeatherChangeAttr, WeatherType.DARKNESS)
       .target(MoveTarget.BOTH_SIDES),
+    new AttackMove(
+      Moves.ANCIENT_ROAR,
+      PokemonType.ROCK,
+      MoveCategory.SPECIAL,
+      80,
+      100,
+      15,
+      0,
+      0,
+      9,
+    )
+      .soundBased()
+      .target(MoveTarget.ALL_NEAR_ENEMIES),
   );
   allMoves.map((m) => {
     if (
