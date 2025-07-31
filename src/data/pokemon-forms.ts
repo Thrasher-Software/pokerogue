@@ -90,6 +90,7 @@ export enum FormChangeItem {
   DELTA_GARDEVOIRITE,
   DELTA_GALLADITE,
   DELTA_SCIZORITE,
+  MEWTWO_ARMOR,
 
   SHARP_METEORITE = 100,
   HARD_METEORITE,
@@ -835,6 +836,12 @@ export const pokemonFormChanges: PokemonFormChanges = {
     ),
   ],
   [Species.MEWTWO]: [
+    new SpeciesFormChange(
+      Species.MEWTWO,
+      "",
+      SpeciesFormKey.ARMORED,
+      new SpeciesFormChangeItemTrigger(FormChangeItem.MEWTWO_ARMOR),
+    ),
     new SpeciesFormChange(
       Species.MEWTWO,
       "",
