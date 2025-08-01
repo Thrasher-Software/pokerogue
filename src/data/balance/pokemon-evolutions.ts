@@ -3059,6 +3059,9 @@ export const pokemonEvolutions: PokemonEvolutions = {
       new GenderEvolutionCondition(Gender.FEMALE),
     ),
   ],
+  [Species.DELTA_DODUO]: [
+    new SpeciesEvolution(Species.DELTA_DODRIO, 31, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

@@ -250,6 +250,7 @@ export const biomePokemonPools: BiomePokemonPools = {
           16: [Species.DELTA_IVYSAUR],
           32: [Species.DELTA_VENUSAUR],
         },
+        { 1: [Species.DELTA_DODUO], 31: [Species.DELTA_DODRIO] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -3005,6 +3006,7 @@ export const biomePokemonPools: BiomePokemonPools = {
         Species.STONJOURNER,
         Species.ARTORIAS,
         Species.DELTA_GROWLITHE,
+        { 1: [Species.DELTA_DODUO], 31: [Species.DELTA_DODRIO] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -3357,6 +3359,7 @@ export const biomePokemonPools: BiomePokemonPools = {
           41: [Species.REUNICLUS],
         },
         { 1: [Species.DELTA_COMBEE], 21: [Species.DELTA_VESPIQUEN] },
+        { 1: [Species.DELTA_DODUO], 31: [Species.DELTA_DODRIO] },
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -13544,6 +13547,26 @@ export function initBiomes() {
       [
         [Biome.TEMPLE, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
         [Biome.RUINS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_DODUO,
+      PokemonType.PSYCHIC,
+      -1,
+      [
+        [Biome.TOWN, BiomePoolTier.RARE],
+        [Biome.SPACE, BiomePoolTier.RARE],
+        [Biome.RUINS, BiomePoolTier.RARE],
+      ],
+    ],
+    [
+      Species.DELTA_DODRIO,
+      PokemonType.PSYCHIC,
+      -1,
+      [
+        [Biome.TOWN, BiomePoolTier.RARE],
+        [Biome.SPACE, BiomePoolTier.RARE],
+        [Biome.RUINS, BiomePoolTier.RARE],
       ],
     ],
     [
