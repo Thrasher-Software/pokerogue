@@ -599,6 +599,7 @@ export const speciesEggTiers = {
   [Species.DELTA_GROWLITHE]: EggTier.RARE,
   [Species.DELTA_GEODUDE]: EggTier.RARE,
   [Species.DELTA_DODUO]: EggTier.RARE,
+  [Species.DELTA_KOFFING]: EggTier.RARE,
   [Species.DELTA_SCYTHER]: EggTier.RARE,
   [Species.DELTA_LOTAD]: EggTier.RARE,
   [Species.DELTA_RALTS]: EggTier.RARE,

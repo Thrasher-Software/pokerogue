@@ -3517,6 +3517,12 @@ export const speciesEggMoves = {
     Moves.PSYCHO_CUT,
     Moves.COMET_AZUR,
   ],
+  [Species.DELTA_KOFFING]: [
+    Moves.ION_DELUGE,
+    Moves.FLOATY_FALL,
+    Moves.POISON_JAB,
+    Moves.FUSION_BOLT,
+  ],
   [Species.DELTA_SCYTHER]: [
     Moves.AURA_SPHERE,
     Moves.TRIPLE_AXEL,

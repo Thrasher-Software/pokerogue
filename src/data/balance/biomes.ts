@@ -2404,7 +2404,9 @@ export const biomePokemonPools: BiomePokemonPools = {
     },
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
-      [TimeOfDay.DAY]: [],
+      [TimeOfDay.DAY]: [
+        { 1: [Species.DELTA_KOFFING], 35: [Species.DELTA_WEEZING] },
+      ],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [
         {
@@ -2900,7 +2902,9 @@ export const biomePokemonPools: BiomePokemonPools = {
     },
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
-      [TimeOfDay.DAY]: [],
+      [TimeOfDay.DAY]: [
+        { 1: [Species.DELTA_KOFFING], 35: [Species.DELTA_WEEZING] },
+      ],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
       [TimeOfDay.ALL]: [
@@ -13572,6 +13576,24 @@ export function initBiomes() {
         [Biome.TOWN, BiomePoolTier.RARE],
         [Biome.SPACE, BiomePoolTier.RARE],
         [Biome.RUINS, BiomePoolTier.RARE],
+      ],
+    ],
+    [
+      Species.DELTA_KOFFING,
+      PokemonType.ELECTRIC,
+      PokemonType.FLYING,
+      [
+        [Biome.POWER_PLANT, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+        [Biome.FACTORY, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+      ],
+    ],
+    [
+      Species.DELTA_WEEZING,
+      PokemonType.ELECTRIC,
+      PokemonType.FLYING,
+      [
+        [Biome.POWER_PLANT, BiomePoolTier.RARE, [TimeOfDay.DAY]],
+        [Biome.FACTORY, BiomePoolTier.RARE, [TimeOfDay.DAY]],
       ],
     ],
     [

@@ -1537,6 +1537,8 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.DELTA_GOLEM]: { 0: Abilities.STURDY },
   [Species.DELTA_DODUO]: { 0: Abilities.LEVITATE },
   [Species.DELTA_DODRIO]: { 0: Abilities.LEVITATE },
+  [Species.DELTA_KOFFING]: { 0: Abilities.SHEER_FORCE },
+  [Species.DELTA_WEEZING]: { 0: Abilities.SHEER_FORCE },
   [Species.DELTA_SCYTHER]: { 0: Abilities.INTIMIDATE },
   [Species.DELTA_SCIZOR]: { 0: Abilities.INTIMIDATE },
   [Species.DELTA_LOTAD]: { 0: Abilities.MAGICIAN },

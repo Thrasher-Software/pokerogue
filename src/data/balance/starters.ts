@@ -634,6 +634,7 @@ export const speciesStarterCosts = {
   [Species.DELTA_GROWLITHE]: 4,
   [Species.DELTA_GEODUDE]: 4,
   [Species.DELTA_DODUO]: 4,
+  [Species.DELTA_KOFFING]: 3,
   [Species.DELTA_SCYTHER]: 5,
   [Species.DELTA_LOTAD]: 4,
   [Species.DELTA_RALTS]: 4,
