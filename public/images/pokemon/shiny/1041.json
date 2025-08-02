@@ -1,11 +1,11 @@
 {
   "textures": [
     {
-      "image": "1040.png",
+      "image": "1041.png",
       "format": "RGBA8888",
       "size": {
-        "w": 67,
-        "h": 76
+        "w": 73,
+        "h": 69
       },
       "scale": 1,
       "frames": [

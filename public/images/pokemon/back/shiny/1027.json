@@ -1,11 +1,11 @@
 {
   "textures": [
     {
-      "image": "1041.png",
+      "image": "8902.png",
       "format": "RGBA8888",
       "size": {
-        "w": 68,
-        "h": 75
+        "w": 80,
+        "h": 80
       },
       "scale": 1,
       "frames": [
@@ -14,20 +14,20 @@
           "rotated": false,
           "trimmed": false,
           "sourceSize": {
-            "w": 68,
-            "h": 75
+            "w": 80,
+            "h": 80
           },
           "spriteSourceSize": {
             "x": 0,
             "y": 0,
-            "w": 68,
-            "h": 75
+            "w": 80,
+            "h": 80
           },
           "frame": {
             "x": 0,
             "y": 0,
-            "w": 68,
-            "h": 75
+            "w": 80,
+            "h": 80
           }
         }
       ]
