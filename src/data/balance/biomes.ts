@@ -2096,7 +2096,12 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [Species.REGIROCK, Species.TAPU_BULU, Species.PHEROMOSA],
+      [TimeOfDay.ALL]: [
+        Species.REGIROCK,
+        Species.TAPU_BULU,
+        Species.PHEROMOSA,
+        Species.DELTA_REGIROCK,
+      ],
     },
     [BiomePoolTier.BOSS_ULTRA_RARE]: {
       [TimeOfDay.DAWN]: [],
@@ -13650,6 +13655,12 @@ export function initBiomes() {
         [Biome.POWER_PLANT, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
         [Biome.ICE_CAVE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
       ],
+    ],
+    [
+      Species.DELTA_REGIROCK,
+      PokemonType.GROUND,
+      -1,
+      [[Biome.DESERT, BiomePoolTier.BOSS_SUPER_RARE]],
     ],
     [
       Species.DELTA_REGISTEEL,

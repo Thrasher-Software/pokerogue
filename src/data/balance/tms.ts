@@ -5502,6 +5502,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.HYPER_BEAM]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
@@ -6576,6 +6577,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.STRENGTH]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_VESPIQUEN,
@@ -7432,6 +7434,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.THUNDERBOLT]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_VESPIQUEN,
@@ -7721,6 +7724,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.THUNDER_WAVE]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_VESPIQUEN,
     Species.DELTA_GOLEM,
     Species.DELTA_GRAVELER,
@@ -8277,6 +8281,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.EARTHQUAKE]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_SCRAFTY,
@@ -8608,6 +8613,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.DIG]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_VESPIQUEN,
@@ -9054,6 +9060,7 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.TOXIC]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -10846,6 +10853,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SNEASEL,
   ],
   [Moves.DOUBLE_TEAM]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -12130,6 +12138,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.LIGHT_SCREEN]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -12611,6 +12620,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.REFLECT]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -15044,6 +15054,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.EXPLOSION]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_VESPIQUEN,
     Species.DELTA_GRAVELER,
     Species.DELTA_GEODUDE,
@@ -15148,6 +15159,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.REST]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -16244,6 +16256,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SLIDE]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_VESPIQUEN,
@@ -16820,6 +16833,7 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SUBSTITUTE]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -20216,6 +20230,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.PROTECT]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -22927,6 +22942,7 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.SANDSTORM]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
     Species.DELTA_GOLEM,
@@ -24878,6 +24894,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SWAGGER]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -26799,6 +26816,7 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.SLEEP_TALK]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -27984,6 +28002,7 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.RETURN]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -29083,6 +29102,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FRUSTRATION]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -31633,6 +31653,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.HIDDEN_POWER]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -33467,6 +33488,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SUNNY_DAY]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_VESPIQUEN,
@@ -36961,6 +36983,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -40101,6 +40124,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.BRICK_BREAK]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_VESPIQUEN,
     Species.DELTA_SCRAFTY,
     Species.DELTA_SCRAGGY,
@@ -41463,6 +41487,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SECRET_POWER]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -43578,6 +43603,7 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.ROCK_TOMB]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_SCIZOR,
@@ -48322,6 +48348,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.PAYBACK]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_SCRAFTY,
     Species.DELTA_SCRAGGY,
     Species.DELTA_SCIZOR,
@@ -48846,6 +48873,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.EMBARGO]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_SCRAFTY,
@@ -51387,6 +51415,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ARCANINE,
   ],
   [Moves.DRAIN_PUNCH]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_SCRAFTY,
     Species.DELTA_SCRAGGY,
     Species.DELTA_SCIZOR,
@@ -51606,6 +51635,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FOCUS_BLAST]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -52411,6 +52441,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.GIGA_IMPACT]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
@@ -54461,6 +54492,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.ROCK_CLIMB]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_SCRAFTY,
@@ -55564,6 +55596,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.STONE_EDGE]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_SCIZOR,
     Species.DELTA_SCYTHER,
@@ -56518,6 +56551,7 @@ export const tmSpecies: TmSpecies = {
     Species.HYDRAPPLE,
   ],
   [Moves.CHARGE_BEAM]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_VESPIQUEN,
@@ -57392,6 +57426,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MR_MIME,
   ],
   [Moves.SMACK_DOWN]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_SCRAFTY,
     Species.DELTA_SCRAGGY,
     Species.DELTA_AVALUGG,
@@ -57896,6 +57931,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.FLAME_CHARGE]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_VESPIQUEN,
     Species.LEDSEVIL,
     Species.LEDSARK,
@@ -58431,6 +58467,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ROUND]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -60529,6 +60566,7 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_TAUROS,
   ],
   [Moves.QUASH]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
@@ -61287,6 +61325,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_MOTH,
   ],
   [Moves.BULLDOZE]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_AVALUGG,
@@ -63404,6 +63443,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_TYPHLOSION,
   ],
   [Moves.CONFIDE]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_ARCANINE,
@@ -64784,6 +64824,7 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_EXEGGUTOR,
   ],
   [Moves.POWER_UP_PUNCH]: [
+    Species.DELTA_REGIROCK,
     Species.DELTA_VESPIQUEN,
     Species.DELTA_SCRAFTY,
     Species.DELTA_SCRAGGY,

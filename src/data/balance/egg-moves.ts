@@ -3523,6 +3523,12 @@ export const speciesEggMoves = {
     Moves.SWORDS_DANCE,
     Moves.SACRED_SWORD,
   ],
+  [Species.DELTA_REGIROCK]: [
+    Moves.THUNDEROUS_KICK,
+    Moves.STONE_AXE,
+    Moves.SUNNY_DAY,
+    Moves.PRECIPICE_BLADES,
+  ],
   [Species.DELTA_REGISTEEL]: [
     Moves.BURNING_BULWARK,
     Moves.HEAVY_SLAM,
