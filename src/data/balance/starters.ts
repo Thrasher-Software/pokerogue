@@ -639,6 +639,7 @@ export const speciesStarterCosts = {
   [Species.DELTA_RALTS]: 4,
   [Species.DELTA_SCRAGGY]: 4,
   [Species.DELTA_REGIROCK]: 6,
+  [Species.DELTA_REGICE]: 6,
   [Species.DELTA_REGISTEEL]: 6,
   [Species.DELTA_COMBEE]: 3,
   [Species.DELTA_PAWNIARD]: 4,

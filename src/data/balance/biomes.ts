@@ -1098,7 +1098,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [Species.ROTOM],
+      [TimeOfDay.ALL]: [Species.ROTOM, Species.DELTA_REGICE],
     },
     [BiomePoolTier.BOSS_ULTRA_RARE]: {
       [TimeOfDay.DAWN]: [],
@@ -13661,6 +13661,12 @@ export function initBiomes() {
       PokemonType.GROUND,
       -1,
       [[Biome.DESERT, BiomePoolTier.BOSS_SUPER_RARE]],
+    ],
+    [
+      Species.DELTA_REGICE,
+      PokemonType.WATER,
+      -1,
+      [[Biome.SEA, BiomePoolTier.BOSS_SUPER_RARE]],
     ],
     [
       Species.DELTA_REGISTEEL,

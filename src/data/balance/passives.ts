@@ -1523,6 +1523,7 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.DELTA_CHARMELEON]: { 0: Abilities.LEVITATE },
   [Species.DELTA_CHARIZARD]: { 0: Abilities.HUBRIS },
   [Species.DELTA_REGIROCK]: { 0: Abilities.SAND_SPIT },
+  [Species.DELTA_REGICE]: { 0: Abilities.LIGHTNING_ROD },
   [Species.DELTA_REGISTEEL]: { 0: Abilities.WHITE_SMOKE },
   [Species.DELTA_COMBEE]: { 0: Abilities.WHITE_SMOKE },
   [Species.DELTA_VESPIQUEN]: { 0: Abilities.WHITE_SMOKE },

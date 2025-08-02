@@ -3529,6 +3529,12 @@ export const speciesEggMoves = {
     Moves.SUNNY_DAY,
     Moves.PRECIPICE_BLADES,
   ],
+  [Species.DELTA_REGICE]: [
+    Moves.HYDRO_PUMP,
+    Moves.BLIZZARD,
+    Moves.CHUG_SPLASH,
+    Moves.FREEZE_DRY,
+  ],
   [Species.DELTA_REGISTEEL]: [
     Moves.BURNING_BULWARK,
     Moves.HEAVY_SLAM,
