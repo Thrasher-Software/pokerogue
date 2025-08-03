@@ -3559,6 +3559,12 @@ export const speciesEggMoves = {
     Moves.FLASH_CANNON,
     Moves.BLUE_FLARE,
   ],
+  [Species.DELTA_PURRLOIN]: [
+    Moves.PLAY_ROUGH,
+    Moves.THUNDEROUS_KICK,
+    Moves.PARTING_SHOT,
+    Moves.DARK_VOID,
+  ],
   [Species.DELTA_CHARMANDER]: [
     Moves.FLAMETHROWER,
     Moves.BADDY_BAD,

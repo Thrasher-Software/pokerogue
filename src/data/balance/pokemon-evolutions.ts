@@ -3077,6 +3077,9 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_PIDGEOTTO]: [
     new SpeciesEvolution(Species.DELTA_PIDGEOT, 36, null, null),
   ],
+  [Species.DELTA_PURRLOIN]: [
+    new SpeciesEvolution(Species.DELTA_LIEPARD, 20, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

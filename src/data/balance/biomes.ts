@@ -2673,7 +2673,9 @@ export const biomePokemonPools: BiomePokemonPools = {
     },
     [BiomePoolTier.UNCOMMON]: {
       [TimeOfDay.DAWN]: [],
-      [TimeOfDay.DAY]: [],
+      [TimeOfDay.DAY]: [
+        { 1: [Species.DELTA_PURRLOIN], 20: [Species.DELTA_LIEPARD] },
+      ],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
       [TimeOfDay.ALL]: [
@@ -3760,7 +3762,9 @@ export const biomePokemonPools: BiomePokemonPools = {
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
-      [TimeOfDay.DUSK]: [],
+      [TimeOfDay.DUSK]: [
+        { 1: [Species.DELTA_PURRLOIN], 20: [Species.DELTA_LIEPARD] },
+      ],
       [TimeOfDay.NIGHT]: [],
       [TimeOfDay.ALL]: [
         Species.AUDINO,
@@ -13800,6 +13804,24 @@ export function initBiomes() {
       PokemonType.ELECTRIC,
       PokemonType.ICE,
       [[Biome.ICE_CAVE, BiomePoolTier.SUPER_RARE]],
+    ],
+    [
+      Species.DELTA_PURRLOIN,
+      PokemonType.GHOST,
+      PokemonType.FAIRY,
+      [
+        [Biome.GRAVEYARD, BiomePoolTier.UNCOMMON, [TimeOfDay.DAY]],
+        [Biome.FAIRY_CAVE, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+      ],
+    ],
+    [
+      Species.DELTA_LIEPARD,
+      PokemonType.GHOST,
+      PokemonType.FAIRY,
+      [
+        [Biome.GRAVEYARD, BiomePoolTier.UNCOMMON, [TimeOfDay.DAY]],
+        [Biome.FAIRY_CAVE, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+      ],
     ],
     [
       Species.DELTA_SCRAGGY,

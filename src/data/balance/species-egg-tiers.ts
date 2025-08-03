@@ -609,6 +609,7 @@ export const speciesEggTiers = {
   [Species.DELTA_REGICE]: EggTier.EPIC,
   [Species.DELTA_REGISTEEL]: EggTier.EPIC,
   [Species.DELTA_COMBEE]: EggTier.RARE,
+  [Species.DELTA_PURRLOIN]: EggTier.RARE,
   [Species.DELTA_PAWNIARD]: EggTier.RARE,
   [Species.DELTA_BERGMITE]: EggTier.RARE,
   [Species.DELTA_KARRABLAST]: EggTier.RARE,

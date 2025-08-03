@@ -1558,6 +1558,8 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [Species.DELTA_LAIRON]: { 0: Abilities.INTIMIDATE },
   [Species.DELTA_AGGRON]: { 0: Abilities.INTIMIDATE },
   [Species.DELTA_GALLADE]: { 0: Abilities.MOXIE },
+  [Species.DELTA_PURRLOIN]: { 0: Abilities.SHADOW_SHIELD },
+  [Species.DELTA_LIEPARD]: { 0: Abilities.SHADOW_SHIELD },
   [Species.DELTA_SCRAGGY]: { 0: Abilities.GRASSY_SURGE },
   [Species.DELTA_SCRAFTY]: { 0: Abilities.GRASSY_SURGE },
   [Species.DELTA_KARRABLAST]: { 0: Abilities.FAIRY_AURA },
