@@ -2524,7 +2524,13 @@ export const biomePokemonPools: BiomePokemonPools = {
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
-      [TimeOfDay.DUSK]: [],
+      [TimeOfDay.DUSK]: [
+        {
+          1: [Species.DELTA_ARON],
+          32: [Species.DELTA_LAIRON],
+          42: [Species.DELTA_AGGRON],
+        },
+      ],
       [TimeOfDay.NIGHT]: [
         {
           1: [Species.FOALIT],
@@ -2905,7 +2911,13 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [
         { 1: [Species.DELTA_KOFFING], 35: [Species.DELTA_WEEZING] },
       ],
-      [TimeOfDay.DUSK]: [],
+      [TimeOfDay.DUSK]: [
+        {
+          1: [Species.DELTA_ARON],
+          32: [Species.DELTA_LAIRON],
+          42: [Species.DELTA_AGGRON],
+        },
+      ],
       [TimeOfDay.NIGHT]: [],
       [TimeOfDay.ALL]: [
         { 1: [Species.PORYGON], 30: [Species.PORYGON2] },
@@ -2940,7 +2952,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [],
+      [TimeOfDay.ALL]: [Species.DELTA_AGGRON],
     },
     [BiomePoolTier.BOSS_SUPER_RARE]: {
       [TimeOfDay.DAWN]: [],
@@ -13676,6 +13688,34 @@ export function initBiomes() {
         [Biome.LABORATORY, BiomePoolTier.RARE],
         [Biome.POWER_PLANT, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
         [Biome.ICE_CAVE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_ARON,
+      PokemonType.FIRE,
+      PokemonType.STEEL,
+      [
+        [Biome.VOLCANO, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+        [Biome.FACTORY, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+      ],
+    ],
+    [
+      Species.DELTA_LAIRON,
+      PokemonType.FIRE,
+      PokemonType.STEEL,
+      [
+        [Biome.VOLCANO, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+        [Biome.FACTORY, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+      ],
+    ],
+    [
+      Species.DELTA_AGGRON,
+      PokemonType.FIRE,
+      PokemonType.STEEL,
+      [
+        [Biome.VOLCANO, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+        [Biome.FACTORY, BiomePoolTier.RARE, [TimeOfDay.DUSK]],
+        [Biome.FACTORY, BiomePoolTier.BOSS_RARE],
       ],
     ],
     [

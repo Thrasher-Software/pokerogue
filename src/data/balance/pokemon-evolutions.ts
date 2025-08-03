@@ -3065,6 +3065,12 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_KOFFING]: [
     new SpeciesEvolution(Species.DELTA_WEEZING, 35, null, null),
   ],
+  [Species.DELTA_ARON]: [
+    new SpeciesEvolution(Species.DELTA_LAIRON, 32, null, null),
+  ],
+  [Species.DELTA_LAIRON]: [
+    new SpeciesEvolution(Species.DELTA_AGGRON, 42, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

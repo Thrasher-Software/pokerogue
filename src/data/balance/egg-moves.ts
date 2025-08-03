@@ -3547,6 +3547,12 @@ export const speciesEggMoves = {
     Moves.SUNNY_DAY,
     Moves.BLUE_FLARE,
   ],
+  [Species.DELTA_ARON]: [
+    Moves.HIGH_HORSEPOWER,
+    Moves.SIZZLY_SLIDE,
+    Moves.HEAVY_SLAM,
+    Moves.BLUE_FLARE,
+  ],
   [Species.DELTA_COMBEE]: [
     Moves.FLAMETHROWER,
     Moves.BUZZY_BUZZ,
