@@ -4467,7 +4467,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
   [Species.TREECKO]: [
     [1, Moves.POUND],
     [1, Moves.LEER],
-    [3, Moves.LEAFAGE],
+    [3, Moves.ABSORB], // Custom
     [6, Moves.QUICK_ATTACK],
     [9, Moves.MEGA_DRAIN],
     [12, Moves.DETECT],
