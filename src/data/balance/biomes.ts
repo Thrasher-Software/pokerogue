@@ -3143,7 +3143,13 @@ export const biomePokemonPools: BiomePokemonPools = {
       ],
     },
     [BiomePoolTier.RARE]: {
-      [TimeOfDay.DAWN]: [],
+      [TimeOfDay.DAWN]: [
+        {
+          1: [Species.DELTA_PIDGEY],
+          18: [Species.DELTA_PIDGEOTTO],
+          36: [Species.DELTA_PIDGEOT],
+        },
+      ],
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [
         {
@@ -3269,7 +3275,13 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.ALL]: [],
     },
     [BiomePoolTier.RARE]: {
-      [TimeOfDay.DAWN]: [],
+      [TimeOfDay.DAWN]: [
+        {
+          1: [Species.DELTA_PIDGEY],
+          18: [Species.DELTA_PIDGEOTTO],
+          36: [Species.DELTA_PIDGEOT],
+        },
+      ],
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
@@ -13526,6 +13538,33 @@ export function initBiomes() {
         [Biome.SLUM, BiomePoolTier.RARE],
         [Biome.TEMPLE, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
         [Biome.METROPOLIS, BiomePoolTier.RARE, [TimeOfDay.NIGHT]],
+      ],
+    ],
+    [
+      Species.DELTA_PIDGEY,
+      PokemonType.DARK,
+      PokemonType.DRAGON,
+      [
+        [Biome.WASTELAND, BiomePoolTier.RARE, [TimeOfDay.DAWN]],
+        [Biome.ABYSS, BiomePoolTier.RARE, [TimeOfDay.DAWN]],
+      ],
+    ],
+    [
+      Species.DELTA_PIDGEOTTO,
+      PokemonType.DARK,
+      PokemonType.DRAGON,
+      [
+        [Biome.WASTELAND, BiomePoolTier.RARE, [TimeOfDay.DAWN]],
+        [Biome.ABYSS, BiomePoolTier.RARE, [TimeOfDay.DAWN]],
+      ],
+    ],
+    [
+      Species.DELTA_PIDGEOT,
+      PokemonType.DARK,
+      PokemonType.DRAGON,
+      [
+        [Biome.WASTELAND, BiomePoolTier.RARE, [TimeOfDay.DAWN]],
+        [Biome.ABYSS, BiomePoolTier.RARE, [TimeOfDay.DAWN]],
       ],
     ],
     [

@@ -3071,6 +3071,12 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_LAIRON]: [
     new SpeciesEvolution(Species.DELTA_AGGRON, 42, null, null),
   ],
+  [Species.DELTA_PIDGEY]: [
+    new SpeciesEvolution(Species.DELTA_PIDGEOTTO, 18, null, null),
+  ],
+  [Species.DELTA_PIDGEOTTO]: [
+    new SpeciesEvolution(Species.DELTA_PIDGEOT, 36, null, null),
+  ],
 };
 
 interface PokemonPrevolutions {

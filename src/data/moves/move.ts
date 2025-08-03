@@ -21032,6 +21032,20 @@ export function initMoves() {
     )
       .soundBased()
       .target(MoveTarget.ALL_NEAR_ENEMIES),
+    new StatusMove(Moves.MEDUSA_RAY, PokemonType.ROCK, 100, 20, -1, 0, 5)
+      .attr(ChangeTypeAttr, PokemonType.ROCK)
+      .reflectable(),
+    new AttackMove(
+      Moves.DRAKON_VOICE,
+      PokemonType.DRAGON,
+      MoveCategory.SPECIAL,
+      105,
+      85,
+      10,
+      10,
+      0,
+      1,
+    ),
   );
   allMoves.map((m) => {
     if (

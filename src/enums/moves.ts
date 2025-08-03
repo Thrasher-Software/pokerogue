@@ -1900,4 +1900,6 @@ export enum Moves {
   BALLAD_OF_CHIMMY,
   NEW_MOON,
   ANCIENT_ROAR,
+  MEDUSA_RAY,
+  DRAKON_VOICE,
 }

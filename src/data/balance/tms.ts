@@ -1238,6 +1238,9 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.CUT]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_VESPIQUEN,
     Species.DELTA_SCIZOR,
     Species.DELTA_SCYTHER,
@@ -1530,6 +1533,9 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.FLY]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_VESPIQUEN,
@@ -3852,6 +3858,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.ROAR]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -4103,6 +4112,9 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FLAMETHROWER]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -5517,6 +5529,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.HYPER_BEAM]: [
+    Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_WEEZING,
     Species.DELTA_REGICE,
@@ -6595,6 +6608,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.STRENGTH]: [
+    Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -8311,6 +8325,7 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.EARTHQUAKE]: [
+    Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -8647,6 +8662,9 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.DIG]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -9097,6 +9115,9 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.TOXIC]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -10896,6 +10917,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SNEASEL,
   ],
   [Moves.DOUBLE_TEAM]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -13452,6 +13476,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.FIRE_BLAST]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -15226,6 +15253,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.REST]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -16329,6 +16359,9 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SLIDE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -16912,6 +16945,9 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SUBSTITUTE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -18020,6 +18056,9 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.THIEF]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_SCRAFTY,
     Species.DELTA_SCRAGGY,
     Species.DELTA_CHARIZARD,
@@ -20315,6 +20354,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.PROTECT]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -21774,6 +21816,9 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.SLUDGE_BOMB]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_VESPIQUEN,
     Species.DELTA_CHARIZARD,
     Species.DELTA_CHARMELEON,
@@ -23036,6 +23081,9 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.SANDSTORM]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_REGIROCK,
     Species.DELTA_AVALUGG,
     Species.DELTA_BERGMITE,
@@ -24990,6 +25038,9 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SWAGGER]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -25863,6 +25914,9 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_TAUROS,
   ],
   [Moves.STEEL_WING]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_VESPIQUEN,
     Species.DELTA_BISHARP,
     Species.DELTA_PAWNIARD,
@@ -25970,6 +26024,9 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MOLTRES,
   ],
   [Moves.ATTRACT]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -26923,6 +26980,9 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.SLEEP_TALK]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -28115,6 +28175,9 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.RETURN]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -29221,6 +29284,9 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FRUSTRATION]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -31208,6 +31274,9 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.IRON_TAIL]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -31783,6 +31852,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.HIDDEN_POWER]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -34888,6 +34960,9 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_SLOWKING,
   ],
   [Moves.SHADOW_BALL]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_DODRIO,
@@ -35349,6 +35424,9 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SMASH]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_GOLEM,
@@ -36767,6 +36845,9 @@ export const tmSpecies: TmSpecies = {
     [Species.CALYREX, "ice"],
   ],
   [Moves.TORMENT]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_SCRAFTY,
     Species.DELTA_SCRAGGY,
     Species.DELTA_CHARIZARD,
@@ -37131,6 +37212,9 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -38689,6 +38773,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.TAUNT]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_SCRAFTY,
@@ -41645,6 +41732,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SECRET_POWER]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -43771,6 +43861,9 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.ROCK_TOMB]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -44884,6 +44977,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.AERIAL_ACE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_VESPIQUEN,
@@ -45572,6 +45668,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.DRAGON_CLAW]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARCANINE,
@@ -47403,6 +47502,9 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.ROOST]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_VESPIQUEN,
@@ -47934,6 +48036,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.PLUCK]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.PIDGEY,
@@ -48166,6 +48271,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.U_TURN]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_SCIZOR,
     Species.DELTA_SCYTHER,
     Species.DELTA_BISHARP,
@@ -48536,6 +48644,9 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.PAYBACK]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -49067,6 +49178,9 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.EMBARGO]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_REGICE,
@@ -50159,6 +50273,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.ROCK_POLISH]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -50282,6 +50399,9 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MUK,
   ],
   [Moves.POISON_JAB]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_DODRIO,
     Species.DELTA_DODUO,
     Species.DELTA_VESPIQUEN,
@@ -50487,6 +50607,9 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.DARK_PULSE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_LUDICOLO,
@@ -51195,6 +51318,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.X_SCISSOR]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_VESPIQUEN,
     Species.DELTA_SCIZOR,
     Species.DELTA_SCYTHER,
@@ -51401,6 +51527,9 @@ export const tmSpecies: TmSpecies = {
     Species.TERAPAGOS,
   ],
   [Moves.DRAGON_PULSE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARCANINE,
@@ -52651,6 +52780,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.GIGA_IMPACT]: [
+    Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_WEEZING,
     Species.DELTA_REGICE,
@@ -53592,6 +53722,9 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SHADOW_CLAW]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_DODRIO,
@@ -55820,6 +55953,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.STONE_EDGE]: [
+    Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -56994,6 +57128,9 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.HONE_CLAWS]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -57463,6 +57600,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.VENOSHOCK]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_VENUSAUR,
     Species.DELTA_IVYSAUR,
     Species.DELTA_BULBASAUR,
@@ -57659,6 +57799,7 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MR_MIME,
   ],
   [Moves.SMACK_DOWN]: [
+    Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -57852,6 +57993,9 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.SLUDGE_WAVE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_VESPIQUEN,
     Species.EKANS,
     Species.ARBOK,
@@ -58707,6 +58851,9 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ROUND]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -59669,6 +59816,9 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_STUNFISK,
   ],
   [Moves.ECHOED_VOICE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_ARCANINE,
@@ -60576,6 +60726,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SKY_DROP]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_BISHARP,
@@ -60822,6 +60975,9 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_TAUROS,
   ],
   [Moves.QUASH]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_REGICE,
@@ -60880,6 +61036,9 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_MUK,
   ],
   [Moves.ACROBATICS]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_VESPIQUEN,
@@ -61073,6 +61232,9 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.RETALIATE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.DELTA_SCRAFTY,
@@ -61588,6 +61750,7 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_MOTH,
   ],
   [Moves.BULLDOZE]: [
+    Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -62029,6 +62192,9 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_NINETALES,
   ],
   [Moves.DRAGON_TAIL]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARCANINE,
@@ -62149,6 +62315,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_GOODRA,
   ],
   [Moves.WORK_UP]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_ARCANINE,
     Species.DELTA_GROWLITHE,
     Species.BULBASAUR,
@@ -62925,6 +63094,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.SNARL]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -63718,6 +63890,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_TYPHLOSION,
   ],
   [Moves.CONFIDE]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -64985,6 +65160,9 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.INFESTATION]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.BUTTERFREE,
     Species.BEEDRILL,
     Species.EKANS,
@@ -70628,6 +70806,9 @@ export const tmSpecies: TmSpecies = {
   ],
   [Moves.WOLF_KNIGHT_SLAM]: [Species.MACHOP, Species.ARTORIAS],
   [Moves.NEW_MOON]: [
+    Species.DELTA_PIDGEOT,
+    Species.DELTA_PIDGEOTTO,
+    Species.DELTA_PIDGEY,
     Species.DELTA_GOLEM,
     Species.DELTA_GRAVELER,
     Species.DELTA_GEODUDE,

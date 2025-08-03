@@ -3565,6 +3565,12 @@ export const speciesEggMoves = {
     Moves.PSYCHIC,
     Moves.ASTRAL_BARRAGE,
   ],
+  [Species.DELTA_PIDGEY]: [
+    Moves.NEW_MOON,
+    Moves.FLOATY_FALL,
+    Moves.DRAGON_DANCE,
+    Moves.CLANGING_SCALES,
+  ],
   [Species.DELTA_GROWLITHE]: [
     Moves.DRAGON_HAMMER,
     Moves.CRUSH_GRIP,
