@@ -919,6 +919,8 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.SWORDS_DANCE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_AGGRON,
@@ -1240,6 +1242,8 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.CUT]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -3864,6 +3868,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_QWILFISH,
   ],
   [Moves.ROAR]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_PIDGEOT,
     Species.DELTA_PIDGEOTTO,
     Species.DELTA_PIDGEY,
@@ -4804,6 +4810,8 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.ICE_BEAM]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_REGICE,
     Species.DELTA_SCIZOR,
     Species.DELTA_SCYTHER,
@@ -5114,6 +5122,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_AVALUGG,
   ],
   [Moves.BLIZZARD]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_REGICE,
     Species.DELTA_SCIZOR,
     Species.DELTA_SCYTHER,
@@ -5535,6 +5545,7 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.HYPER_BEAM]: [
+    Species.DELTA_TREVENANT,
     Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_WEEZING,
@@ -7039,6 +7050,8 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SOLAR_BEAM]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_VESPIQUEN,
     Species.DELTA_SCRAFTY,
     Species.DELTA_SCRAGGY,
@@ -8335,6 +8348,8 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.EARTHQUAKE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
@@ -9125,6 +9140,8 @@ export const tmSpecies: TmSpecies = {
     Species.RJ,
   ],
   [Moves.TOXIC]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -10931,6 +10948,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_SNEASEL,
   ],
   [Moves.DOUBLE_TEAM]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -15273,6 +15292,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.REST]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -16381,6 +16402,8 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.ROCK_SLIDE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_PIDGEOT,
     Species.DELTA_PIDGEOTTO,
     Species.DELTA_PIDGEY,
@@ -16967,6 +16990,8 @@ export const tmSpecies: TmSpecies = {
     Species.CRUNCHY_SQUAD,
   ],
   [Moves.SUBSTITUTE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -20380,6 +20405,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.PROTECT]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -24901,6 +24928,8 @@ export const tmSpecies: TmSpecies = {
     Species.TEBORINK,
   ],
   [Moves.FALSE_SWIPE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_AGGRON,
@@ -25070,6 +25099,8 @@ export const tmSpecies: TmSpecies = {
     Species.MANG,
   ],
   [Moves.SWAGGER]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -26058,6 +26089,8 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MOLTRES,
   ],
   [Moves.ATTRACT]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -27016,6 +27049,8 @@ export const tmSpecies: TmSpecies = {
     Species.KOYA,
   ],
   [Moves.SLEEP_TALK]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -28213,6 +28248,8 @@ export const tmSpecies: TmSpecies = {
     Species.ETERNAL_FLOETTE,
   ],
   [Moves.RETURN]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -29324,6 +29361,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FRUSTRATION]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -30434,6 +30473,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SAFEGUARD]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_DODRIO,
@@ -31896,6 +31937,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.HIDDEN_POWER]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -36702,6 +36745,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.HAIL]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_REGICE,
     Species.DELTA_SCIZOR,
     Species.DELTA_SCYTHER,
@@ -37268,6 +37313,8 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.FACADE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -40162,6 +40209,8 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.RECYCLE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_WEEZING,
     Species.DELTA_KOFFING,
     Species.DELTA_GOLEM,
@@ -40427,6 +40476,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.BRICK_BREAK]: [
+    Species.DELTA_TREVENANT,
     Species.DELTA_LIEPARD,
     Species.DELTA_AGGRON,
     Species.DELTA_REGICE,
@@ -41793,6 +41843,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ZOROARK,
   ],
   [Moves.SECRET_POWER]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -43924,6 +43976,8 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.ROCK_TOMB]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_PIDGEOT,
     Species.DELTA_PIDGEOTTO,
     Species.DELTA_PIDGEY,
@@ -45040,6 +45094,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.AERIAL_ACE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -45843,6 +45899,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.BULK_UP]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_SCRAFTY,
     Species.DELTA_SCRAGGY,
     Species.DELTA_SCIZOR,
@@ -47833,6 +47891,8 @@ export const tmSpecies: TmSpecies = {
     [Species.INDEEDEE, "male"],
   ],
   [Moves.GYRO_BALL]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -48713,6 +48773,8 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.PAYBACK]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -51397,6 +51459,7 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.X_SCISSOR]: [
+    Species.DELTA_TREVENANT,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -51830,6 +51893,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ARCANINE,
   ],
   [Moves.DRAIN_PUNCH]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_REGICE,
     Species.DELTA_REGIROCK,
     Species.DELTA_SCRAFTY,
@@ -52051,6 +52116,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FOCUS_BLAST]: [
+    Species.DELTA_TREVENANT,
     Species.DELTA_AGGRON,
     Species.DELTA_REGICE,
     Species.DELTA_REGIROCK,
@@ -52308,6 +52374,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.ENERGY_BALL]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_WEEZING,
@@ -52863,6 +52931,7 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.GIGA_IMPACT]: [
+    Species.DELTA_TREVENANT,
     Species.DELTA_LIEPARD,
     Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
@@ -53684,6 +53753,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_DECIDUEYE,
   ],
   [Moves.AVALANCHE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_ARCANINE,
     Species.DELTA_SCIZOR,
     Species.DELTA_SCYTHER,
@@ -53806,6 +53877,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.SHADOW_CLAW]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -54931,6 +55004,8 @@ export const tmSpecies: TmSpecies = {
     Species.VAN,
   ],
   [Moves.ROCK_CLIMB]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
     Species.DELTA_ARON,
@@ -56039,6 +56114,7 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.STONE_EDGE]: [
+    Species.DELTA_TREVENANT,
     Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
@@ -56530,6 +56606,8 @@ export const tmSpecies: TmSpecies = {
     Species.PALDEA_WOOPER,
   ],
   [Moves.GRASS_KNOT]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_DODRIO,
@@ -57891,6 +57969,8 @@ export const tmSpecies: TmSpecies = {
     Species.GALAR_MR_MIME,
   ],
   [Moves.SMACK_DOWN]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
@@ -58518,6 +58598,8 @@ export const tmSpecies: TmSpecies = {
     [Species.PALDEA_TAUROS, "blaze"],
   ],
   [Moves.LOW_SWEEP]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_DODRIO,
@@ -58947,6 +59029,8 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.ROUND]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -61338,6 +61422,8 @@ export const tmSpecies: TmSpecies = {
     Species.ARTORIAS,
   ],
   [Moves.RETALIATE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_PIDGEOT,
     Species.DELTA_PIDGEOTTO,
     Species.DELTA_PIDGEY,
@@ -61856,6 +61942,8 @@ export const tmSpecies: TmSpecies = {
     Species.IRON_MOTH,
   ],
   [Moves.BULLDOZE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_PIDGEOT,
     Species.DELTA_AGGRON,
     Species.DELTA_LAIRON,
@@ -62247,6 +62335,8 @@ export const tmSpecies: TmSpecies = {
     Species.BLOODMOON_URSALUNA,
   ],
   [Moves.FROST_BREATH]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_SCIZOR,
     Species.DELTA_SCYTHER,
     Species.DELTA_GALLADE,
@@ -63202,6 +63292,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_BRAVIARY,
   ],
   [Moves.SNARL]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -64000,6 +64092,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_TYPHLOSION,
   ],
   [Moves.CONFIDE]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -65089,6 +65183,8 @@ export const tmSpecies: TmSpecies = {
     Species.HISUI_ELECTRODE,
   ],
   [Moves.DAZZLING_GLEAM]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_DODRIO,
@@ -65397,6 +65493,8 @@ export const tmSpecies: TmSpecies = {
     Species.ALOLA_EXEGGUTOR,
   ],
   [Moves.POWER_UP_PUNCH]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_AGGRON,
     Species.DELTA_REGICE,
     Species.DELTA_REGIROCK,
@@ -70920,6 +71018,8 @@ export const tmSpecies: TmSpecies = {
   ],
   [Moves.WOLF_KNIGHT_SLAM]: [Species.MACHOP, Species.ARTORIAS],
   [Moves.NEW_MOON]: [
+    Species.DELTA_TREVENANT,
+    Species.DELTA_PHANTUMP,
     Species.DELTA_LIEPARD,
     Species.DELTA_PURRLOIN,
     Species.DELTA_PIDGEOT,
@@ -71284,7 +71384,7 @@ export const tmPoolTiers: TmPoolTiers = {
   [Moves.EERIE_IMPULSE]: ModifierTier.COMMON,
   [Moves.VENOM_DRENCH]: ModifierTier.COMMON,
   [Moves.ELECTRIC_TERRAIN]: ModifierTier.COMMON,
-  [Moves.DAZZLING_GLEAM]: ModifierTier.ULTRA,
+  [Moves.DAZZLING_GLEAM]: ModifierTier.GREAT,
   [Moves.INFESTATION]: ModifierTier.COMMON,
   [Moves.POWER_UP_PUNCH]: ModifierTier.GREAT,
   [Moves.DARKEST_LARIAT]: ModifierTier.GREAT,

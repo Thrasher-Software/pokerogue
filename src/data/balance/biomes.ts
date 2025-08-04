@@ -3775,6 +3775,7 @@ export const biomePokemonPools: BiomePokemonPools = {
           32: [Species.DELTA_VENUSAUR],
         },
         { 1: [Species.DELTA_KARRABLAST], 30: [Species.DELTA_ESCAVALIER] },
+        Species.DELTA_PHANTUMP,
       ],
     },
     [BiomePoolTier.SUPER_RARE]: {
@@ -3816,7 +3817,7 @@ export const biomePokemonPools: BiomePokemonPools = {
       [TimeOfDay.DAY]: [],
       [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [Species.ETERNAL_FLOETTE],
+      [TimeOfDay.ALL]: [Species.ETERNAL_FLOETTE, Species.DELTA_TREVENANT],
     },
     [BiomePoolTier.BOSS_SUPER_RARE]: {
       [TimeOfDay.DAWN]: [],
@@ -13874,6 +13875,18 @@ export function initBiomes() {
         [Biome.DOJO, BiomePoolTier.RARE],
         [Biome.MOUNTAIN, BiomePoolTier.RARE, [TimeOfDay.DAY]],
       ],
+    ],
+    [
+      Species.DELTA_PHANTUMP,
+      PokemonType.FAIRY,
+      -1,
+      [[Biome.FAIRY_CAVE, BiomePoolTier.RARE]],
+    ],
+    [
+      Species.DELTA_TREVENANT,
+      PokemonType.FAIRY,
+      PokemonType.FIGHTING,
+      [[Biome.FAIRY_CAVE, BiomePoolTier.BOSS_RARE]],
     ],
     [
       Species.DELTA_BERGMITE,

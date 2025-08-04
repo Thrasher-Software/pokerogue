@@ -3080,6 +3080,15 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [Species.DELTA_PURRLOIN]: [
     new SpeciesEvolution(Species.DELTA_LIEPARD, 20, null, null),
   ],
+  [Species.DELTA_PHANTUMP]: [
+    new SpeciesEvolution(
+      Species.DELTA_TREVENANT,
+      1,
+      EvolutionItem.LINKING_CORD,
+      null,
+      SpeciesWildEvolutionDelay.VERY_LONG,
+    ),
+  ],
 };
 
 interface PokemonPrevolutions {

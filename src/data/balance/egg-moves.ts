@@ -3595,6 +3595,12 @@ export const speciesEggMoves = {
     Moves.SACRED_SWORD,
     Moves.VICTORY_DANCE,
   ],
+  [Species.DELTA_PHANTUMP]: [
+    Moves.CALM_MIND,
+    Moves.EARTH_POWER,
+    Moves.FORESTS_CURSE,
+    Moves.COMET_AZUR,
+  ],
   [Species.DELTA_RALTS]: [
     Moves.LIGHTNING_SPEAR,
     Moves.ICICLE_CRASH,
