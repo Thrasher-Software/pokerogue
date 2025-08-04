@@ -45849,7 +45849,7 @@ export function initSpecies() {
         25,
         50,
         175,
-        true,
+        false,
         null,
         true,
       ),
@@ -45873,7 +45873,6 @@ export function initSpecies() {
         25,
         50,
         175,
-        true,
       ),
     ),
     new PokemonSpecies(
