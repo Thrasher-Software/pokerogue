@@ -45957,7 +45957,7 @@ export function initSpecies() {
       240,
       GrowthRate.MEDIUM_SLOW,
       50,
-      true,
+      false,
     ),
     new PokemonSpecies(
       Species.DELTA_RALTS,
